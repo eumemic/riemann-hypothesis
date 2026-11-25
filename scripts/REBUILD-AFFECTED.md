@@ -18,9 +18,9 @@ nothing to do, but a reused output was not produced by compiling against the new
 plain `lake build`, or CI, when the result has to be trusted, and do not publish a cache from a
 tree built this way.
 
-A run takes about three minutes before the first module is compiled, because Lake goes over all
-modules twice (measured on 32 cores; the first run after `lake exe cache get` takes five to eight).
-For a change that `lake build` handles in a few minutes it is therefore slower.
+Before the first module is compiled, Lake goes over all modules twice, which takes a few minutes
+on this repository. For a change that `lake build` handles in a few minutes the script is
+therefore slower.
 
 It runs on Linux and macOS, with Python 3.9 or newer, and only with the toolchain it was checked
 with (see `Limits`). It can be mixed with `lake build`: when something else than the script has
@@ -44,15 +44,12 @@ The summary at the end says how many modules were compiled for which reason.
 ## How it was checked
 
 `scripts/tests/test_rebuild_affected.py` compares it with `lake build` on a small project (needs
-the toolchain, about a minute and a half). The same comparison was run over random sequences of
-edits and builds on a slightly larger project, including builds of single targets, runs of plain
-`lake build` in between, and edits that do not compile: 1,909 builds, 604 of them failing ones,
-with 3,198 modules reused, and no difference.
+the toolchain): after each edit, both must give the same exit status and the same outputs.
 
 For this repository, the rule was replayed over merged batches, using the outputs that CI
-published for both ends of each batch. For every module Lake compiled again in a batch, the rule
-decides from the old outputs; a module it would reuse counts as a miss if the output CI published
-afterwards differs from the old one.
+published for both ends of each batch. Nothing is built for this. For every module Lake compiled
+again in a batch, the rule decides from the old outputs; a module it would reuse counts as a miss
+if the output CI published afterwards differs from the old one.
 
 | batch | compiled by Lake | of these edited or new | compiled by the rule | reused | misses | fewer by |
 |---|---:|---:|---:|---:|---:|---:|
@@ -97,18 +94,6 @@ Two differences are not counted as misses, because two compilations of the same 
 them: the order of the linter messages stored in an `.olean`, and the numbering of local variables
 in the compiler's intermediate code.
 
-Two builds were also done with the script itself, on a machine with 32 cores:
-
-- The change of #1506 on `1da818b50f` (seven files, among them `DataDIV.lean`). `lake build`
-  compiled 20,883 modules in 111 minutes. The script compiled 52 and reused 20,831 in 10 minutes.
-  The two trees have the same outputs for all 61,060 modules, and `lake build` after the script
-  found nothing to build.
-- Batch b17 (`ef451fc356` → `251c7b05dd`, 6,701 files changed), for which CI compiled 29,308
-  modules, with an earlier version of the script, which compiled 897 more modules there than this
-  one does. It compiled 10,038 and reused 19,270 in 74 minutes. All 29,308 outputs are the same
-  as the ones CI published, and `lake build` after the script found nothing to build. Plain
-  `lake build` was not timed on this batch.
-
 ## Limits
 
 Lean does not record what the elaboration of a module read. The rule is built from what compiled
@@ -123,6 +108,6 @@ After a toolchain bump, those layouts have to be compared with the Lean source a
 checks above repeated before the new toolchain is added there.
 
 The script keeps the previous outputs of the modules a run compiles until the next run, so a run
-needs that much free disk space (it was 44 GB after a batch in which 10,000 modules were compiled).
+needs that much free disk space.
 
 Warnings of reused modules are not printed again.
