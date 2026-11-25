@@ -124,6 +124,29 @@ since. `scripts/tests/test_rebuild_affected.py` has a test for each.
   `cmp_manifest.py A B` compares two such files. This is how a tree built by the script was compared
   with one built by `lake build` from the same sources.
 
+### Builds made with the script
+
+These were made on one machine with 32 cores and compared as above. They are here and not in the
+pull request, which is not the place for the results of my own builds.
+
+- The change of #1506 on `1da818b50f` (seven files, among them `DataDIV.lean`). `lake build`
+  compiled 20,883 modules in 111 minutes. The script compiled 52 and reused 20,831 in 10 minutes.
+  The two trees have the same outputs for all 61,060 modules, and `lake build` after the script
+  found nothing to build.
+- Batch b20 (`d91ae2678e` → `91b2735308`, 17,053 files changed), for which CI compiled 43,071
+  modules. The script compiled 20,358 and reused 22,713 in 124 minutes. All 43,071 outputs are the
+  same as the ones CI published, the modules it compiled are exactly the ones the replay says it
+  compiles, and `lake build` after the script found nothing to build. Plain `lake build` was not
+  timed on this batch.
+- Batch b17 (`ef451fc356` → `251c7b05dd`, 6,701 files changed), for which CI compiled 29,308
+  modules, with an earlier version of the script, which compiled 897 more modules there than the
+  present one does. It compiled 10,038 and reused 19,270 in 74 minutes, and all 29,308 outputs are
+  the same as the ones CI published.
+
+Before the first module is compiled the script takes about three minutes on this repository (five
+to eight on the first run after `lake exe cache get`), and it kept 44 GB of previous outputs
+after a batch in which 10,000 modules were compiled.
+
 ## Looking at a miss
 
 `classify_miss.py META K MODULE...` says in which parts and extensions CI's two outputs of a module
