@@ -22,9 +22,14 @@ shake-pipeline.sh DIR ORIG_REV TAG [PHASE] [SEED_SRC]
 `src` directory of an earlier result; its marks are carried over, which saves build rounds. A run
 needs the toolchain, Python 3.9 or newer, and the time of three to six builds of the project.
 
-When this change and another one conflict, the conflict is between import lines. Keeping the lines
-of both sides gives a header that has what both needed, and a new run then says which of them can
-go.
+`onto.sh DIR REF TAG` brings the tree a run left onto a newer commit without a new run. It merges
+the commit. In a file where both changed the import lines, `union.py` builds the import block from
+the result's lines, plus the imports the commit added, minus those it removed. Then it builds, and
+a file that fails gets its imports made public and the commit's imports back. The tree compiles
+after that, but `lake shake` was not asked again and declarations were not compared, as a run does.
+
+`why.py DIR` compiles every file that has a marked import with that import made private (or
+removed, if it is private) and prints the errors.
 
 The steps:
 
