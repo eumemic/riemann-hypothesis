@@ -27,6 +27,8 @@ the commit. In a file where both changed the import lines, `union.py` builds the
 the result's lines, plus the imports the commit added, minus those it removed. Then it builds, and
 a file that fails gets its imports made public and the commit's imports back. The tree compiles
 after that, but `lake shake` was not asked again and declarations were not compared, as a run does.
+To compare them afterwards, build the commit in a second checkout and run `lean-queries.sh decls`
+on both trees and `same.py` on the two outputs.
 
 `why.py DIR` compiles every file that has a marked import with that import made private (or
 removed, if it is private) and prints the errors.
