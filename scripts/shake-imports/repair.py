@@ -2,8 +2,9 @@
 
 For every module that failed in BUILD_LOG: make all of its imports `public`, and put back (as
 `public import`) the imports it had in git revision ORIG that are missing now.
-A file that fails again after that gets the name lookup: a `public import` of the project files
-that open a namespace the errors call unknown, or of the one file that declares an unknown name.
+A file that fails again after that gets the name lookup: a `public import` of the files (of the
+project or of Tau Ceti) that open a namespace the errors call unknown, or of the one file that
+declares an unknown name.
 What was done to each file is kept in REPO/.shake-repair.json (delete it to start over).
 
 usage: repair.py REPO BUILD_LOG ORIG [--dry]
@@ -27,22 +28,27 @@ def failing(log):
     return errs
 
 
-def index(src):
-    """namespace -> modules that open it with `namespace`, last name component -> modules declaring it"""
+def index(repo):
+    """namespace -> modules that open it with `namespace`, last name component -> modules declaring it,
+    for the files of the project and of Tau Ceti (what Mathlib declares every file sees anyway)"""
     ns, decl = {}, {}
-    pat = re.compile(r"^(?:@\[[^\]]*\]\s*)*(?:private |protected |noncomputable |unsafe |partial )*"
-                     r"(?:def|theorem|lemma|abbrev|structure|class|inductive|instance|opaque|axiom)\s+([^\s:({\[]+)")
-    for d, _, files in os.walk(src):
-        for f in files:
-            if not f.endswith(".lean"): continue
-            p = os.path.join(d, f); mod = os.path.relpath(p, src)[:-5].replace(os.sep, ".")
-            for l in open(p, encoding="utf-8"):
-                m = re.match(r"^namespace\s+(\S+)", l)
-                if m:
-                    for part in m.group(1).split("."): ns.setdefault(part, set()).add(mod)
-                    ns.setdefault(m.group(1), set()).add(mod)
-                m = pat.match(l)
-                if m: decl.setdefault(m.group(1).split(".")[-1], set()).add(mod)
+    pat = re.compile(r"^\s*(?:@\[[^\]]*\]\s*)*(?:private |protected |noncomputable |unsafe |partial |public |nonrec )*"
+                     r"(?:def|theorem|lemma|abbrev|structure|class|inductive|instance|opaque|axiom|alias)\s+([^\s:({\[]+)")
+    roots = [(os.path.join(repo, "src"), "")]
+    tau = os.path.join(repo, ".lake", "packages", "TauCeti")
+    if os.path.isdir(os.path.join(tau, "TauCeti")): roots.append((tau, "TauCeti"))
+    for root, only in roots:
+        for d, _, files in os.walk(os.path.join(root, only)):
+            for f in files:
+                if not f.endswith(".lean"): continue
+                p = os.path.join(d, f); mod = os.path.relpath(p, root)[:-5].replace(os.sep, ".")
+                for l in open(p, encoding="utf-8"):
+                    m = re.match(r"^namespace\s+(\S+)", l)
+                    if m:
+                        for part in m.group(1).split("."): ns.setdefault(part, set()).add(mod)
+                        ns.setdefault(m.group(1), set()).add(mod)
+                    m = pat.match(l)
+                    if m: decl.setdefault(m.group(1).split(".")[-1], set()).add(mod)
     return ns, decl
 
 
@@ -75,7 +81,7 @@ def main():
                 if name not in have and name not in add: add.append(name)
             state.setdefault(mod, []).append("promoted")
         if not changed and not add:                     # 3. what the errors call unknown
-            if ns is None: ns, decl = index(src)
+            if ns is None: ns, decl = index(repo)
             wanted = set()
             for e in es:
                 m = re.search(r"unknown namespace `([^`]+)`", e)
