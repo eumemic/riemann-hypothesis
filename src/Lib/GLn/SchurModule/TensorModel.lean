@@ -1,7 +1,8 @@
 module
 
-public import Lib.GLn.SchurModule.SchurMatrix
-public import Lib.General.LinearAlgebra.MinorProducts
+public import Lib.GLn.SchurModule.Basic
+import Lib.GLn.SchurModule.SchurMatrix
+import Lib.General.LinearAlgebra.MinorProducts
 
 /-!
 # The Weyl module inside the tensors of its diagram

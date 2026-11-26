@@ -1,6 +1,7 @@
 module
 
-public import Lib.Analytic.EntireLFunction
+public import Lib.Speed
+import Lib.Analytic.EntireLFunction
 
 /-!
 # A Tauberian theorem with a power of the logarithm

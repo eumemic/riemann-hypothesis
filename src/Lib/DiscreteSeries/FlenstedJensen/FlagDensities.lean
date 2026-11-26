@@ -1,6 +1,11 @@
 module
 
 public import Lib.DiscreteSeries.Holomorphic.HighestVectorExtension
+public import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
+import Lib.DiscreteSeries.FlenstedJensen.RightDerivatives
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.General.LinearAlgebra.PolarDecomposition
+import Lib.General.Measure.IdempotentKernel
 
 /-!
 # Integrals of densities over unitary groups and over the flag variety of `K_ℂ`

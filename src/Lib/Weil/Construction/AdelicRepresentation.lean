@@ -1,8 +1,15 @@
 module
 
-public import Lib.Adelic.Unitary.RationalPoints
-public import Lib.Weil.Construction.FiniteCocycle
+public import Lib.General.Analysis.FourierTransforms
+public import Lib.General.Analysis.HolomorphicIntegrals
+public import Lib.Weil.Construction.FiniteCocycle -- shake: keep
 public import Lib.Weil.Fock.Basic
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Adelic.Unitary.GramMatrix
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.Base
+import Lib.General.Analysis.FiniteFourier
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # The adelic Weil representation on 𝒮(V) and its theta functional

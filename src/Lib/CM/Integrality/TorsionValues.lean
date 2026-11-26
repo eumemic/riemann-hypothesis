@@ -1,7 +1,8 @@
 module
 
-public import Lib.CM.GoodReduction
 public import Lib.CM.Integrality.Doubling
+public import Lib.CM.Sigma.ThetaSections
+import Lib.CM.GoodReduction
 
 /-!
 # Integrality of values of sections at torsion points

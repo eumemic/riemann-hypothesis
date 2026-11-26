@@ -1,9 +1,14 @@
 module
 
-public import New.Determinant.AuxiliaryForms.DiagonalTurns
-public import New.Determinant.AuxiliaryForms.FirstPath
 public import New.Determinant.AuxiliaryForms.LastPath
-public import New.OneLift.ComparisonOperator.FirstFactors
+public import New.Determinant.AuxiliaryForms.Turns
+public import New.UpperBound.Kernels.ThetaLiftGauge
+public import New.UpperBound.Objects.RowChain
+public import New.UpperBound.Size.ShortColumns
+import New.Determinant.AuxiliaryForms.DiagonalTurns
+import New.Determinant.AuxiliaryForms.FirstPath
+import New.OneLift.ComparisonOperator.FirstFactors
+import New.UpperBound.Size.Estimates
 
 /-!
 # Denominators and sizes on the last path, and the auxiliary forms

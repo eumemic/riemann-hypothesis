@@ -1,6 +1,9 @@
 module
 
-public import New.Spanning.Unfolding.Climbing
+public import New.Spanning.Unfolding.Link
+import Lib.Cohomology.Etale.Basic
+import New.Spanning.RemainingTerms.BorderedDeterminant
+import New.Spanning.Unfolding.Climbing
 
 /-!
 # The structure of a term

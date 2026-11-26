@@ -1,6 +1,9 @@
 module
 
-public import New.Spanning.Unfolding.ReducedPoints
+public import New.Spanning.RemainingTerms.BorderedDeterminant
+import Lib.General.Analysis.GaussianIntegral
+import Lib.General.NumberTheory.SUnitsAndClassNumber
+import New.Spanning.Unfolding.ReducedPoints
 
 /-!
 # Frames of near terms: short shared vectors and moves between frames

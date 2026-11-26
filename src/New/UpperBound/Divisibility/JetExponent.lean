@@ -1,7 +1,8 @@
 module
 
 public import New.Derivatives.Divisibility.Count
-public import New.Derivatives.Sharpness.NearPairs
+public import New.UpperBound.Size.ShortColumns
+import New.Derivatives.Sharpness.NearPairs
 
 /-!
 # A lower bound for the divisibility bound by the gain

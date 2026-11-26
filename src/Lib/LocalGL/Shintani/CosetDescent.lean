@@ -1,8 +1,10 @@
 module
 
 public import Lib.Adelic.Unitary.ComponentsAndBlockSums
-public import Lib.LocalGL.Green.CuspidalFunctions
+public import Lib.LocalGL.Green.HallAlgebra
 public import Lib.LocalGL.Shintani.CosetRootChoice
+import Lib.General.LinearAlgebra.MatrixPolynomials
+import Lib.LocalGL.Green.CuspidalFunctions
 
 /-!
 # Descent of class functions along a coset and lifts from GL_n(k') ⋊ Gal(k'/k)

@@ -1,6 +1,8 @@
 module
 
-public import Lib.Adelic.Adeles.IdeleModulus
+public import Lib.Adelic.Adeles.Basic
+import Lib.Adelic.Adeles.IdeleModulus
+import Lib.Adelic.Adeles.StrongApproximation
 
 /-!
 # Criteria for CM fields

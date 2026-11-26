@@ -1,7 +1,15 @@
 module
 
-public import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
-public import Lib.DiscreteSeries.Rigidity.HighestVectorsAndFiltration
+public import Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction
+public import Lib.DiscreteSeries.Haar.GramPolar
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.DiscreteSeries.Holomorphic.HighestVectorExtension
+import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
+import Lib.DiscreteSeries.Rigidity.HighestVectorsAndFiltration
+import Lib.General.LinearAlgebra.PolarDecomposition
+import Lib.General.Measure.IdempotentKernel
+import Lib.General.Measure.IntegralOperators
 
 /-!
 # Decay, tail bounds and the L² model of the discrete series coefficient c_λ

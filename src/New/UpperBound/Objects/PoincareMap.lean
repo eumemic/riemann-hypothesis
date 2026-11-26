@@ -1,6 +1,9 @@
 module
 
+public import Lib.Weil.Periods.BesselIntegral
+public import Lib.Weil.Periods.Equivariant
 public import New.UpperBound.Seesaw.EdgePairEvaluation
+import Lib.General.Measure.IntegralOperators
 
 /-!
 # The Poincaré map

@@ -1,6 +1,8 @@
 module
 
-public import Lib.General.NumberTheory.EmbeddingsAndDifferent
+public import Lib.Adelic.Adeles.Basic
+import Lib.General.NumberTheory.EmbeddingsAndDifferent
+import TauCeti.RingTheory.DedekindDomain.AdicValuation.ResidueField
 
 /-!
 # The imaginary quadratic field ℚ(√−d): characters, Frobenius and splitting of primes

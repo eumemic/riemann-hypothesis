@@ -1,9 +1,10 @@
 module
 
-public import Lib.Adelic.Adeles.StrongApproximation
-public import Lib.Cohomology.Etale.Basic
-public import Lib.General.Measure.HaarModulus
+public import Lib.Adelic.Adeles.Basic
 public import Lib.Shimura.ComplexTheta.AppellHumbertData
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Cohomology.Etale.Basic
+import Lib.General.Measure.HaarModulus
 
 /-!
 # Adelic frames over a CM field, torsion classes, period lattices and period maps

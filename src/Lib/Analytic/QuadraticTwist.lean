@@ -1,7 +1,10 @@
 module
 
 public import Lib.Analytic.DirichletTheta
-public import Lib.Analytic.EntireLFunction
+public import Lib.General.NumberTheory.ImaginaryQuadraticField
+import Lib.Analytic.EntireLFunction
+import Lib.Analytic.PolyaVinogradov
+import Lib.Analytic.ZeroSymmetry
 
 /-!
 # A prime `d` in a class whose quadratic twists have no zero in a box

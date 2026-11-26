@@ -1,8 +1,9 @@
 module
 
-public import Lib.GaloisRep.Main.DivisibleSelmerModules
 public import New.Congruences.Selmer.Mirror
-public import New.Congruences.Selmer.OneSystem
+import Lib.ClassField.GreenbergWiles.SelmerRelations
+import Lib.GaloisRep.Main.DivisibleSelmerModules
+import New.Congruences.Selmer.OneSystem
 
 /-!
 # The descent

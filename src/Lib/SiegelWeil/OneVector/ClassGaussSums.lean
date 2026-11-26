@@ -1,6 +1,7 @@
 module
 
 public import Lib.SiegelWeil.OneVector.ResidueClasses
+import Lib.General.Measure.HaarNormalisation
 
 /-!
 # Gauss sums of classes modulo a lattice at a finite place

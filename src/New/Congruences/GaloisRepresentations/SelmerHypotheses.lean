@@ -1,10 +1,16 @@
 module
 
+public import Lib.ClassField.Avatar.HeckeBaseChange
 public import Lib.GaloisRep.LocalGlobal.LabelCompatibility
 public import Lib.GaloisRep.Main.DivisibleSelmerModules
+public import Lib.GaloisRep.Pseudocharacter.SemisimpleRepresentations
 public import New.Congruences.LocalLoss.Basic
 public import New.OneLift.TestedForms
 public import New.UpperBound.Objects.Rows
+import Lib.ClassField.Avatar.LocalGlobalCompatibility
+import Lib.ClassField.HeckeL.ContinuationAtOne
+import Lib.GaloisRep.Main.QuadraticStep
+import Lib.General.NumberTheory.FrobeniusOrbits
 
 /-!
 # Bad places, ℓ-adic avatars and hypotheses on conjugate self-dual representations

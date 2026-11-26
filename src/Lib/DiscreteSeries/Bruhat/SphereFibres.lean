@@ -1,7 +1,8 @@
 module
 
 public import Lib.DiscreteSeries.Bruhat.ComplexPlace
-public import Lib.DiscreteSeries.Bruhat.QuadricBlocks
+import Lib.DiscreteSeries.Bruhat.QuadricBlocks
+import Lib.DiscreteSeries.Haar.TotalMass
 
 /-!
 # The spheres of ℂ^κ as fibres of the standard form

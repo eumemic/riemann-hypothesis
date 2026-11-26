@@ -1,6 +1,6 @@
 module
 
-public import Lib.Cohomology.Etale.DenseSubfunctors
+public import Lib.Cohomology.Etale.DenseSubfunctors -- shake: keep
 public import Lib.Cohomology.Hodge.CupProduct
 
 /-!

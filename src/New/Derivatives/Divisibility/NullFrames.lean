@@ -1,7 +1,8 @@
 module
 
-public import Lib.Cohomology.Etale.Basic
-public import Lib.General.Algebra.SeriesCongruences
+public import Lib.General.Algebra.AdicCompletion
+import Lib.Cohomology.Etale.Basic
+import Lib.General.Algebra.SeriesCongruences
 
 /-!
 # The change of directions

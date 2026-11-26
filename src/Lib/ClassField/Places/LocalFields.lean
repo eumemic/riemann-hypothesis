@@ -1,8 +1,9 @@
 module
 
-public import Lib.ClassField.Places.DecompositionCyclotomic
-public import Lib.ClassField.Places.ValuationSubrings
-public import Lib.General.Groups.ProfiniteCharacters
+public import Lib.ClassField.GaloisCohomology.ContinuousCocycles
+import Lib.ClassField.Places.DecompositionCyclotomic
+import Lib.ClassField.Places.ValuationSubrings
+import Lib.General.Groups.ProfiniteCharacters
 
 /-!
 # Local fields: Frobenius, uniformisers, normalised valuation, extensions, unramified characters

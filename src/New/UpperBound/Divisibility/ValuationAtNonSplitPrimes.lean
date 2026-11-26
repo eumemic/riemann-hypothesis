@@ -1,7 +1,12 @@
 module
 
-public import New.UpperBound.Divisibility.ChainValuation
-public import New.UpperBound.Objects.CharactersAtLevel
+public import New.UpperBound.Divisibility.MarkedPrimes
+public import New.UpperBound.Kernels.ThetaLiftGauge
+import Lib.ClassField.Avatar.HeckeBaseChange
+import New.Derivatives.Vacuum.Divisibility
+import New.UpperBound.Divisibility.ChainValuation
+import New.UpperBound.Objects.CharactersAtLevel
+import New.UpperBound.Objects.Rows
 
 /-!
 # Valuations of lifts at non-split primes

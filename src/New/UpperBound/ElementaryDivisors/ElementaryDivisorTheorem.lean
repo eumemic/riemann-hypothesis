@@ -1,9 +1,11 @@
 module
 
 public import New.Reduction.Lattices.Colength
-public import New.UpperBound.ElementaryDivisors.AveragingMap
-public import New.UpperBound.ElementaryDivisors.DefectCount
 public import New.UpperBound.ElementaryDivisors.Depth
+public import New.UpperBound.ElementaryDivisors.Edges
+import Lib.General.LinearAlgebra.HermiteForm
+import New.UpperBound.ElementaryDivisors.AveragingMap
+import New.UpperBound.ElementaryDivisors.DefectCount
 
 /-!
 # Elementary divisors of the edge Hecke operator

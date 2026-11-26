@@ -1,7 +1,8 @@
 module
 
-public import Lib.DiscreteSeries.Bruhat.FloorMeasures
 public import Lib.DiscreteSeries.Bruhat.QuadricBlocks
+import Lib.DiscreteSeries.Bruhat.FloorMeasures
+import Lib.General.Measure.IdempotentKernel
 
 /-!
 # Fourier kernels between solved measures

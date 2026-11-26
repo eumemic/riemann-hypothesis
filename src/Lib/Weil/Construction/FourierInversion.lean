@@ -1,6 +1,9 @@
 module
 
+public import Lib.General.Algebra.AdicCompletion
 public import Lib.Weil.Construction.ThetaDictionary
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Cohomology.Etale.Basic
 
 /-!
 # Fourier inversion for theta functions

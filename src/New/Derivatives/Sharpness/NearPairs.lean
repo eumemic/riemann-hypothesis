@@ -2,6 +2,7 @@ module
 
 public import New.Derivatives.FormalGroup.ThetaProducts
 public import New.UpperBound.Size.ShortColumns
+import New.Reduction.Data.Sizes
 
 /-!
 # Near pairs of `b`-places and the losses in the sharpness bound

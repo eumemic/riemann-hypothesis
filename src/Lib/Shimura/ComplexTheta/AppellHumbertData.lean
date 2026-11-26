@@ -1,8 +1,8 @@
 module
 
-public import Lib.Adelic.Adeles.AdditiveCharacter
 public import Lib.General.Analysis.FourierTransforms
-public import Lib.General.Topology
+import Lib.Adelic.Adeles.AdditiveCharacter
+import Lib.General.Topology
 
 /-!
 # Theta functions on complex tori: Appell–Humbert data and factors of automorphy

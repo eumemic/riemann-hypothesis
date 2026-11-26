@@ -1,6 +1,7 @@
 module
 
 public import Lib.DiscreteSeries.FlenstedJensen.Defs
+public import Lib.General.Analysis.GaussianIntegral
 
 /-!
 # Matrices near the identity: Jacobi's formula and norm estimates

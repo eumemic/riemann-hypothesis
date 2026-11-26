@@ -1,8 +1,11 @@
 module
 
-public import Lib.General.NumberTheory.SUnitsAndClassNumber
 public import Lib.Shimura.GoodReduction.GaussSums
 public import Lib.Shimura.ThetaModuli.PELThetaTori
+import Lib.General.NumberTheory.SUnitsAndClassNumber
+import Lib.General.Topology
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
 
 /-!
 # Good reduction of theta tori from shift bounds on kernels of multiplications

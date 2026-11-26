@@ -1,7 +1,7 @@
 module
 
-public import Lib.Weil.Periods.BesselIntegral
 public import Lib.Weil.Periods.Equivariant
+import Lib.Weil.Periods.BesselIntegral
 
 /-!
 # Real and finite points of the Bessel group

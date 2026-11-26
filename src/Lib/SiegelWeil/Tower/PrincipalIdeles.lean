@@ -1,6 +1,8 @@
 module
 
-public import Lib.Adelic.Adeles.AdditiveCharacter
+public import Lib.Adelic.Adeles.Basic
+public import Lib.General.Groups.CongruenceSubgroups
+import Lib.Adelic.Adeles.AdditiveCharacter
 
 /-!
 # Principal ideles and a majorant on the complex torus

@@ -1,8 +1,14 @@
 module
 
-public import Lib.DiscreteSeries.Holomorphic.ModelFunction
+public import Lib.DiscreteSeries.Holomorphic.HighestVectorExtension
 public import Lib.DiscreteSeries.Holomorphic.PeaksAwayFromCusp
 public import New.OneLift.ComparisonOperator.ExchangeData
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
+import Lib.DiscreteSeries.Holomorphic.ModelFunction
+import Lib.General.Analysis.PackingAndSobolev
+import Lib.PadicComparison.Descent.TestCategory
 
 /-!
 # Decay of Fock matrix coefficients, sparse theta sums and the isolation estimate

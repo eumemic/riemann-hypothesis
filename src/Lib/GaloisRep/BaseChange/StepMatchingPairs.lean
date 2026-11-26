@@ -1,6 +1,8 @@
 module
 
 public import Lib.GaloisRep.BaseChange.CommutingHeckeFamilies
+import Lib.GaloisRep.Hilbert90.UnitaryGroups
+import Lib.General.LinearAlgebra.MatrixPolynomials
 
 /-!
 # Hecke-stable matching pairs for a step E'/E at split matched places

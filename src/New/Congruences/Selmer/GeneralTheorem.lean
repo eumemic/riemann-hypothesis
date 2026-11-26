@@ -1,7 +1,8 @@
 module
 
 public import New.Congruences.Selmer.Line
-public import New.Congruences.Selmer.RootsOfUnity
+import New.Congruences.Selmer.RootsOfUnity
+import New.Congruences.Selmer.StickelbergerLine
 
 /-!
 # Twisting, general form

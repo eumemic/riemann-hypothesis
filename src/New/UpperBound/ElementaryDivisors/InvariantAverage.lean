@@ -2,7 +2,7 @@ module
 
 public import Lib.GLn.SchurModule.Basic
 public import Lib.General.Groups.BesselGroups
-public import TauCeti.Algebra.BigOperators.ZPow
+import TauCeti.Algebra.BigOperators.ZPow
 
 /-!
 # An average on polynomials in the entries of a matrix

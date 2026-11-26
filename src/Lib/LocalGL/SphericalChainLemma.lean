@@ -2,6 +2,8 @@ module
 
 public import Lib.GaloisRep.Main.Defs
 public import Lib.LocalGL.Iwahori.HeckeDegrees
+import Lib.LocalGL.Iwahori.QuadraticRelation
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
 
 /-!
 # Chains of roots of the Hecke polynomial of a spherical vector

@@ -1,6 +1,10 @@
 module
 
 public import New.Determinant.Norms.AdjointThetaLift
+public import New.OneLift.HeckeValues.CharacterLift
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.General.Algebra.IntegralPowerSeries
+import Lib.General.Groups.IndexOfProduct
 
 /-!
 # The lift of a character and its squared norm as a Hecke L-value

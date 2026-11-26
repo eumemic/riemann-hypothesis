@@ -1,8 +1,8 @@
 module
 
-public import Lib.Analytic.PrimeNumberTheorem.Tauberian
-public import Lib.Analytic.PrimeNumberTheorem.ZeroFreeRegion
 public import New.Reduction.Zeros.PrimeError
+import Lib.Analytic.PrimeNumberTheorem.Tauberian
+import Lib.Analytic.PrimeNumberTheorem.ZeroFreeRegion
 
 /-!
 # The prime number theorem for the remainders `R_q`

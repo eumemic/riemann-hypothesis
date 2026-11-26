@@ -1,6 +1,7 @@
 module
 
 public import New.Spanning.Frames.BesselVector
+import Lib.Shimura.ComplexTheta.AppellHumbertData
 
 /-!
 # Scaled orbital integrals of the finite Bessel vector on the floor group

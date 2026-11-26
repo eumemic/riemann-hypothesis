@@ -1,7 +1,8 @@
 module
 
 public import Lib.General.Algebra.SharpMinors
-public import New.Congruences.Selmer.SelmerData
+public import New.Congruences.Selmer.AuxiliaryPrimes
+import New.Congruences.Selmer.SelmerData
 
 /-!
 # The universal twist and one system of equations for all twists

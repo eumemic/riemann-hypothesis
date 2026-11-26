@@ -1,10 +1,16 @@
 module
 
-public import Lib.SiegelWeil.Formula.StrongApproximation
-public import Lib.SiegelWeil.Tower.LargeSideConstantTerm
+public import Lib.SiegelWeil.Tower.FiniteTateIntegral
+public import Lib.Weil.DualPair.FiniteAction
 public import New.Determinant.Exchange.EquivariantDifference
-public import New.Determinant.Exchange.NegativeIndices
 public import New.Determinant.Exchange.StableSpacesStandardData
+import Lib.Adelic.Reduction.DefiniteClassSums
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.ClassField.HeckeCharacter.TameModulus
+import Lib.SiegelWeil.Formula.StrongApproximation
+import Lib.SiegelWeil.Tower.LargeSideConstantTerm
+import New.Determinant.Exchange.NegativeIndices
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # Parabolic theta terms, equal ranks, and the exchange identity for the large triple

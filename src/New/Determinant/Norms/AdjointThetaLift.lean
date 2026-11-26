@@ -1,9 +1,12 @@
 module
 
-public import Lib.General.Groups.IndexOfProduct
+public import Lib.Adelic.AutomorphicForms.AutomorphicAsAlgebraic
 public import Lib.SiegelWeil.RallisInner.SharpData
-public import New.OneLift.HeckeValues.CharacterLift
+public import New.Determinant.Norms.VectorKernel
 public import New.Spanning.Multiplicities.HeckeEigensystems
+import Lib.GLn.SchurModule.SchurNorm
+import Lib.General.Groups.IndexOfProduct
+import New.OneLift.HeckeValues.CharacterLift
 
 /-!
 # The lift Θ_W, its adjoint and its norm

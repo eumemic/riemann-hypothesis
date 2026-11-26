@@ -1,6 +1,12 @@
 module
 
-public import Lib.DiscreteSeries.FlenstedJensen.SquareIntegrability
+public import Lib.DiscreteSeries.FlenstedJensen.Defs
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.FlenstedJensen.SquareIntegrability
+import Lib.DiscreteSeries.Holomorphic.HighestVectorExtension
+import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
+import Lib.General.Analysis.MeanValueAndTaylor
+import Lib.General.LinearAlgebra.PolarDecomposition
 
 /-!
 # The holomorphic model function and discrete series coefficients in the holomorphic chamber

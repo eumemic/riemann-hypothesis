@@ -1,9 +1,16 @@
 module
 
-public import Lib.DiscreteSeries.Bruhat.ComplexPlace
-public import Lib.SiegelWeil.Formula.LagrangianZeroTerms
-public import New.OneLift.ComparisonOperator.GluedLattices
-public import New.OneLift.FalseLifts.BottomOfTower
+public import Lib.Weil.DualPair.KernelDecay
+public import Lib.Weil.Periods.DescentVanishing
+public import Lib.Weil.Unramified.HeckeTransfer
+import Lib.Adelic.Reduction.DefiniteClassSums
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.ClassField.Avatar.HeckeBaseChange
+import Lib.DiscreteSeries.Bruhat.ComplexPlace
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import Lib.SiegelWeil.Formula.LagrangianZeroTerms
+import Lib.Weil.DualPair.FiniteAction
 
 /-!
 # Vanishing of theta descents from W to W plus hyperbolic planes

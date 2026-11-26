@@ -1,8 +1,12 @@
 module
 
-public import New.Spanning.MainTerm.EnergyEstimate
-public import New.Spanning.SecondMoment.PositiveType
-public import New.Spanning.Unfolding.SquareExpansion
+public import New.Spanning.RemainingTerms.Size
+public import New.Spanning.Unfolding.Climbing
+import Lib.General.LinearAlgebra.BlockEmbeddings
+import New.Spanning.MainTerm.EnergyEstimate
+import New.Spanning.RemainingTerms.Sum
+import New.Spanning.SecondMoment.PositiveType
+import New.Spanning.Unfolding.SquareExpansion
 
 /-!
 # The second moment over the whole group

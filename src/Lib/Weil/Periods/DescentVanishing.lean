@@ -3,6 +3,17 @@ module
 public import Lib.Adelic.QuotientMeasure.UnfoldingInStages
 public import Lib.SiegelWeil.SingularForms.UnimodularCoefficients
 public import Lib.Weil.DualPair.ThetaIntegrals
+public import Lib.Weil.DualPair.ThetaLiftConvergence
+public import Lib.Weil.DualPair.WeilAction
+import Lib.Adelic.AutomorphicForms.RealConvolution
+import Lib.Adelic.QuotientMeasure.IwasawaUnfolding
+import Lib.Adelic.Reduction.DefiniteClassSums
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.Weil.Construction.CanonicalTheta
+import Lib.Weil.DualPair.FiniteAction
+import TauCeti.NumberTheory.NumberField.Countable
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # Vanishing theta descents for unitary groups: Fourier coefficients and periods

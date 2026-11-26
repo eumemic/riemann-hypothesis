@@ -2,6 +2,7 @@ module
 
 public import Lib.General.LinearAlgebra.IntegralLattices
 import TauCeti.MeasureTheory.Measure.Haar.DistribChar
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # Pushforward of Haar measures, the modulus of GL_n and the generalised index

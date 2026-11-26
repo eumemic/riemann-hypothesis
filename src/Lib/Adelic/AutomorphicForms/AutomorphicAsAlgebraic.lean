@@ -1,7 +1,12 @@
 module
 
-public import Lib.Adelic.AutomorphicForms.RealConvolution
-public import Lib.GLn.SchurModule.SchurNorm
+public import Lib.Adelic.AutomorphicForms.Basic
+public import Lib.Adelic.AutomorphicForms.SmoothAlgebraicForms
+import Lib.Adelic.AutomorphicForms.RealConvolution
+import Lib.Adelic.Reduction.DefiniteClassSums
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Rigidity.KernelFixes
+import Lib.GLn.SchurModule.SchurNorm
 
 /-!
 # Automorphic forms on standard definite spaces as algebraic forms

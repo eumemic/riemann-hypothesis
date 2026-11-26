@@ -1,12 +1,11 @@
 module
 
-public import Lib.Base
+public import Lib.Speed
 public import TauCeti.RingTheory.DedekindDomain.FiniteAdeleRing.Basic
-public import TauCeti.NumberTheory.NumberField.Countable
-public import TauCeti.RingTheory.DedekindDomain.Countable
+import TauCeti.NumberTheory.NumberField.Countable
 import TauCeti.RingTheory.DedekindDomain.AdicValuation.Completion
-public import TauCeti.RingTheory.DedekindDomain.AdicValuation.ResidueField
-public import TauCeti.RingTheory.DedekindDomain.FiniteAdeleRing.BorelSpace
+import TauCeti.RingTheory.DedekindDomain.AdicValuation.ResidueField
+import TauCeti.RingTheory.DedekindDomain.FiniteAdeleRing.BorelSpace
 
 /-!
 # Finite adeles of number fields: topology, idempotents, functoriality and base change

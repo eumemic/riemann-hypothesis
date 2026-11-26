@@ -1,7 +1,7 @@
 module
 
-public import Lib.ClassField.HeckeCharacter.SplitTameCharacters
 public import New.Derivatives.Field.ChosenPlaces
+import Lib.ClassField.HeckeCharacter.SplitTameCharacters
 
 /-!
 # Weight bounds, the level N, and twists and m-fold twists for chains of lifts

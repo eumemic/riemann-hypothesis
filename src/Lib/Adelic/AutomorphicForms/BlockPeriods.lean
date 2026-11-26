@@ -1,7 +1,10 @@
 module
 
-public import Lib.Adelic.AutomorphicForms.AutomorphicAsAlgebraic
+public import Lib.Adelic.AutomorphicForms.Basic
+public import Lib.Adelic.AutomorphicForms.SmoothAlgebraicForms
 public import Lib.GLn.Branching.IntegralMap
+import Lib.Adelic.AutomorphicForms.AutomorphicAsAlgebraic
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
 
 /-!
 # Periods of algebraic forms over a block subgroup as class sums via branching

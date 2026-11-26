@@ -1,8 +1,11 @@
 module
 
-public import Lib.Adelic.TraceFormula.CuspidalComparison
-public import Lib.Adelic.TraceFormula.CuspidalType
 public import New.Determinant.Norms.AdjointThetaLift
+import Lib.Adelic.TraceFormula.CuspidalComparison
+import Lib.Adelic.TraceFormula.CuspidalType
+import Lib.Adelic.TraceFormula.LineDeterminant
+import Lib.PadicComparison.Descent.TestCategory
+import New.Reduction.Data.Sizes
 import TauCeti.LinearAlgebra.Matrix.Charpoly.Newton
 
 /-!

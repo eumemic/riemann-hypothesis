@@ -1,6 +1,6 @@
 module
 
-public import Lib.Base
+public import Lib.Speed
 public import TauCeti.Algebra.Group.AddChar.Basic
 
 /-!

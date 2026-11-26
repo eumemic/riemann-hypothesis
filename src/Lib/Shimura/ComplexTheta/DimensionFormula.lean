@@ -1,7 +1,7 @@
 module
 
-public import Lib.General.Analysis.HolomorphicIntegrals
 public import Lib.Shimura.ComplexTheta.AppellHumbertData
+import Lib.General.Analysis.HolomorphicIntegrals
 
 /-!
 # Theta functions on complex tori: dimension formula, base points, multipliers

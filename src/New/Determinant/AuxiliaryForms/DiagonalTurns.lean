@@ -1,6 +1,9 @@
 module
 
+public import Lib.Adelic.Unitary.RationalPoints -- shake: keep
+public import Lib.General.Algebra.MultivariatePolynomials
 public import New.Determinant.AuxiliaryForms.Turns
+public import New.Determinant.Exchange.OneSquare
 
 /-!
 # Turns on the diagonal, and the transfer of periods from the first path to the last

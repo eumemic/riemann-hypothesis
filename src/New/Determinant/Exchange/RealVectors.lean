@@ -1,6 +1,9 @@
 module
 
 public import New.Determinant.Exchange.LargeTriple
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.General.Analysis.MeanValueAndTaylor
+import Lib.Weil.MixedModel.ThetaInvariance
 
 /-!
 # Smooth local Witt theorem and the exchange identity for `V' ⊕ W₁` and `V'`

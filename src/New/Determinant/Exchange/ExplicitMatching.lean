@@ -1,9 +1,15 @@
 module
 
-public import Lib.GLn.SchurModule.Polarisation
-public import New.Determinant.Exchange.TheoremForPartners
+public import Lib.SiegelWeil.Tower.FiniteTateIntegral
+public import New.Determinant.Exchange.MatchingPartners
 public import New.OneLift.ComparisonOperator.DeterminantProducts
-public import New.OneLift.ComparisonOperator.OneExchange
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
+import Lib.GLn.SchurModule.Polarisation
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.Weil.Construction.CanonicalTheta
+import New.Determinant.Exchange.TheoremForPartners
+import New.OneLift.ComparisonOperator.OneExchange
 
 /-!
 # Explicit real data: the exchange identity for a definite space with determinant data

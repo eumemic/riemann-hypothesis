@@ -1,6 +1,7 @@
 module
 
 public import New.Spanning.RemainingTerms.FrameParts
+import New.Spanning.Unfolding.ReducedPoints
 
 /-!
 # Counting frames over a lattice of small discriminant

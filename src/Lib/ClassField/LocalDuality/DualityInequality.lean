@@ -1,7 +1,10 @@
 module
 
-public import Lib.ClassField.Local.InvariantMap
+public import Lib.ClassField.GaloisCohomology.KummerCyclicClasses
 public import Lib.General.Algebra.CartanMap
+import Lib.ClassField.Local.InvariantMap
+import Lib.ClassField.LocalDuality.KummerFiniteness
+import Lib.ClassField.Places.LocalFields
 
 /-!
 # The inequality of local Tate duality for orthogonal groups of cocycles

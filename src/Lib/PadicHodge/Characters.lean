@@ -1,8 +1,18 @@
 module
 
-public import Lib.ClassField.Global.ExistenceTheorem
+public import Lib.GaloisRep.Main.Defs
 public import Lib.GaloisRep.Main.LocalConditions
 public import Lib.General.NumberTheory.PadicLimitsValuation
+import Lib.ClassField.Global.ArtinMap
+import Lib.ClassField.Global.ExistenceTheorem
+import Lib.ClassField.Global.NormTheorems
+import Lib.ClassField.HeckeL.ContinuationAtOne
+import Lib.ClassField.Places.LocalFields
+import Lib.ClassField.Places.TameInertia
+import Lib.PadicHodge.Crystalline.HodgeTateForms
+import Lib.PadicHodge.Crystalline.HodgeTateJumps
+import Lib.PadicHodge.Crystalline.Regularity
+import TauCeti.FieldTheory.Galois.IsometricAction
 
 /-!
 # p-adic avatars of Hecke characters and local conditions for twists and characters

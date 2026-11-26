@@ -1,6 +1,9 @@
 module
 
 public import New.Congruences.Lifting.CupProductBound
+public import New.Congruences.Lifting.HodgeExpansion
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.PadicHodge.Kisin.FrameTheorem
 
 /-!
 # Jump windows, the gap condition and points of the sides of a Kummer chart

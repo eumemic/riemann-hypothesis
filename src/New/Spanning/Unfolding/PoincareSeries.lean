@@ -1,8 +1,12 @@
 module
 
 public import New.Spanning.Bessel.LargeFunction
-public import New.Spanning.Unfolding.AmplitudeSums
+public import New.Spanning.Unfolding.Terms
 public import New.UpperBound.Objects.Rows
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import New.Spanning.Unfolding.AmplitudeSums
+import New.Spanning.Unfolding.CutoffIntegral
+import New.Spanning.Unfolding.Packing
 
 /-!
 # Poincaré series of fitting spaces, unfolding, Petersson products and source form coordinates

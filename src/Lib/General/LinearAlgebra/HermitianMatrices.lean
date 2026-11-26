@@ -1,6 +1,5 @@
 module
 
-public import Lib.General.Analysis.GaussianIntegral
 public import Lib.General.Groups.CongruenceSubgroups
 import TauCeti.Analysis.Matrix.LDL
 import TauCeti.Analysis.Matrix.PosSemidef.Determinant

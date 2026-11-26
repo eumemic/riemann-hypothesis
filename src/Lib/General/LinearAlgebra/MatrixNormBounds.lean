@@ -1,6 +1,7 @@
 module
 
 public import Lib.GLn.SchurModule.GramMatrix
+import Lib.GLn.SchurModule.WeylKernel
 
 /-!
 # Auerbach's lemma, ultrametric matrix bounds and Gram norms

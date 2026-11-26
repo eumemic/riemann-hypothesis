@@ -1,6 +1,7 @@
 module
 
 public import New.Spanning.Frames.Densities
+import New.Spanning.Frames.QuadricPlancherel
 
 /-!
 # One frame

@@ -1,7 +1,9 @@
 module
 
-public import Lib.DiscreteSeries.FlenstedJensen.SquareIntegrability
 public import New.Appendix.DiscreteSeries.OneMinor
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.FlenstedJensen.SquareIntegrability
+import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
 
 /-!
 # The Gaussian shape of the coefficient

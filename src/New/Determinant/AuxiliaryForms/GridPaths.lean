@@ -1,7 +1,6 @@
 module
 
-public import Mathlib.Data.Finset.Prod
-public import Mathlib.Tactic.Choose
+public import Lib.Speed
 
 /-!
 # Monotone paths through two square grids, and their turns

@@ -1,6 +1,7 @@
 module
 
-public import Lib.Adelic.Hecke.Basic
+public import Lib.Speed
+import Lib.Adelic.Hecke.Basic
 
 /-!
 # Uniqueness of Haar measure, integrals over subgroups and Gaussian normalisation of volumes

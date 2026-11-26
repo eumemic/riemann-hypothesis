@@ -1,5 +1,6 @@
 module
 
+public import Lib.Shimura.AbelianScheme.Pairings -- shake: keep
 public import Lib.Shimura.AbelianScheme.TangentCoordinates
 public import Lib.Shimura.ThetaGroup
 public import Lib.Shimura.ThetaModuli.PELThetaTori

@@ -1,6 +1,6 @@
 module
 
-public import Lib.Base
+public import Lib.Speed
 
 /-!
 # Line bundles on schemes via ring-valued points: descent and the Picard group

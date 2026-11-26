@@ -1,8 +1,10 @@
 module
 
-public import Lib.SiegelWeil.Tower.FunctionalEquation
-public import New.Determinant.Exchange.ConeImage
-public import New.Determinant.Exchange.RemovingPlanes
+public import Lib.SiegelWeil.Tower.LineGaussSums
+public import Lib.Weil.DualPair.ThetaIntegrals
+import Lib.SiegelWeil.Tower.FunctionalEquation
+import New.Determinant.Exchange.ConeImage
+import New.Determinant.Exchange.RemovingPlanes
 
 /-!
 # Vanishing of theta integrals descends along hyperbolic planes

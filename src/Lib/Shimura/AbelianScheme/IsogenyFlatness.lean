@@ -1,7 +1,8 @@
 module
 
-public import Lib.General.Geometry.GeometricPoints
-public import Lib.General.Geometry.PointsOfProperSchemes
+public import Lib.Shimura.AbelianScheme.Basic
+import Lib.General.Geometry.GeometricPoints
+import Lib.General.Geometry.PointsOfProperSchemes
 import TauCeti.AlgebraicGeometry.Morphisms.Flat.Descent
 
 /-!

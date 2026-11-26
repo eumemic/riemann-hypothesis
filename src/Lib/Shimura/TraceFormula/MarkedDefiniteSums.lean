@@ -1,9 +1,12 @@
 module
 
-public import Lib.General.Combinatorics
+public import Lib.Adelic.TraceFormula.ChangingSigns
 public import Lib.General.LinearAlgebra.IdempotentRadical
-public import Lib.Shimura.HeckeTower.Model
-public import Lib.Shimura.Transfer.MarkedPairs
+import Lib.General.Combinatorics
+import Lib.General.LinearAlgebra.MatrixPolynomials
+import Lib.Shimura.HeckeTower.Model
+import Lib.Shimura.Transfer.MarkedPairs
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
 
 /-!
 # For a function with a cuspidal type at one place, marked and definite orbit sums agree

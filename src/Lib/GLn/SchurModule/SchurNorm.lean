@@ -1,6 +1,10 @@
 module
 
 public import Lib.Adelic.AutomorphicForms.SmoothAlgebraicForms
+public import Lib.GLn.SchurModule.GramMatrix
+import Lib.Base
+import Lib.Cohomology.Etale.Basic
+import Lib.GLn.SchurModule.WeylKernel
 
 /-!
 # Norm bound for Schur matrices and basic facts on the weight representations

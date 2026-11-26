@@ -1,6 +1,6 @@
 module
 
-public import Lib.Base
+public import Lib.Speed
 
 /-!
 # Level spaces, Hecke operators, stabilisers and class sums

@@ -1,6 +1,7 @@
 module
 
-public import Lib.Cohomology.Etale.DenseSubfunctors
+public import Lib.Cohomology.Etale.BijectiveComparisons
+import Lib.Cohomology.Etale.DenseSubfunctors
 
 /-!
 # Continuity of cohomology along filtered limits, via test rings and relatively affine maps

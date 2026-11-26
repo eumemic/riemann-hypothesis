@@ -1,6 +1,12 @@
 module
 
-public import Lib.CM.FormalGroup.FormalParameter
+public import Lib.CM.FormalGroup.PrimeNotation
+public import Lib.CM.Integrality.LogTheta
+import Lib.CM.FormalGroup.FormalParameter
+import Lib.CM.GoodReduction
+import Lib.CM.Integrality.IntegralSections
+import Lib.General.Algebra.SeriesBounds
+import TauCeti.NumberTheory.Padics.Complex.Basic
 
 /-!
 # Frobenius congruence for `θ` and the coefficient of `z ^ (p - 1)` in `x`

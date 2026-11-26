@@ -2,6 +2,10 @@ module
 
 public import Lib.SiegelWeil.Mass
 public import New.Spanning.RemainingTerms.SiegelLemma
+import Lib.Adelic.Adeles.LocalFactors
+import Lib.Adelic.Unitary.CongruenceLevels
+import Lib.General.LinearAlgebra.HermiteForm
+import Lib.General.NumberTheory.LatticeCovolumes
 
 /-!
 # Discriminants of lattices and sums over sublattices

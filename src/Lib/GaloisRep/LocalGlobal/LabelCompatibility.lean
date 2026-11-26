@@ -1,7 +1,19 @@
 module
 
-public import Lib.GaloisRep.BaseChange.ShintaniLift
-public import Lib.GaloisRep.LocalGlobal.IwahoriCompatibility
+public import Lib.ClassField.Grunwald
+public import Lib.GaloisRep.LocalGlobal.LocalFormTypes
+public import Lib.GaloisRep.Main.AttachedRepresentations
+public import Lib.LocalGL.Shintani.CosetDescent
+import Lib.ClassField.Global.ArtinMap
+import Lib.ClassField.Places.TameInertia
+import Lib.GaloisRep.BaseChange.ShintaniLift
+import Lib.GaloisRep.LocalGlobal.IwahoriCompatibility
+import Lib.GaloisRep.Main.OddRank
+import Lib.General.NumberTheory.FrobeniusOrbits
+import Lib.LocalGL.Green.LabelCharacters
+import Lib.LocalGL.Iwahori.SortedExponents
+import Lib.LocalGL.Shintani.LiftingGreenCharacters
+import Lib.PadicComparison.Descent.TestCategory
 
 /-!
 # Tame exponents of inertia and local-global compatibility for labelled forms

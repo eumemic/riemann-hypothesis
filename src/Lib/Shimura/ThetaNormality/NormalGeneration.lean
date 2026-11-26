@@ -1,6 +1,7 @@
 module
 
 public import Lib.Shimura.GoodReduction.TorsionSizes
+import Lib.Shimura.ComplexTheta.DimensionFormula
 
 /-!
 # Orthogonality of theta translates and balls of integral theta functions

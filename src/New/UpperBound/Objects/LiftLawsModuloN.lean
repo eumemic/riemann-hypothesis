@@ -1,5 +1,6 @@
 module
 
+public import Lib.Adelic.Unitary.CongruenceLevels -- shake: keep
 public import Lib.ClassField.HeckeCharacter.SplitTameCharacters
 public import Lib.General.LinearAlgebra.TensorChains
 

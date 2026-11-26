@@ -1,7 +1,7 @@
 module
 
-public import Lib.General.Analysis.FiniteFourier
 public import Lib.General.LinearAlgebra.IntegralLattices
+import Lib.General.Analysis.FiniteFourier
 
 /-!
 # Functions of positive type and singular minors

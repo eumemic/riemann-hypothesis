@@ -1,7 +1,9 @@
 module
 
+public import Lib.General.NumberTheory.GaussValuation
 public import New.Congruences.Selmer.OneSystem
 public import New.Congruences.Selmer.StickelbergerSystems
+import Lib.General.NumberTheory.PadicLimitsValuation
 
 /-!
 # Stickelberger systems on a line

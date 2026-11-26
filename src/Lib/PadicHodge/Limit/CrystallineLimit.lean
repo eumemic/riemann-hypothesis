@@ -1,9 +1,16 @@
 module
 
-public import Lib.GaloisRep.Pseudocharacter.SemisimpleRepresentations
-public import Lib.General.NumberTheory.PadicLimitsValuation
-public import Lib.PadicHodge.Kisin.PeriodMatrixFrame
-public import Lib.PadicHodge.RadiusLemma
+public import Lib.General.LinearAlgebra.MatrixPolynomials
+public import Lib.PadicHodge.Crystalline.Basic
+public import Lib.PadicHodge.Kisin.Charts
+import Lib.GaloisRep.Pseudocharacter.SemisimpleRepresentations
+import Lib.General.NumberTheory.PadicLimitsValuation
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.PadicHodge.Crystalline.FixedRatios
+import Lib.PadicHodge.Crystalline.Regularity
+import Lib.PadicHodge.Kisin.KummerChartExistence
+import Lib.PadicHodge.Kisin.PeriodMatrixFrame
+import Lib.PadicHodge.RadiusLemma
 
 /-!
 # Uniform period bounds and limits of crystalline lattices with bounded jumps

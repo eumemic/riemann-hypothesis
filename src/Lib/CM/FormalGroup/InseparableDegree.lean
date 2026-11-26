@@ -1,8 +1,13 @@
 module
 
+public import Lib.CM.FormalGroup.IntegralParameter
 public import Lib.CM.FormalGroup.PrimeNotation
-public import Lib.CM.Integrality.IsogenyIntegrality
-public import TauCeti.RingTheory.PowerSeries.Substitution
+public import Lib.CM.Integrality.TorsionValues
+import Lib.CM.Integrality.IntegralSections
+import Lib.CM.Integrality.IsogenyIntegrality
+import Lib.Cohomology.Etale.Basic
+import Lib.General.NumberTheory.SUnitsAndClassNumber
+import TauCeti.RingTheory.PowerSeries.Substitution
 
 /-!
 # The inseparable degree

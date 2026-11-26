@@ -1,6 +1,7 @@
 module
 
-public import Lib.General.Geometry.PointsOfProperSchemes
+public import Lib.Shimura.AbelianScheme.Basic
+import Lib.General.Geometry.PointsOfProperSchemes
 
 /-!
 # Étale coordinates at zero, infinitesimal points and unramified torsion

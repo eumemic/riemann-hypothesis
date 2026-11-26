@@ -1,8 +1,11 @@
 module
 
 public import Lib.ClassField.Avatar.HeckeBaseChange
-public import Lib.ClassField.HeckeCharacter.TameModulus
+public import Lib.SiegelWeil.Tower.PrincipalIdeles
 public import Lib.SiegelWeil.Tower.RealConeIntegral
+import Lib.ClassField.HeckeCharacter.TameModulus
+import Lib.ClassField.HeckeL.ContinuationAtOne
+import Lib.Weil.DualPair.ThetaIntegrals
 
 /-!
 # Products of `L`-values and Tate's integral at the finite places

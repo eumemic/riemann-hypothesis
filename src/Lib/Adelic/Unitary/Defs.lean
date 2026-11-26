@@ -1,8 +1,12 @@
 module
 
-public import Lib.Adelic.Adeles.AdditiveCharacter
+public import Lib.Adelic.Adeles.Basic
 public import Lib.Adelic.Hecke.Basic
+public import Lib.General.Groups.CongruenceSubgroups
 public import Lib.General.Topology
+public import TauCeti.RingTheory.DedekindDomain.FiniteAdeleRing.BorelSpace
+import Lib.Adelic.Adeles.AdditiveCharacter
+import TauCeti.Analysis.Matrix.IndefiniteUnitaryGroup
 
 /-!
 # Adelic unitary groups over a CM field: levels, hermitian spaces, lattices and mass

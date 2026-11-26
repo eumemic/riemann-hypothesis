@@ -2,8 +2,8 @@ module
 
 public import Lib.DiscreteSeries.Rigidity.RepresentationsAndCasimirs
 public import Lib.GLn.SchurModule.Basic
-public import Lib.General.Algebra.MultivariatePolynomials
 public import Lib.Weil.Fock.Basic
+import Lib.Cohomology.Etale.Basic
 import TauCeti.Algebra.Lie.GeneralLinear.Oscillator.Basic
 
 /-!

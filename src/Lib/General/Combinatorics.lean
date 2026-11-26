@@ -1,6 +1,6 @@
 module
 
-public import Lib.Base
+public import Lib.Speed
 import TauCeti.LinearAlgebra.Submodule.CardFinrank
 
 /-!

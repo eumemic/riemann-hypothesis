@@ -1,6 +1,8 @@
 module
 
 public import Lib.Adelic.Adeles.IdeleModulus
+import Lib.Adelic.Adeles.StrongApproximation
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # Idelic theta sums over principal ideles as Riemann sums

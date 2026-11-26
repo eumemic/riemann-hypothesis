@@ -1,7 +1,10 @@
 module
 
-public import New.Spanning.RemainingTerms.FramesOverLattice
-public import New.Spanning.Unfolding.Climbing
+public import Lib.General.LinearAlgebra.PartnerAlgebra
+public import New.Spanning.RemainingTerms.Data
+import New.Spanning.RemainingTerms.FramesOverLattice
+import New.Spanning.Unfolding.Climbing
+import New.Spanning.Unfolding.ReducedPoints
 
 /-!
 # Sums over lattices of given corank and small discriminant

@@ -1,6 +1,7 @@
 module
 
 public import Lib.Adelic.Adeles.Basic
+import TauCeti.RingTheory.DedekindDomain.AdicValuation.ResidueField
 
 /-!
 # Frobenius orbits of roots over finite fields and residue fields at self-conjugate places

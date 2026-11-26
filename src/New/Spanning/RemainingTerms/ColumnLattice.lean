@@ -1,6 +1,10 @@
 module
 
-public import New.Spanning.RemainingTerms.FrameCount
+public import New.Spanning.Unfolding.Terms
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.General.NumberTheory.LatticeCovolumes
+import New.Spanning.RemainingTerms.FrameCount
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # The covolume of the lattice of columns

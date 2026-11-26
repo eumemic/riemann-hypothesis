@@ -1,8 +1,10 @@
 module
 
-public import Lib.Adelic.Witt.SmoothWitt
-public import Lib.SiegelWeil.Tower.LargeSideConstantTerm
+public import Lib.SiegelWeil.Tower.LineGaussSums
+public import Lib.Weil.DualPair.ThetaIntegrals
 public import Lib.Weil.MixedModel.TargetZeroTerm
+import Lib.Adelic.Witt.SmoothWitt
+import Lib.SiegelWeil.Tower.LargeSideConstantTerm
 
 /-!
 # The image of the cone integral

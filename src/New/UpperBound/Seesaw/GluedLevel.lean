@@ -1,7 +1,7 @@
 module
 
-public import New.Spanning.Unfolding.Climbing
 public import New.UpperBound.Seesaw.AdmissibleCombinations
+import New.Spanning.Unfolding.Climbing
 
 /-!
 # Congruence levels inside the stabilizer of a glued lattice

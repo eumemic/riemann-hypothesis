@@ -1,8 +1,8 @@
 module
 
-public import Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction
 public import Lib.DiscreteSeries.Theta.FockDualPair
 public import TauCeti.Algebra.Lie.GeneralLinear.Oscillator.Casimir
+import Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction
 
 /-!
 # The Casimir elements of an oscillator pair

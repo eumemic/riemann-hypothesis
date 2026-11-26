@@ -1,6 +1,8 @@
 module
 
-public import Lib.DiscreteSeries.Haar.CayleyChart
+public import Lib.General.LinearAlgebra.HermitianMatrices
+import Lib.DiscreteSeries.Haar.CayleyChart
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # Coordinates for the Gram map

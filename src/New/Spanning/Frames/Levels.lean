@@ -2,6 +2,7 @@ module
 
 public import Lib.DiscreteSeries.Bruhat.FloorMeasures
 public import New.Spanning.Frames.Lengths
+import Lib.Base
 
 /-!
 # Place data, floor measures and depth

@@ -1,6 +1,9 @@
 module
 
 public import Lib.Weil.Periods.DescentVanishing
+import Lib.Cohomology.Etale.Basic
+import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
+import Lib.General.Analysis.MeanValueAndTaylor
 
 /-!
 # Theta coefficients vanish off negative forms

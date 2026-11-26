@@ -2,6 +2,8 @@ module
 
 public import New.UpperBound.Divisibility.MarkedPrimes
 public import New.UpperBound.ElementaryDivisors.ElementaryDivisorTheorem
+import Lib.GLn.SchurModule.SchurNorm
+import New.UpperBound.ElementaryDivisors.DefectCount
 
 /-!
 # Elementary divisor bound for the scaled Hecke operator via edges

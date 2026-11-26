@@ -1,7 +1,10 @@
 module
 
+public import Lib.General.NumberTheory.CoefficientRings
 public import Lib.PadicHodge.Crystalline.HodgeTateJumps
-public import Lib.PadicHodge.Crystalline.Regularity
+public import Lib.PadicHodge.Kisin.Bicommutant
+import Lib.PadicHodge.Crystalline.FixedRatios
+import Lib.PadicHodge.Crystalline.Regularity
 
 /-!
 # Period matrices over a chart: lattice bases and existence for crystalline lattices

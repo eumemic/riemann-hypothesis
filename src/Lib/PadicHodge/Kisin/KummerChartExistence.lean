@@ -1,7 +1,11 @@
 module
 
-public import Lib.PadicHodge.Crystalline.HodgeTateForms
+public import Lib.PadicHodge.Crystalline.HodgeTateForms -- shake: keep
 public import Lib.PadicHodge.Kisin.Charts
+import Lib.Adelic.Hecke.ClassSums
+import Lib.ClassField.Places.LocalFields
+import Lib.ClassField.Places.TameInertia
+import Lib.General.NumberTheory.CoefficientRings
 
 /-!
 # Witt coefficients, the Frobenius group action and existence of Kummer charts

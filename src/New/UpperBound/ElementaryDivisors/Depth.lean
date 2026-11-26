@@ -1,7 +1,7 @@
 module
 
-public import Lib.General.Algebra.MultivariatePolynomials
 public import New.UpperBound.ElementaryDivisors.TwistingData
+import Lib.General.Algebra.MultivariatePolynomials
 import TauCeti.Algebra.BigOperators.Finset.LayerCake
 import TauCeti.RingTheory.MvPolynomial.Symmetric.Alternant
 

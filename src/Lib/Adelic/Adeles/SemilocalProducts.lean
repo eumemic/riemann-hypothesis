@@ -1,6 +1,9 @@
 module
 
+public import Lib.Adelic.Adeles.LocalFactors
 public import Lib.SiegelWeil.Mass
+import Lib.Adelic.Reduction.FirstMinimumShortBases
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # Products of completions at finite sets of places and approximation of adeles by elements of E

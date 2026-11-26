@@ -1,7 +1,8 @@
 module
 
-public import Lib.ClassField.Places.DecompositionCompletion
-public import Lib.PadicHodge.PeriodRings.DeRhamPeriods
+public import Lib.ClassField.Places.DecompositionCompletion -- shake: keep
+public import Lib.PadicHodge.PeriodRings.CrystallineRings
+import Lib.PadicHodge.PeriodRings.DeRhamPeriods
 
 /-!
 # Crystalline and potentially crystalline representations and admissibility

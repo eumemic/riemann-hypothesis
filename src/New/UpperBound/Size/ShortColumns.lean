@@ -1,9 +1,12 @@
 module
 
 public import Lib.CM.FormalGroup.PrimeNotation
-public import Lib.GLn.Dual
-public import New.UpperBound.Kernels.JetConjugatesAndBounds
 public import New.UpperBound.Objects.Columns
+import Lib.GLn.Dual
+import Lib.GLn.SchurModule.SchurNorm
+import Lib.PadicComparison.Descent.TestCategory
+import New.Reduction.Data.Sizes
+import New.UpperBound.Kernels.JetConjugatesAndBounds
 
 /-!
 # Prime-by-prime divisibility measures; short forms span the ramified source forms

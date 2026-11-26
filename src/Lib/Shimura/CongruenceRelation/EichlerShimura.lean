@@ -1,6 +1,9 @@
 module
 
-public import Lib.Cohomology.SmoothBaseChange
+public import Lib.Cohomology.Etale.EllAdicCohomology
+public import Lib.General.Geometry.EtaleCharts
+import Lib.Cohomology.SmoothBaseChange
+import Lib.General.Geometry.PointsOfProperSchemes
 
 /-!
 # The congruence relation and the trivial action of inertia on ℓ-adic cohomology

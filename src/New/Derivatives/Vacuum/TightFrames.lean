@@ -1,10 +1,16 @@
 module
 
 public import Lib.Adelic.AutomorphicForms.PAdicGauge
-public import Lib.CM.ChowlaSelberg
-public import Lib.Shimura.Uniformisation.HolomorphicFamilies
-public import Lib.Weil.Construction.FourierInversion
+public import Lib.CM.ChowlaSelberg -- shake: keep
+public import Lib.Weil.Construction.ThetaDictionary
 public import New.Derivatives.Field.WeilData
+import Lib.CM.Integrality.TorsionValues
+import Lib.ClassField.HeckeCharacter.AlgebraicValues
+import Lib.Cohomology.Etale.Basic
+import Lib.General.Algebra.IntegralPowerSeries
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import Lib.Weil.Construction.FourierInversion
+import TauCeti.NumberTheory.Padics.Complex.Basic
 
 /-!
 # Scale of theta Taylor series, tight frames, jet series along lines

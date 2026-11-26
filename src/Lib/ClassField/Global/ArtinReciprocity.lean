@@ -1,7 +1,12 @@
 module
 
-public import Lib.Adelic.Adeles.LocalFactors
-public import Lib.ClassField.Global.AlbertBrauerHasseNoether
+public import Lib.ClassField.Local.ArtinMap
+import Lib.Adelic.Adeles.LocalFactors
+import Lib.ClassField.Global.AlbertBrauerHasseNoether
+import Lib.ClassField.Global.ArtinMap
+import Lib.ClassField.Local.InvariantMap
+import Lib.ClassField.Places.LocalFields
+import Lib.ClassField.Places.TameInertia
 
 /-!
 # Artin's reciprocity law and the sign law

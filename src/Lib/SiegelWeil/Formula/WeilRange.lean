@@ -1,7 +1,11 @@
 module
 
 public import Lib.SiegelWeil.Formula.LagrangianZeroTerms
-public import Lib.Weil.DualPair.ThetaIntegrals
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.Weil.DualPair.ThetaIntegrals
+import Lib.Weil.DualPair.ThetaLiftConvergence
+import Lib.Weil.DualPair.WeilAction
 
 /-!
 # Siegel sets and the Siegel–Weil formula in Weil's range

@@ -1,7 +1,9 @@
 module
 
-public import Lib.General.Analysis.MeanValueAndTaylor
-public import Lib.General.NumberTheory.SUnitsAndClassNumber
+public import Lib.CM.Sigma.Basic
+public import Lib.Shimura.ComplexTheta.DimensionFormula
+import Lib.General.Groups.CongruenceSubgroups
+import Lib.General.NumberTheory.SUnitsAndClassNumber
 
 /-!
 # Theta functions of a CM elliptic curve: Weierstrass equation and spanning monomials

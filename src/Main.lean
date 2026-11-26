@@ -1,7 +1,9 @@
 -- The proof is Levent Alpöge's, with Claude.
 module
 
-public import New.Main
+public import Statements
+import New.Main
+import New.Reduction.OneSidedBound
 
 @[expose] public section
 

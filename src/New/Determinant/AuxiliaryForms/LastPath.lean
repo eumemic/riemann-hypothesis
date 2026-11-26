@@ -1,8 +1,14 @@
 module
 
+public import Lib.Adelic.AutomorphicForms.AutomorphicAsAlgebraic
 public import Lib.Adelic.AutomorphicForms.BlockPeriods
-public import New.Determinant.AuxiliaryForms.GridFirstColumns
-public import New.Determinant.AuxiliaryForms.RegularParameters
+public import New.Determinant.AuxiliaryForms.PathData
+import Lib.GLn.SchurModule.SchurNorm
+import Lib.Weil.CompactLift.DefiniteThetaLift
+import New.Determinant.AuxiliaryForms.GridFirstColumns
+import New.Determinant.AuxiliaryForms.RegularParameters
+import New.OneLift.ComparisonOperator.GluedLattices
+import New.UpperBound.Kernels.JetConjugatesAndBounds
 
 /-!
 # The branching pairing and the periods on the last path

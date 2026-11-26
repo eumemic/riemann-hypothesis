@@ -1,6 +1,8 @@
 module
 
-public import Lib.PadicComparison.Primitive.PeriodCoefficients
+public import Lib.PadicComparison.HodgeTate.ExtCocycles
+public import Lib.PadicComparison.HodgeTate.GenericFibre
+import Lib.PadicComparison.Primitive.PeriodCoefficients
 
 /-!
 # The Hodge–Tate maps λ_h on pairs (S, M): construction, properties and restriction

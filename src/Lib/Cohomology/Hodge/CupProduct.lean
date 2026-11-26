@@ -1,6 +1,7 @@
 module
 
-public import Lib.Cohomology.Etale.BijectiveComparisons
+public import Lib.Cohomology.Etale.Basic
+import Lib.Cohomology.Etale.BijectiveComparisons -- shake: keep
 
 /-!
 # Pointwise tensor product of functors, total Ext with Yoneda composition, external products

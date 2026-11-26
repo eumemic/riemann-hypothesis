@@ -2,6 +2,8 @@ module
 
 public import Lib.ClassField.GreenbergWiles.Relations
 public import New.Congruences.Selmer.SelmerData
+import Lib.Cyclotomic.Voronoi
+import Lib.General.NumberTheory.CoefficientRings
 
 /-!
 # The dual of a tied Selmer group and the count

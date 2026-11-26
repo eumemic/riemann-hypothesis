@@ -2,6 +2,7 @@ module
 
 public import New.Spanning.Frames.Densities
 public import New.Spanning.Frames.StandardLevel
+import Lib.General.LinearAlgebra.HermiteForm
 
 /-!
 # The Bessel vector at the finite places

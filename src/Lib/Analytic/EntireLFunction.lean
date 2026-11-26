@@ -1,7 +1,7 @@
 module
 
 public import Lib.General.NumberTheory.ImaginaryQuadraticField
-public import TauCeti.Analysis.Contour.Argument.Principle
+import TauCeti.Analysis.Contour.Argument.Principle
 
 /-!
 # Quadratic twists, polar functions and logarithmic derivatives of Dirichlet L-functions

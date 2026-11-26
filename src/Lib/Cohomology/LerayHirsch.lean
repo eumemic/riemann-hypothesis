@@ -1,5 +1,6 @@
 module
 
+public import Lib.Cohomology.Etale.BijectiveComparisons
 public import Lib.Cohomology.Hodge.CupProduct
 
 /-!

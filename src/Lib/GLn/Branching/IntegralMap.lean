@@ -1,6 +1,9 @@
 module
 
 public import Lib.GLn.Branching.NormBound
+public import Lib.GLn.SchurModule.SchurMatrix
+import Lib.General.Analysis.HolomorphicIntegrals
+import Lib.Shimura.ComplexTheta.AppellHumbertData
 
 /-!
 # Branching from GL(n+1) to GL(n) × GL(1): integral equivariant branching maps

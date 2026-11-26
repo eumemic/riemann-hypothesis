@@ -1,7 +1,10 @@
 module
 
-public import Lib.General.LinearAlgebra.PolarDecomposition
-public import Lib.General.NumberTheory.FrobeniusOrbits
+public import Lib.Adelic.Adeles.IdeleModulus
+public import Lib.Adelic.Unitary.Defs
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.General.LinearAlgebra.PolarDecomposition
+import Lib.General.NumberTheory.FrobeniusOrbits
 
 /-!
 # Adelic Minkowski theorems and counts of rational points in boxes

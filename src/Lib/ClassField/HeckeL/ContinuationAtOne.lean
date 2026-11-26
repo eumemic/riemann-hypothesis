@@ -2,7 +2,8 @@ module
 
 public import Lib.ClassField.HeckeL.EulerProduct
 public import Lib.ClassField.HeckeL.IdelicThetaSum
-public import Lib.General.Analysis.HolomorphicIntegrals
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.General.Analysis.HolomorphicIntegrals
 
 /-!
 # Analyticity at 1 of L-functions of nontrivial Hecke characters

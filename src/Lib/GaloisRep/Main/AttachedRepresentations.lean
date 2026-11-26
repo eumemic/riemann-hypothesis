@@ -1,10 +1,14 @@
 module
 
-public import Lib.GLn.SchurModule.SchurNorm
+public import Lib.Adelic.AutomorphicForms.SmoothAlgebraicForms
+public import Lib.General.LinearAlgebra.MatrixPolynomials
 public import Lib.PadicHodge.Characters
 public import Lib.Weil.DualPair.FiniteAction
-public import TauCeti.Analysis.Normed.Ring.CompactMonoid
-public import TauCeti.Topology.Instances.Matrix
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.GLn.SchurModule.SchurNorm
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import Lib.Weil.Unramified.HeckeGL
+import TauCeti.Analysis.Matrix.IndefiniteUnitaryGroup
 
 /-!
 # Attached Galois representations: traces, characteristic polynomials and rank one

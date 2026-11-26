@@ -1,10 +1,13 @@
 module
 
-public import Lib.General.Geometry.SmoothnessCriterion
-public import Lib.Shimura.Deformation.TangentBound
-public import Lib.Shimura.GoodReduction.MultiplicativeNorm
-public import Lib.Shimura.IntegralModel.BallImmersion
+public import Lib.Shimura.IntegralModel.UniversalFamily
 public import Lib.Shimura.ThetaModuli.FamilyFromPoints
+import Lib.General.Geometry.SerreTheorem
+import Lib.General.Geometry.SmoothnessCriterion
+import Lib.Shimura.Deformation.TangentBound
+import Lib.Shimura.GoodReduction.MultiplicativeNorm
+import Lib.Shimura.IntegralModel.BallImmersion
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # Existence of the universal theta family over a smooth projective base

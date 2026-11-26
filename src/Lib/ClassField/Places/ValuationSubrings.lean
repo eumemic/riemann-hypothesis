@@ -1,9 +1,10 @@
 module
 
 public import Lib.Adelic.Adeles.Basic
-public import Lib.ClassField.Places.ProfiniteGalois
+public import Lib.ClassField.GaloisCohomology.ContinuousCocycles
 public import Lib.General.Algebra.AdicCompletion
 public import Lib.General.Topology
+import Lib.ClassField.Places.ProfiniteGalois
 
 /-!
 # Valuation subrings over primes, primes from p-adic embeddings, and the efg formula

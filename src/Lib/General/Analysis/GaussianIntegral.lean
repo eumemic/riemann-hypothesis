@@ -1,6 +1,7 @@
 module
 
-public import Lib.Base
+public import Lib.Speed
+import Lib.Base
 import TauCeti.Analysis.Matrix.L2OpNorm
 
 /-!

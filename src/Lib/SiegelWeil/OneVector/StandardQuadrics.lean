@@ -1,7 +1,8 @@
 module
 
 public import Lib.DiscreteSeries.Bruhat.QuadricBlocks
-public import Lib.SiegelWeil.OneVector.SemilocalDensityBounds
+public import Lib.SiegelWeil.OneVector.FinitePlaceDensity
+import Lib.SiegelWeil.OneVector.SemilocalDensityBounds
 
 /-!
 # The quadrics of the standard form at a finite place

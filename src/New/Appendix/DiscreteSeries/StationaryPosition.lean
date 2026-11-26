@@ -1,8 +1,8 @@
 module
 
-public import Lib.General.Algebra.ResidueSums
-public import Lib.Shimura.Uniformisation.HolomorphicFamilies
 public import New.Appendix.DiscreteSeries.Positions
+import Lib.General.Algebra.ResidueSums
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
 
 /-!
 # The stationary position

@@ -1,6 +1,16 @@
 module
 
-public import Lib.ClassField.Global.CMSplittingCharacters
+public import Lib.Adelic.Unitary.ComponentsAndBlockSums
+public import Lib.ClassField.Places.Ideles
+public import Lib.GaloisRep.BaseChange.Defs
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Adelic.Unitary.GramMatrix
+import Lib.ClassField.Global.CMSplittingCharacters
+import Lib.ClassField.Global.NormTheorems
+import Lib.GaloisRep.Hilbert90.TameActions
+import Lib.GaloisRep.Hilbert90.UnitaryGroups
+import Lib.General.LinearAlgebra.MatrixPolynomials
+import Lib.Shimura.ComplexTheta.AppellHumbertData
 
 /-!
 # Sums of two squares, Landherr's theorem and the Hasse principle for unitary cocycles

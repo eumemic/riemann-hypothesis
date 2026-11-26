@@ -1,8 +1,12 @@
 module
 
+public import Lib.Adelic.Adeles.SemilocalProducts
 public import New.Spanning.MainTerm.Frequencies
-public import New.Spanning.RemainingTerms.Box
 public import New.Spanning.Unfolding.BesselLevelStructure
+import Lib.Cohomology.Etale.Basic
+import Lib.Shimura.ComplexTheta.AppellHumbertData
+import New.Spanning.RemainingTerms.Box
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # One-sided Poisson summation, sums over frequencies, and the sieve over all places

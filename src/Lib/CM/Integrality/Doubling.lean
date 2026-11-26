@@ -1,7 +1,9 @@
 module
 
-public import Lib.CM.Sigma.ThetaSections
-public import Lib.General.Algebra.IntegralPowerSeries
+public import Lib.CM.Sigma.Basic
+public import Lib.General.Algebra.AdicCompletion
+import Lib.CM.Sigma.ThetaSections
+import Lib.General.Algebra.IntegralPowerSeries
 
 /-!
 # Doubling formulas for θ and σ and the quartic forms of doubling

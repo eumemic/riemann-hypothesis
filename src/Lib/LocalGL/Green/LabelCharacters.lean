@@ -2,6 +2,9 @@ module
 
 public import Lib.General.Geometry.GaloisCovers
 public import Lib.LocalGL.Shintani.CosetDescent
+import Lib.General.NumberTheory.FrobeniusOrbits
+import Lib.LocalGL.Green.CuspidalFunctions
+import TauCeti.RepresentationTheory.Character.Basic
 
 /-!
 # Label characters Ξ_c: orthonormality, central idempotents and twisting by χ∘det

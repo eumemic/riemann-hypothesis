@@ -1,8 +1,10 @@
 module
 
-public import Lib.Adelic.Hecke.ClassSums
 public import Lib.ClassField.GaloisCohomology.ShapiroCorestriction
-public import Lib.ClassField.Places.LocalFields
+public import Lib.ClassField.Places.DecompositionCyclotomic
+public import Lib.General.Groups.ProfiniteCharacters
+import Lib.Adelic.Hecke.ClassSums
+import Lib.ClassField.Places.LocalFields
 
 /-!
 # Cup products, Hilbert 90, Kummer cocycles and cyclic symbols in Galois cohomology

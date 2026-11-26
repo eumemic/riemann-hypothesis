@@ -1,5 +1,6 @@
 module
 
+public import New.Derivatives.Divisibility.NormalForm
 public import New.Derivatives.Sharpness.LeastValuation
 
 /-!

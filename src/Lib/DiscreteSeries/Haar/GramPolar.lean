@@ -1,6 +1,8 @@
 module
 
+public import Lib.DiscreteSeries.Haar.CayleyChart
 public import Lib.DiscreteSeries.Haar.GramCoordinates
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # The polar formula for the Gram map on bases

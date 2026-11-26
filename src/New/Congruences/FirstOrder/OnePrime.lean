@@ -1,5 +1,6 @@
 module
 
+public import Lib.LocalGL.Iwahori.ParahoricStructure
 public import Lib.Weil.Unramified.HeckeGL
 
 /-!

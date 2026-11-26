@@ -1,6 +1,8 @@
 module
 
-public import Lib.General.LinearAlgebra.PartnerAlgebra
+public import Lib.Adelic.Unitary.Defs
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.General.LinearAlgebra.PartnerAlgebra
 
 /-!
 # The Gram matrix of a space is invertible and hermitian; group elements from isometries

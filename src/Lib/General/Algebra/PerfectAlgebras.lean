@@ -1,6 +1,6 @@
 module
 
-public import Lib.PadicComparison.Descent.TestCovers
+public import Lib.PadicComparison.Descent.TestCovers -- shake: keep
 import TauCeti.RingTheory.Smooth.Lifting
 
 /-!

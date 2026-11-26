@@ -1,7 +1,8 @@
 module
 
-public import Lib.Adelic.Witt.WittTheorem
+public import Lib.General.LinearAlgebra.IntegralLattices
 public import New.Appendix.DiscreteSeries.SteepParameters
+import Lib.Adelic.Witt.WittTheorem
 
 /-!
 # Positions of a smaller unitary group, and the two traces

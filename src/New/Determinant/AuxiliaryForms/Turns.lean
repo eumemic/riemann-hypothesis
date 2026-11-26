@@ -2,7 +2,7 @@ module
 
 public import New.Determinant.AuxiliaryForms.PathData
 public import New.Determinant.Chain.Moduli
-public import New.Determinant.Exchange.OneSquare
+import New.Determinant.Exchange.OneSquare
 
 /-!
 # Turning path data, and turns off the diagonal

@@ -1,6 +1,8 @@
 module
 
-public import New.Reduction.Data.LevelAndTwists
+public import New.Reduction.Data.AdmissibleData
+import Lib.General.NumberTheory.SUnitsAndClassNumber
+import New.Reduction.Data.LevelAndTwists
 
 /-!
 # Sizes of the data

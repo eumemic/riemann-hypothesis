@@ -1,8 +1,10 @@
 module
 
+public import Lib.ClassField.Places.ValuationSubrings
 public import Lib.General.LinearAlgebra.GramDeterminant
 public import New.Reduction.Lattices.Colength
 public import New.Reduction.Lattices.Heights
+import Lib.General.LinearAlgebra.MinorProducts
 
 /-!
 # Twisted lattices

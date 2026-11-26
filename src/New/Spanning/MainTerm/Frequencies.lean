@@ -1,7 +1,9 @@
 module
 
-public import Lib.ClassField.HeckeL.EulerProduct
-public import Lib.General.Analysis.PackingAndSobolev
+public import Lib.General.NumberTheory.EmbeddingsAndDifferent
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.ClassField.HeckeL.EulerProduct
+import Lib.General.Analysis.PackingAndSobolev
 
 /-!
 # Sums over frequencies

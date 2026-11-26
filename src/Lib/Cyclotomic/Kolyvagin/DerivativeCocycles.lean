@@ -1,7 +1,12 @@
 module
 
-public import Lib.ClassField.GreenbergWiles.SelmerLevels
 public import Lib.Cyclotomic.Stickelberger
+public import Lib.General.NumberTheory.ImaginaryQuadraticField
+import Lib.Adelic.Adeles.LocalFactors
+import Lib.ClassField.GreenbergWiles.SelmerLevels
+import Lib.ClassField.Places.TameInertia
+import Lib.Cyclotomic.Voronoi
+import Lib.General.NumberTheory.FrobeniusOrbits
 
 /-!
 # Kolyvagin's derivative cocycles from Gauss sums, for one set of primes

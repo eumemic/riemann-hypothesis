@@ -1,7 +1,15 @@
 module
 
-public import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
-public import Lib.GLn.SchurModule.GramMatrix
+public import Lib.DiscreteSeries.FlenstedJensen.Defs
+public import Lib.GLn.SchurModule.SchurMatrix
+import Lib.Adelic.Witt.WittTheorem
+import Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.GLn.SchurModule.GramMatrix
+import Lib.GLn.SchurModule.WeylKernel
+import Lib.General.LinearAlgebra.MinorProducts
+import Lib.Shimura.ComplexTheta.AppellHumbertData
 
 /-!
 # Algebraic representations of GL(n) on unitary groups: Schur orthogonality

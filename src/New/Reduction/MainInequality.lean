@@ -1,7 +1,8 @@
 module
 
-public import New.Determinant.Twist.LongForms
-public import New.Reduction.ShortAndEnough
+public import New.Reduction.PrimeSums
+import New.Determinant.Twist.LongForms
+import New.Reduction.ShortAndEnough
 
 /-!
 # The main inequality

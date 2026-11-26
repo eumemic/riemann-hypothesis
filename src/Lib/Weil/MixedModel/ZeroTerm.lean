@@ -1,7 +1,11 @@
 module
 
+public import Lib.Weil.MixedModel.IsotropicSplitting
 public import Lib.Weil.MixedModel.NamedData
-public import Lib.Weil.MixedModel.RealTheta
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Base
+import Lib.Cohomology.Etale.Basic
+import Lib.Weil.MixedModel.RealTheta
 
 /-!
 # Zero term and mixed model of the Weil representation: slices and θ as a sum of slices

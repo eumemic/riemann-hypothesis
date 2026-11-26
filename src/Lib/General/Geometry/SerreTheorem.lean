@@ -1,8 +1,9 @@
 module
 
-public import Lib.General.Algebra.MultivariatePolynomials
+public import Lib.General.Algebra.AbsIntegrallyClosed
 public import Lib.Shimura.ThetaGroup
 public import Lib.Shimura.ThetaNormality.NormalGeneration
+import Lib.General.Algebra.MultivariatePolynomials
 
 /-!
 # Absolute Frobenius, Serre's theorem on sections of powers, and projective embeddings

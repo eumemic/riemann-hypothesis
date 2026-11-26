@@ -1,12 +1,14 @@
 module
 
-public import Lib.General.Analysis.GaussianIntegral
-public import Lib.General.Groups.CongruenceSubgroups
-public import Lib.General.Measure.HaarNormalisation
-public import Lib.General.Topology
+public import Lib.Speed
 public import TauCeti.Analysis.MvPolynomial.Jacobian
+import Lib.General.Analysis.GaussianIntegral
+import Lib.General.Groups.CongruenceSubgroups
+import Lib.General.Measure.HaarNormalisation
+import Lib.General.Topology
 import TauCeti.Analysis.Complex.CauchyIntegralPolydisc
 import TauCeti.MeasureTheory.Function.StronglyMeasurable.FiniteDimensional
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # Strong operator integrals, analyticity of parameter integrals, and Hua's integral bound

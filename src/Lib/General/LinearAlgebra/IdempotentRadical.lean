@@ -1,6 +1,7 @@
 module
 
-public import Lib.General.LinearAlgebra.MatrixPolynomials
+public import Lib.Speed
+import Lib.General.LinearAlgebra.MatrixPolynomials
 
 /-!
 # The unipotent radical attached to an idempotent matrix

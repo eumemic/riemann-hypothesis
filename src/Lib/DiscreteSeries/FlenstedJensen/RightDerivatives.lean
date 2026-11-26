@@ -1,8 +1,9 @@
 module
 
-public import Lib.DiscreteSeries.Haar.TotalMass
 public import Lib.DiscreteSeries.Rigidity.RepresentationsAndCasimirs
-public import Lib.General.Analysis.HolomorphicIntegrals
+import Lib.Adelic.Adeles.AdditiveCharacter
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.General.Analysis.HolomorphicIntegrals
 
 /-!
 # Right derivatives and bump convolution for smooth functions on U(p,q)

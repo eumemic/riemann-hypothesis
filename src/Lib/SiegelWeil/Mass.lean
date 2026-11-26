@@ -1,8 +1,11 @@
 module
 
-public import Lib.Adelic.Reduction.DefiniteClassSums
-public import Lib.ClassField.HeckeL.EulerProduct
+public import Lib.Adelic.Adeles.StrongApproximation
 public import Lib.Weil.Construction.FiniteMultiplier
+import Lib.Adelic.Reduction.DefiniteClassSums
+import Lib.Adelic.Unitary.CongruenceLevels
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.ClassField.HeckeL.EulerProduct
 
 /-!
 # Masses of definite hermitian lattices and ideal zeta bounds for adelic Gauss sums

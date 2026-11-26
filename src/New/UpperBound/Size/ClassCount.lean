@@ -1,7 +1,8 @@
 module
 
-public import New.Spanning.RemainingTerms.Box
-public import New.UpperBound.Size.ShortColumns
+public import Lib.Adelic.AutomorphicForms.PAdicGauge
+import Lib.Adelic.Adeles.SemilocalProducts
+import New.Spanning.RemainingTerms.Box
 
 /-!
 # Explicit bound for the number of classes in the genus

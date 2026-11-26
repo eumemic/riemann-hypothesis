@@ -1,7 +1,8 @@
 module
 
-public import Lib.DiscreteSeries.Bruhat.FloorGroups
 public import Lib.General.Measure.QuadricDisintegration
+import Lib.Adelic.QuotientMeasure.Basic
+import Lib.DiscreteSeries.Bruhat.FloorGroups -- shake: keep
 
 /-!
 # Solving the equation of a quadric in a block of coordinates

@@ -1,7 +1,8 @@
 module
 
-public import Lib.ClassField.HeckeCharacter.TameModulus
 public import Lib.SiegelWeil.Tower.RealConeIntegral
+import Lib.ClassField.HeckeCharacter.TameModulus
+import Lib.SiegelWeil.Tower.PrincipalIdeles
 
 /-!
 # Zero terms of the mixed models of the Weil representation at the real places

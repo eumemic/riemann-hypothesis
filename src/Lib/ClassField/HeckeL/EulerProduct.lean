@@ -1,8 +1,9 @@
 module
 
 public import Lib.ClassField.Places.Ideles
-public import TauCeti.NumberTheory.RamificationInertia.Tower
+import Lib.Adelic.Adeles.StrongApproximation
 import TauCeti.NumberTheory.ArithmeticDirichletSeries.Convergence
+import TauCeti.NumberTheory.RamificationInertia.Tower
 
 /-!
 # Euler products over primes of a number field and densities at primes of degree one

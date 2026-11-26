@@ -1,6 +1,8 @@
 module
 
+public import Lib.Adelic.AutomorphicForms.Basic
 public import Lib.SiegelWeil.UnramifiedSeries.VacuumCoefficients
+import Lib.Adelic.Adeles.StrongApproximation
 
 /-!
 # The series of translates weighted by the coefficients of the vacuum

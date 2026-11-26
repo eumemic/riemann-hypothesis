@@ -1,6 +1,7 @@
 module
 
 public import Lib.Analytic.PrimeNumberTheorem.LFunctionGrowth
+import Lib.Analytic.EntireLFunction
 
 /-!
 # A zero-free region for Dirichlet L-functions

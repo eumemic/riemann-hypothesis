@@ -1,9 +1,14 @@
 module
 
-public import Lib.General.LinearAlgebra.BlockEmbeddings
-public import Lib.Weil.DualPair.MixedModel
+public import Lib.Weil.MixedModel.ZeroTerm
 public import Lib.Weil.Periods.BesselIntegral
 public import Lib.Weil.Periods.Equivariant
+import Lib.Adelic.Witt.IwasawaDecomposition
+import Lib.General.LinearAlgebra.BlockEmbeddings
+import Lib.General.Measure.IntegralOperators
+import Lib.Weil.DualPair.MixedModel
+import Lib.Weil.MixedModel.ThetaInvariance
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # Constant terms of Weil functions along maps of positive degree

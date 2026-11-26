@@ -3,6 +3,9 @@ module
 public import Lib.SiegelWeil.Tower.ConstantTerm
 public import Lib.SiegelWeil.Tower.FiniteTateIntegral
 public import Lib.SiegelWeil.Tower.LineGaussSums
+import Lib.ClassField.HeckeCharacter.TameModulus
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
 
 /-!
 # Removing a plane: the constant term on the side of the large space

@@ -2,6 +2,7 @@ module
 
 public import New.Congruences.LocalLoss.CrystallineCocycles
 public import New.Reduction.Data.Magnitudes
+import Lib.ClassField.Places.TameInertia
 
 /-!
 # The defect of the dual of a summand at a place above ℓ

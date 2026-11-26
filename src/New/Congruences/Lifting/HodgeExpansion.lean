@@ -1,7 +1,9 @@
 module
 
-public import Lib.General.LinearAlgebra.MatrixNormBounds
 public import New.Congruences.Lifting.ExponentLattices
+import Lib.General.LinearAlgebra.MatrixNormBounds
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.PadicHodge.Kisin.FrameTheorem
 
 /-!
 # Exponents of lattice elements in a Hodge basis and the length of one step on a line

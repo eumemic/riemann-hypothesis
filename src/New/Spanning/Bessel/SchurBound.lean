@@ -1,6 +1,12 @@
 module
 
+public import Lib.DiscreteSeries.FlenstedJensen.SquareIntegrability
 public import New.Spanning.Bessel.LargeFunction
+import Lib.DiscreteSeries.Bessel.SchurBound
+import Lib.DiscreteSeries.Bessel.UnipotentHaarMeasure
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Rigidity.HighestVectorsAndFiltration
+import Lib.Shimura.ComplexTheta.AppellHumbertData
 
 /-!
 # Schur's bound for a Bessel function and its derivatives

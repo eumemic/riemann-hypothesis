@@ -1,7 +1,11 @@
 module
 
-public import Lib.General.Analysis.MeanValueAndTaylor
-public import Lib.General.LinearAlgebra.PolarDecomposition
+public import Lib.DiscreteSeries.Rigidity.RepresentationsAndCasimirs
+import Lib.DiscreteSeries.FlenstedJensen.RightDerivatives
+import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
+import Lib.General.Analysis.HolomorphicIntegrals
+import Lib.General.Analysis.MeanValueAndTaylor
+import Lib.General.LinearAlgebra.PolarDecomposition
 
 /-!
 # Exponentials in U(diag ε) and holomorphic extension of coefficients of highest vectors

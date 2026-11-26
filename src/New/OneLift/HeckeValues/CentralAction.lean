@@ -1,8 +1,10 @@
 module
 
-public import New.OneLift.ComparisonOperator.GluedLattices
-public import New.OneLift.HeckeValues.CharacterLiftNorm
+public import New.OneLift.HeckeValues.CharacterLift
+public import New.OneLift.TestedForms
 public import New.UpperBound.Size.ShortColumns
+import Lib.General.Algebra.IntegralPowerSeries
+import New.Determinant.Norms.AdjointThetaLift
 
 /-!
 # Central action on lifts from U(1) and a rank-one denominator bound

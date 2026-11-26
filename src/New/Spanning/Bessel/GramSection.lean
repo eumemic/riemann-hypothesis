@@ -1,7 +1,8 @@
 module
 
-public import Lib.General.Analysis.HolomorphicIntegrals
 public import New.Spanning.Bessel.Basic
+import Lib.General.Analysis.GaussianIntegral
+import Lib.General.Analysis.HolomorphicIntegrals
 
 /-!
 # The Gram section γ_Z of the frame Gram matrix map on the unitary group G₁

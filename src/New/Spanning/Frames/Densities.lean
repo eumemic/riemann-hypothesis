@@ -2,6 +2,8 @@ module
 
 public import New.Spanning.Bessel.Basic
 public import New.Spanning.Frames.Depth
+import New.Spanning.Frames.QuadricPlancherel
+import New.Spanning.Frames.TwoGauges
 
 /-!
 # The densities as integrals over pairs of frames

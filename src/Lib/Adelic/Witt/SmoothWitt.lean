@@ -1,8 +1,9 @@
 module
 
-public import Lib.Adelic.Witt.WittTheorem
-public import Lib.General.Analysis.MeanValueAndTaylor
-public import Lib.General.LinearAlgebra.HermitianMatrices
+public import Lib.General.Groups.CongruenceSubgroups
+import Lib.Adelic.Witt.WittTheorem
+import Lib.General.Analysis.MeanValueAndTaylor
+import Lib.General.LinearAlgebra.HermitianMatrices
 
 /-!
 # Smooth families of isometries that carry an isotropic vector to its neighbours

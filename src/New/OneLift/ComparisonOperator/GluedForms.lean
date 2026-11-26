@@ -1,6 +1,7 @@
 module
 
 public import New.OneLift.ComparisonOperator.GluedLattices
+import Lib.General.LinearAlgebra.MatrixNormBounds
 
 /-!
 # Gluing: the descent of product forms and the denominators

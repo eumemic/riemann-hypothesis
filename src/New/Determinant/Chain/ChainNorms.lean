@@ -3,7 +3,8 @@ module
 public import New.Determinant.Chain.Moduli
 public import New.Determinant.Chain.TriangleLifts
 public import New.Determinant.Chain.TriangleNorms
-public import New.Determinant.Exchange.OneSquare
+import Lib.General.Groups.IndexOfProduct
+import New.Determinant.Exchange.OneSquare
 
 /-!
 # Norms along the chain of theta lifts and injectivity of ι_ϑ

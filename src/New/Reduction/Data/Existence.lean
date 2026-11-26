@@ -1,7 +1,7 @@
 module
 
-public import Lib.Analytic.Primes
 public import New.Reduction.Data.AdmissibleData
+import Lib.Analytic.Primes
 
 /-!
 # Admissible data exist at every large x

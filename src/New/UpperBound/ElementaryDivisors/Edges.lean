@@ -1,8 +1,9 @@
 module
 
-public import Lib.General.LinearAlgebra.HermiteForm
-public import New.UpperBound.ElementaryDivisors.InvariantAverage
-public import New.UpperBound.ElementaryDivisors.RootLemma
+public import New.UpperBound.ElementaryDivisors.TwistingData
+import Lib.General.LinearAlgebra.HermiteForm
+import New.UpperBound.ElementaryDivisors.InvariantAverage
+import New.UpperBound.ElementaryDivisors.RootLemma
 
 /-!
 # Edges, halfway lattices and duality

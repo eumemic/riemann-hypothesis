@@ -1,7 +1,20 @@
 module
 
+public import Lib.Adelic.Reduction.FiniteVolume
+public import Lib.General.Combinatorics
 public import Lib.Weil.DualPair.MixedModel
-public import Lib.Weil.Unramified.HeckeTransfer
+public import Lib.Weil.Unramified.HeckeGL
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.Adelic.Witt.IwasawaDecomposition
+import Lib.Base
+import Lib.ClassField.Avatar.HeckeBaseChange
+import Lib.ClassField.HeckeCharacter.SplitTameCharacters
+import Lib.General.NumberTheory.FrobeniusOrbits
+import Lib.Weil.Construction.CanonicalTheta
+import Lib.Weil.DualPair.FiniteAction
+import Lib.Weil.MixedModel.ThetaInvariance
+import Lib.Weil.Unramified.HeckeTransfer
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # Lagrangians, zero terms of the Weil representation and vanishing of dominated functionals

@@ -1,12 +1,18 @@
 module
 
-public import Lib.DiscreteSeries.Character.FormalDegree
-public import New.Determinant.AuxiliaryForms.DeepLevelPoincarePeriod
-public import New.Spanning.Bessel.CutTailBound
-public import New.Spanning.Bessel.SchurBound
-public import New.Spanning.Frames.RealBandLimits
-public import New.Spanning.Unfolding.Climbing
+public import New.Spanning.Bessel.LargeFunction
+public import New.Spanning.Frames.RealPlaceGauge
+public import New.Spanning.Unfolding.Setup
 public import New.UpperBound.Objects.Rows
+import Lib.DiscreteSeries.Bessel.SchurBound
+import Lib.DiscreteSeries.Character.FormalDegree
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.GLn.SchurModule.SchurNorm
+import New.Determinant.AuxiliaryForms.DeepLevelPoincarePeriod
+import New.Spanning.Bessel.CutTailBound
+import New.Spanning.Bessel.SchurBound
+import New.Spanning.Frames.RealBandLimits
+import New.Spanning.Unfolding.Climbing
 
 /-!
 # Filling data from admissible data, with Bessel systems at the real places

@@ -1,7 +1,9 @@
 module
 
-public import Lib.General.LinearAlgebra.Eigenvalues
-public import Lib.Weil.Unramified.HeckeGL
+public import Lib.Adelic.Hecke.ClassSums
+public import Lib.Adelic.Unitary.Defs
+import Lib.General.LinearAlgebra.Eigenvalues
+import Lib.Weil.Unramified.HeckeGL
 
 /-!
 # Hecke operators and Hecke polynomials at split places; spherical eigenvectors

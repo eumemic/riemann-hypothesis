@@ -1,6 +1,8 @@
 module
 
-public import Lib.GaloisRep.Hilbert90.TameActions
+public import Lib.GaloisRep.BaseChange.Defs
+import Lib.GaloisRep.Hilbert90.TameActions
+import Lib.General.LinearAlgebra.MatrixPolynomials
 
 /-!
 # Hilbert 90 for unitary groups over profinite rings and for finite ideles

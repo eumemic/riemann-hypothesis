@@ -1,7 +1,10 @@
 module
 
-public import Lib.General.Measure.HaarModulus
-public import Lib.PadicHodge.Crystalline.HodgeTateForms
+public import Lib.Adelic.Hecke.ClassSums
+public import Lib.PadicHodge.TateSen
+import Lib.General.Measure.HaarModulus
+import Lib.General.NumberTheory.CoefficientRings
+import Lib.PadicHodge.Crystalline.HodgeTateForms
 
 /-!
 # Hodge frames and Hodge–Tate jumps under operations on representations

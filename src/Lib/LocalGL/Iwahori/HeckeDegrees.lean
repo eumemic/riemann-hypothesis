@@ -1,7 +1,11 @@
 module
 
-public import Lib.LocalGL.Iwahori.QuadraticRelation
+public import Lib.LocalGL.Iwahori.ParahoricStructure
 public import Lib.Weil.Unramified.HeckeGL
+import Lib.Adelic.Adeles.IdeleModulus
+import Lib.General.LinearAlgebra.HermiteForm
+import Lib.LocalGL.Iwahori.QuadraticRelation
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
 
 /-!
 # Iwahori degrees, partial Hecke sums and Satake's formula

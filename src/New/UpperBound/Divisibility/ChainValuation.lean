@@ -2,6 +2,7 @@ module
 
 public import New.UpperBound.Divisibility.MarkedPrimes
 public import New.UpperBound.Kernels.ThetaLiftGauge
+import Lib.General.LinearAlgebra.MatrixNormBounds
 
 /-!
 # p-adic gauge bounds for chains of theta lifts and restrictions to `Y_m`

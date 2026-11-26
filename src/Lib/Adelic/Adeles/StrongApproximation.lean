@@ -1,8 +1,10 @@
 module
 
+public import Lib.Adelic.Adeles.AdditiveCharacter
 public import Lib.Adelic.Unitary.Defs
 public import Lib.General.Analysis.FourierTransforms
-public import Lib.General.NumberTheory.EmbeddingsAndDifferent
+import Lib.General.Measure.IdempotentKernel
+import Lib.General.NumberTheory.EmbeddingsAndDifferent
 
 /-!
 # Standard character, self-duality, strong approximation and one-sided Poisson summation

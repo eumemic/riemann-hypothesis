@@ -1,7 +1,14 @@
 module
 
 public import Lib.DiscreteSeries.Character.WeylCharacterFormula
-public import Lib.DiscreteSeries.Rigidity.KernelFixes
+public import Lib.DiscreteSeries.FlenstedJensen.SquareIntegrability
+public import Lib.Shimura.ComplexTheta.AppellHumbertData
+import Lib.Adelic.Adeles.AdditiveCharacter
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.DiscreteSeries.Holomorphic.HighestVectorExtension
+import Lib.DiscreteSeries.Rigidity.HighestVectorsAndFiltration
+import Lib.DiscreteSeries.Rigidity.KernelFixes
 
 /-!
 # K-type multiplicities of the discrete series and orbital integrals as Laurent polynomials

@@ -1,6 +1,11 @@
 module
 
-public import Lib.PadicHodge.Crystalline.FixedRatios
+public import Lib.PadicHodge.Crystalline.Basic
+import Lib.Adelic.Hecke.ClassSums
+import Lib.ClassField.GaloisCohomology.KummerCyclicClasses
+import Lib.ClassField.Places.TameInertia
+import Lib.PadicHodge.Crystalline.FixedRatios
+import Lib.PadicHodge.Kisin.KummerChartExistence
 
 /-!
 # Regularity of B_max, closure of admissibility, and crystalline descent from inertia

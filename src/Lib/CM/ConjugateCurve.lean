@@ -1,6 +1,8 @@
 module
 
 public import Lib.CM.GoodReduction
+public import Lib.CM.Sigma.ThetaSections
+import Lib.General.NumberTheory.SUnitsAndClassNumber
 
 /-!
 # Galois conjugates of CM curves: conjugate sections, isogenies and translates of θ

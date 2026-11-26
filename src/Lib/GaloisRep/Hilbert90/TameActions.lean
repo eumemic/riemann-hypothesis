@@ -1,6 +1,8 @@
 module
 
-public import Lib.General.LinearAlgebra.MatrixPolynomials
+public import Lib.GaloisRep.BaseChange.Defs
+import Lib.Adelic.Adeles.AdditiveCharacter
+import Lib.General.LinearAlgebra.MatrixPolynomials
 
 /-!
 # Hilbert 90 for GL_n and units under tame actions on Artinian, finite or profinite rings

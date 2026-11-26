@@ -1,7 +1,10 @@
 module
 
+public import Lib.General.NumberTheory.CoefficientRings
 public import Lib.PadicHodge.Kisin.Bicommutant
-public import Lib.PadicHodge.Kisin.KummerChartExistence
+public import Lib.PadicHodge.TateSen
+import Lib.General.Groups.ProfiniteCharacters
+import Lib.PadicHodge.Kisin.KummerChartExistence
 
 /-!
 # Bounded poles, φ-fixed elements of B_max, and ratios of periods fixed near 1

@@ -1,6 +1,12 @@
 module
 
-public import Lib.ClassField.Global.ExistenceTheorem
+public import Lib.ClassField.Local.ArtinMap
+import Lib.ClassField.Global.AlbertBrauerHasseNoether
+import Lib.ClassField.Global.ExistenceTheorem
+import Lib.ClassField.LocalDuality.KummerFiniteness
+import Lib.ClassField.Places.LocalFields
+import Lib.ClassField.Places.TameInertia
+import Lib.General.NumberTheory.SUnitsAndClassNumber
 
 /-!
 # Selmer cocycles, N-units, split places and the equivariant S-unit theorem

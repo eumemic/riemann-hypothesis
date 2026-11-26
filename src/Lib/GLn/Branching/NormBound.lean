@@ -1,7 +1,10 @@
 module
 
+public import Lib.GLn.SchurModule.GramMatrix
 public import Lib.GLn.SchurModule.LeadingRows
-public import TauCeti.Data.Fin.Basic
+public import Lib.GLn.SchurModule.WeylKernel
+import Lib.GLn.SchurModule.SchurMatrix
+import TauCeti.Data.Fin.Basic
 
 /-!
 # Branching from GL(n+1) to GL(n) × GL(1): the branching vector and the norm bound

@@ -1,7 +1,8 @@
 module
 
-public import Lib.General.Analysis.HolomorphicIntegrals
 public import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import Lib.General.Analysis.HolomorphicIntegrals
+import Lib.PadicComparison.Descent.TestCategory
 
 /-!
 # Existence in Appell–Humbert: projective embeddings are given by theta functions

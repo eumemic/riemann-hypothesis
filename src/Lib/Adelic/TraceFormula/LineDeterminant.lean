@@ -1,5 +1,6 @@
 module
 
+public import Lib.Speed
 public import Mathlib.Analysis.CStarAlgebra.Module.Constructions
 public import Mathlib.Analysis.Complex.Polynomial.Basic
 public import Mathlib.Analysis.InnerProductSpace.NormDet

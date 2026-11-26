@@ -1,6 +1,8 @@
 module
 
 public import Lib.Shimura.CongruenceRelation.KernelReduction
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.Shimura.HeckeTower.Model
 
 /-!
 # Counting w-torsion points bounds a space of natural semilinear functions by n − 1

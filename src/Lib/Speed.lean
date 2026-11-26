@@ -1,6 +1,7 @@
 module
 
-public import Mathlib
+public import Aesop -- shake: keep
+public import Mathlib -- shake: keep
 
 /-!
 # Speed settings

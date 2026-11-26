@@ -1,7 +1,19 @@
 module
 
-public import Lib.ClassField.Avatar.LocalGlobalCompatibility
-public import Lib.GaloisRep.Main.ThetaLift
+public import Lib.ClassField.Avatar.HeckeBaseChange
+public import Lib.GaloisRep.Main.AttachedRepresentations
+public import Lib.GaloisRep.Pseudocharacter.SemisimpleRepresentations
+import Lib.Adelic.AutomorphicForms.HeckeEigenforms
+import Lib.ClassField.Avatar.LocalGlobalCompatibility
+import Lib.GaloisRep.Main.OddRank
+import Lib.GaloisRep.Main.QuadraticStep
+import Lib.GaloisRep.Main.ThetaLift
+import Lib.General.LinearAlgebra.Eigenvalues
+import Lib.General.NumberTheory.FrobeniusOrbits
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.PadicHodge.Limit.TraceLimit
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import TauCeti.Analysis.Normed.Ring.CompactMonoid
 
 /-!
 # Isotypic spaces of eigenforms and attached Galois representations in every positive rank

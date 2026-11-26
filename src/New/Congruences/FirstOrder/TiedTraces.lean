@@ -1,9 +1,13 @@
 module
 
-public import Lib.GaloisRep.LocalGlobal.IwahoriCompatibility
 public import Lib.GaloisRep.TaylorWiles
+public import Lib.LocalGL.Iwahori.SphericalExponents
 public import Lib.LocalGL.SphericalChainLemma
 public import New.Congruences.FirstOrder.OnePrime
+import Lib.GaloisRep.LocalGlobal.IwahoriCompatibility
+import Lib.General.LinearAlgebra.Eigenvalues
+import Lib.General.NumberTheory.FrobeniusOrbits
+import Lib.LocalGL.Iwahori.QuadraticRelation
 
 /-!
 # Tied traces and the dictionary at one auxiliary place

@@ -1,10 +1,20 @@
 module
 
-public import New.Congruences.FirstOrder.AuxiliaryPrimeTie
-public import New.Congruences.FirstOrder.HeckeStrings
-public import New.Congruences.FirstOrder.RibetElement
-public import New.Congruences.FirstOrder.TrianglePrimes
-public import New.Congruences.GaloisRepresentations.BaseLevelOfLabel
+public import Lib.GaloisRep.TaylorWiles
+public import Lib.LocalGL.SphericalChainLemma
+public import New.Congruences.FirstOrder.TraceRelations
+import Lib.Cyclotomic.Kolyvagin.DerivativeCocycles
+import Lib.GaloisRep.Main.ThetaLift
+import Lib.General.LinearAlgebra.Eigenvalues
+import Lib.PadicComparison.ToricTower
+import New.Congruences.FirstOrder.AuxiliaryPrimeTie
+import New.Congruences.FirstOrder.HeckeStrings
+import New.Congruences.FirstOrder.RibetElement
+import New.Congruences.FirstOrder.TrianglePrimes
+import New.Congruences.GaloisRepresentations.AttachedRepresentations
+import New.Congruences.GaloisRepresentations.BaseLevelOfLabel
+import New.Reduction.Data.Sizes
+import TauCeti.Analysis.Normed.Ring.CompactMonoid
 
 /-!
 # The bound for denominators

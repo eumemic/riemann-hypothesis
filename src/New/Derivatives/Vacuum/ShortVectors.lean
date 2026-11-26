@@ -1,6 +1,9 @@
 module
 
-public import New.Derivatives.Field.ChosenPlaces
+public import New.Reduction.Data.Magnitudes
+import Lib.General.NumberTheory.SUnitsAndClassNumber
+import Lib.PadicComparison.Descent.TestCategory
+import New.Derivatives.Field.ChosenPlaces
 
 /-!
 # Tight frames in `𝔞₀`

@@ -1,6 +1,7 @@
 module
 
-public import Lib.General.LinearAlgebra.HermiteForm
+public import Lib.Speed
+import Lib.General.LinearAlgebra.HermiteForm
 
 /-!
 # Relations, relative lengths and Fitting ideals for Selmer group estimates

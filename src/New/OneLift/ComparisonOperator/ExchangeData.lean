@@ -1,5 +1,7 @@
 module
 
+public import Lib.ClassField.HeckeCharacter.TameModulus
+public import Lib.General.LinearAlgebra.MatrixPolynomials
 public import Lib.Weil.DualPair.HolomorphicData
 public import New.OneLift.HeckeValues.CharacterLift
 public import New.UpperBound.Objects.Rows

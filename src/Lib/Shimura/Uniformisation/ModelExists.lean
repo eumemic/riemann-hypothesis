@@ -1,7 +1,14 @@
 module
 
-public import Lib.Shimura.HeckeTower.Model
 public import Lib.Shimura.Uniformisation.TorusModel
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Base
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.Shimura.ArcExtension
+import Lib.Shimura.HeckeTower.Model
+import Lib.Shimura.Uniformisation.AppellHumbert
+import Lib.Shimura.Uniformisation.LieExponential
+import TauCeti.LinearAlgebra.Pi
 
 /-!
 # Every full complex object is modelled on a point (g, ℓ)

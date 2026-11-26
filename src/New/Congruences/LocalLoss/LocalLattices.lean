@@ -2,6 +2,8 @@ module
 
 public import New.Congruences.GaloisRepresentations.SelmerHypotheses
 public import New.Congruences.LocalLoss.CrystallineCocycles
+import Lib.PadicHodge.Crystalline.Regularity
+import TauCeti.LinearAlgebra.Pi
 
 /-!
 # Tame classes from roots of unity and lattices read at a place above ℓ

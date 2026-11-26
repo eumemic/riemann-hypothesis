@@ -1,8 +1,15 @@
 module
 
-public import Lib.SiegelWeil.OneVector.StandardQuadrics
-public import New.Spanning.Frames.QuadricPlancherel
-public import New.Spanning.Unfolding.BesselLevelStructure
+public import Lib.DiscreteSeries.Bruhat.QuadricBlocks
+public import Lib.SiegelWeil.OneVector.FinitePlaceDensity
+public import New.Spanning.Bessel.Basic
+public import New.Spanning.Frames.Correlations
+import Lib.Base
+import Lib.General.LinearAlgebra.HermiteForm
+import Lib.SiegelWeil.OneVector.StandardQuadrics
+import New.Spanning.Frames.QuadricPlancherel
+import New.Spanning.Frames.QuadricVolumes
+import New.Spanning.Unfolding.BesselLevelStructure
 
 /-!
 # Place data and gauges at a finite place from the lattice of integral vectors

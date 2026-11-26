@@ -1,6 +1,9 @@
 module
 
-public import Lib.GLn.SchurModule.GramMatrix
+public import Lib.GLn.SchurModule.TensorModel
+import Lib.GLn.SchurModule.GramMatrix
+import Lib.GLn.SchurModule.SchurMatrix
+import Lib.GLn.SchurModule.WeylKernel
 
 /-!
 # Fillings whose columns begin with the leading rows

@@ -1,7 +1,12 @@
 module
 
-public import Lib.Adelic.AutomorphicForms.HeckeEigenforms
 public import Lib.GaloisRep.BaseChange.CommutingHeckeFamilies
+import Lib.Adelic.AutomorphicForms.HeckeEigenforms
+import Lib.ClassField.Local.ArtinMap
+import Lib.GaloisRep.Hilbert90.TameActions
+import Lib.GaloisRep.Hilbert90.UnitaryGroups
+import Lib.General.LinearAlgebra.Eigenvalues
+import Lib.General.LinearAlgebra.MatrixPolynomials
 
 /-!
 # Matching unit pairs at congruence levels and at unramified places of a step

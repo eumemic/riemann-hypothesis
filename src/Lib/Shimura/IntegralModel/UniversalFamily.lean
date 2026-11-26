@@ -1,9 +1,11 @@
 module
 
 public import Lib.General.Geometry.GaloisCovers
-public import Lib.General.Geometry.SerreTheorem
 public import Lib.Shimura.HeckeTower.Model
+public import Lib.Shimura.Uniformisation.BallModel
 public import Lib.Shimura.Uniformisation.TorusModel
+import Lib.General.Geometry.SerreTheorem
+import Lib.Shimura.ArcExtension
 
 /-!
 # The universal family: models along arcs, rigid fibres and points of linear data

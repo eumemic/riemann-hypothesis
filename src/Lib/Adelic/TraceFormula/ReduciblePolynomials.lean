@@ -1,7 +1,10 @@
 module
 
 public import Lib.Adelic.TraceFormula.Convergence
-public import Lib.Adelic.TraceFormula.CoprimeFactors
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Adelic.Reduction.DefiniteClassSums
+import Lib.Adelic.TraceFormula.CoprimeFactors
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # The geometric side, polynomial by polynomial

@@ -1,7 +1,17 @@
 module
 
+public import Lib.General.Groups.CharacterTheory
+public import Lib.Shimura.ComplexTheta.AppellHumbertData
+public import New.Spanning.Frames.FixedLines
+public import New.Spanning.RemainingTerms.Size
 public import New.Spanning.SecondMoment.FewTranslates
-public import New.Spanning.Unfolding.MomentBounds
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import New.Spanning.Frames.FiniteDepth
+import New.Spanning.Frames.FiniteShells
+import New.Spanning.MainTerm.GlobalToLocal
+import New.Spanning.Unfolding.MomentBounds
+import New.Spanning.Unfolding.SquareExpansion
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # The second moments of the operators `P* s P`, and good forms

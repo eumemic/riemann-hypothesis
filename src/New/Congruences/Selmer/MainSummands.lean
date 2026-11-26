@@ -1,8 +1,9 @@
 module
 
-public import New.Congruences.GaloisRepresentations.AttachedRepresentations
-public import New.Congruences.LocalLoss.LocalLattices
+public import New.Congruences.GaloisRepresentations.SelmerHypotheses
 public import New.Congruences.Selmer.SelmerData
+import New.Congruences.GaloisRepresentations.AttachedRepresentations
+import New.Congruences.LocalLoss.LocalLattices
 
 /-!
 # Main summands are Selmer data

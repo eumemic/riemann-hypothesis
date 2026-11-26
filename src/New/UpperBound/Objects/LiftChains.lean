@@ -1,11 +1,11 @@
 module
 
-public import Lib.General.LinearAlgebra.BlockEmbeddings
-public import Lib.Shimura.HeckeTower.HeckeData
+public import Lib.General.LinearAlgebra.TensorChains
 public import Lib.Weil.CompactLift.ThetaKernelDefs
-public import New.Reduction.Data.Sizes
 public import New.UpperBound.Objects.LabelsAndIndexTypes
-public import New.UpperBound.Objects.LiftLawsModuloN
+import Lib.General.LinearAlgebra.BlockEmbeddings
+import Lib.Shimura.HeckeTower.HeckeData
+import New.Reduction.Data.Sizes
 
 /-!
 # Chains of theta lifts, jointly invariant combinations, and free levels

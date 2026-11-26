@@ -1,7 +1,10 @@
 module
 
-public import Lib.DiscreteSeries.Haar.TotalMass
+public import Lib.DiscreteSeries.Haar.GramPolar
 public import Lib.General.Measure.FibreMeasure
+import Lib.Adelic.Adeles.AdditiveCharacter
+import Lib.DiscreteSeries.Haar.TotalMass
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # The fibre measure of the Gram map

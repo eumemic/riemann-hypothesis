@@ -1,8 +1,9 @@
 module
 
-public import Lib.ClassField.Global.CMSplittingCharacters
-public import Lib.ClassField.HeckeCharacter.AlgebraicValues
+public import Lib.ClassField.Global.CMSplittingCharacters -- shake: keep
+public import Lib.Weil.Construction.FiniteMultiplier
 public import New.Derivatives.Field.PrimeDecomposition
+import Lib.ClassField.HeckeCharacter.AlgebraicValues
 
 /-!
 # Weil data of the CM field E = K(ζ) and the number s₀

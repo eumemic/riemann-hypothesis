@@ -1,6 +1,10 @@
 module
 
-public import Lib.Weil.DualPair.KernelLaws
+public import Lib.Weil.DualPair.FiniteAction
+import Lib.Cohomology.Etale.Basic
+import Lib.Weil.Construction.CanonicalTheta
+import Lib.Weil.DualPair.KernelLaws
+import Lib.Weil.DualPair.WeilAction
 
 /-!
 # Flipping a dual pair by adjoints: Weil actions and theta kernels modulo ideals

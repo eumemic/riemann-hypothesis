@@ -1,9 +1,9 @@
 module
 
-public import Lib.General.Measure.IntegralOperators
-public import Lib.LocalGL.Green.CuspidalFunctions
 public import New.UpperBound.ElementaryDivisors.PieriCone
 public import New.UpperBound.ElementaryDivisors.RootLemma
+import Lib.General.Measure.IntegralOperators
+import Lib.LocalGL.Green.CuspidalFunctions
 
 /-!
 # The dimension of the forms of bounded defect

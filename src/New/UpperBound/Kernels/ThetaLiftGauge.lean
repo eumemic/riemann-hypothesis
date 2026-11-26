@@ -1,8 +1,11 @@
 module
 
 public import Lib.Weil.DualPair.KernelLaws
-public import New.Derivatives.Vacuum.Divisibility
+public import New.Derivatives.Divisibility.Count
 public import New.UpperBound.Kernels.JetConjugatesAndBounds
+import Lib.General.LinearAlgebra.MatrixNormBounds
+import New.Derivatives.Vacuum.Divisibility
+import New.Derivatives.Vacuum.JetIntegrality
 
 /-!
 # p-adic gauge bounds for one theta lift and data from functions modulo an ideal

@@ -1,6 +1,10 @@
 module
 
-public import Lib.General.NumberTheory.PadicLimitsValuation
+public import Lib.General.NumberTheory.ImaginaryQuadraticField
+import Lib.General.Geometry.GaloisCovers
+import Lib.General.NumberTheory.PadicLimitsValuation
+import Lib.PadicComparison.Descent.TestCategory
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # The height of a family over all places: products, monotonicity and the product formula

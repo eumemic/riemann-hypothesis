@@ -1,7 +1,14 @@
 module
 
+public import Lib.Adelic.Hecke.ClassSums
 public import Lib.Adelic.Reduction.FiniteVolume
 public import Lib.Adelic.Reduction.FirstMinimumShortBases
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Adelic.Unitary.WeakApproximation
+import Lib.DiscreteSeries.Haar.GramPolar
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.General.Measure.IdempotentKernel
+import Lib.Shimura.ComplexTheta.AppellHumbertData
 
 /-!
 # Mahler's criterion for hermitian spaces and class sums for definite spaces

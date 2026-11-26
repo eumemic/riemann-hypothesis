@@ -1,8 +1,12 @@
 module
 
-public import Lib.General.Geometry.SerreTheorem
-public import Lib.Shimura.Deformation.TangentCount
+public import Lib.General.Geometry.PointsOfProperSchemes
+public import Lib.Shimura.ThetaModuli.ThetaFamilyRigidity
 public import TauCeti.RingTheory.TrivSqZeroExt
+import Lib.General.Geometry.SerreTheorem
+import Lib.Shimura.AbelianScheme.IsogenyFlatness
+import Lib.Shimura.Deformation.TangentCount
+import Lib.Shimura.HeckeTower.Model
 
 /-!
 # Drinfeld lifting over k[ε] and a bound on the tangent space of the moduli scheme

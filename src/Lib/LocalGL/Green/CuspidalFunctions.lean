@@ -1,8 +1,8 @@
 module
 
-public import Lib.General.LinearAlgebra.MatrixPolynomials
-public import Lib.General.NumberTheory.FrobeniusOrbits
 public import Lib.LocalGL.Green.HallAlgebra
+import Lib.General.LinearAlgebra.MatrixPolynomials
+import Lib.General.NumberTheory.FrobeniusOrbits
 
 /-!
 # Cuspidal class functions on GL_n over a finite field: μ, supports, values, inner products

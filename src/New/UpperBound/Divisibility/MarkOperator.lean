@@ -1,6 +1,10 @@
 module
 
-public import New.UpperBound.Divisibility.HeckeEdges
+public import New.UpperBound.Divisibility.MarkedPrimes
+public import New.UpperBound.ElementaryDivisors.ElementaryDivisorTheorem
+import New.Reduction.Data.Sizes
+import New.UpperBound.Divisibility.HeckeEdges
+import TauCeti.NumberTheory.Padics.Complex.Basic
 
 /-!
 # Elementary divisors of one scaled Hecke operator on the integral source forms

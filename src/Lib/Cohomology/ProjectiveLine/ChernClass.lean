@@ -1,6 +1,8 @@
 module
 
+public import Lib.Cohomology.LerayHirsch
 public import Lib.Cohomology.TorsionTheories
+public import Lib.PadicComparison.HodgeTate.ExtCocycles
 
 /-!
 # Tate module, Kummer sequence and the first Chern class of O(1) on the projective line

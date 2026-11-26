@@ -1,6 +1,8 @@
 module
 
 public import New.Spanning.RemainingTerms.Cut
+import Lib.Base
+import Lib.General.Analysis.GaussianIntegral
 
 /-!
 # The gain: a discriminant bound for the common lattice of two terms over one block

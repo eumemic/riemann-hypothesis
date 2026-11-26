@@ -1,7 +1,10 @@
 module
 
-public import Lib.Adelic.Adeles.SemilocalProducts
 public import New.Spanning.Unfolding.Setup
+import Lib.Adelic.Adeles.SemilocalProducts
+import Lib.General.Analysis.PackingAndSobolev
+import Lib.General.NumberTheory.SUnitsAndClassNumber
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # The box

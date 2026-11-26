@@ -1,9 +1,12 @@
 module
 
-public import New.Determinant.Twist.FitTwists
 public import New.OneLift.ComparisonOperator.LineCoordinates
 public import New.UpperBound.Kernels.DefiniteKernelSize
-public import New.UpperBound.Size.Estimates
+import Lib.GLn.SchurModule.SchurNorm
+import Lib.General.LinearAlgebra.MatrixNormBounds
+import New.Determinant.Twist.FitTwists
+import New.UpperBound.Kernels.ThetaLiftGauge
+import New.UpperBound.Size.Estimates
 
 /-!
 # The first factors: P_V along W_j and W^add, integrality and size

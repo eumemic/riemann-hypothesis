@@ -1,8 +1,11 @@
 module
 
-public import Lib.Adelic.AutomorphicForms.PAdicGauge
-public import Lib.ClassField.HeckeCharacter.TameModulus
 public import Lib.SiegelWeil.NeighbourLattices
+public import Lib.Weil.DualPair.Defs
+import Lib.Adelic.AutomorphicForms.PAdicGauge
+import Lib.ClassField.HeckeCharacter.TameModulus
+import Lib.ClassField.HeckeL.EulerProduct
+import Lib.General.NumberTheory.FrobeniusOrbits
 
 /-!
 # Vacuum coefficients, coset representatives and the weight of steps through neighbours

@@ -1,6 +1,9 @@
 module
 
-public import Lib.PadicHodge.PeriodRings.DeRhamPeriods
+public import Lib.PadicHodge.PeriodRings.CrystallineRings
+import Lib.General.Topology
+import Lib.PadicHodge.PeriodRings.DeRhamPeriods
+import TauCeti.NumberTheory.Padics.Complex.Basic
 
 /-!
 # Power series charts Λ⟦z⟧ in A_inf: Weierstrass division and fixed elements

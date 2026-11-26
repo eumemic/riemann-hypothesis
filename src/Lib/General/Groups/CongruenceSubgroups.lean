@@ -1,7 +1,8 @@
 module
 
-public import Lib.Base
-public import TauCeti.Analysis.Matrix.IndefiniteUnitaryGroup
+public import Lib.Speed
+public import TauCeti.LinearAlgebra.Matrix.IndefiniteUnitaryGroup
+import TauCeti.Analysis.Matrix.IndefiniteUnitaryGroup
 
 /-!
 # Integral, congruence and unitary matrix groups over a ring, with their topology

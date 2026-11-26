@@ -1,7 +1,9 @@
 module
 
-public import Lib.Adelic.Reduction.FirstMinimumShortBases
 public import Lib.ClassField.Grunwald
+import Lib.Adelic.Reduction.FirstMinimumShortBases
+import Lib.ClassField.Places.TameInertia
+import Lib.General.NumberTheory.FrobeniusOrbits
 
 /-!
 # Split places over ℚ(√−d) and quadratic steps with prescribed splitting

@@ -1,12 +1,19 @@
 module
 
-public import Lib.ClassField.Avatar.HeckeBaseChange
-public import Lib.ClassField.HeckeCharacter.TameModulus
 public import Lib.GLn.Branching.IntegralMap
-public import Lib.General.Algebra.LevelModulus
+public import Lib.General.LinearAlgebra.BlockEmbeddings
+public import Lib.SiegelWeil.SingularForms.CentreCoefficients
+public import Lib.Weil.DualPair.FiniteAction
 public import New.UpperBound.Objects.LiftChains
+public import New.UpperBound.Objects.LiftLawsModuloN
 public import New.UpperBound.Objects.Weights
 public import New.UpperBound.Seesaw.AdmissibleCombinations
+import Lib.ClassField.Avatar.HeckeBaseChange
+import Lib.ClassField.HeckeCharacter.TameModulus
+import Lib.GLn.SchurModule.SchurNorm
+import Lib.General.Algebra.LevelModulus
+import Lib.PadicComparison.Descent.TestCategory
+import TauCeti.Analysis.Matrix.IndefiniteUnitaryGroup
 
 /-!
 # Levels of the chain, chain data, and the composite lift

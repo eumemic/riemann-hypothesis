@@ -1,6 +1,10 @@
 module
 
-public import Lib.Adelic.Witt.WittTheorem
+public import Lib.General.Groups.CongruenceSubgroups
+import Lib.Adelic.QuotientMeasure.Basic
+import Lib.Adelic.Witt.WittTheorem
+import Lib.Base
+import Lib.General.Measure.HaarModulus
 import TauCeti.MeasureTheory.Measure.Disintegration.Continuous
 
 /-!

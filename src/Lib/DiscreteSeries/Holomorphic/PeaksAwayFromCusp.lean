@@ -1,6 +1,8 @@
 module
 
 public import Lib.Weil.DualPair.HolomorphicData
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
 
 /-!
 # The peaks of a bounded holomorphic form lie away from the cusps

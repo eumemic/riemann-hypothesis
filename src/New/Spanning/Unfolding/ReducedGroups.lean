@@ -1,6 +1,7 @@
 module
 
-public import New.Spanning.Unfolding.Climbing
+public import New.Spanning.Unfolding.Setup
+import New.Spanning.Unfolding.Climbing
 
 /-!
 # The finite groups `Ū`, `H̄` and `R̄`

@@ -1,7 +1,12 @@
 module
 
-public import Lib.ClassField.Places.LocalFields
+public import Lib.ClassField.Places.ProfiniteGalois
+public import Lib.ClassField.Places.ValuationSubrings
 public import Lib.PadicHodge.PeriodRings.AxTheorem
+import Lib.ClassField.Places.DecompositionCyclotomic
+import Lib.ClassField.Places.LocalFields
+import TauCeti.NumberTheory.Padics.Complex.Basic
+import TauCeti.RingTheory.Valuation.ValuationSubring
 
 /-!
 # Decomposition groups of places above p as Galois groups of local fields in ℚ̄_p

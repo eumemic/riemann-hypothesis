@@ -1,6 +1,7 @@
 module
 
-public import Lib.Analytic.EntireLFunction
+public import Lib.General.NumberTheory.ImaginaryQuadraticField
+import Lib.Analytic.EntireLFunction
 import TauCeti.NumberTheory.DirichletCharacter.LFunction.Bounds
 
 /-!

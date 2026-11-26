@@ -1,6 +1,7 @@
 module
 
 public import Lib.GaloisRep.Main.Defs
+public import Lib.General.LinearAlgebra.MatrixPolynomials
 
 /-!
 # Free cocharacter weights force rank n and identify killing polynomials

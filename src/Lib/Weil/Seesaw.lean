@@ -2,6 +2,9 @@ module
 
 public import Lib.Weil.DualPair.KernelLaws
 public import Lib.Weil.Lift
+import Lib.Adelic.AutomorphicForms.Cuspidality
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Theta.FockJointHarmonics
 
 /-!
 # Theta lifts for families of characters over a real edge and the seesaw of periods

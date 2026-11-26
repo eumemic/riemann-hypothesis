@@ -1,7 +1,11 @@
 module
 
+public import Lib.General.Geometry.SerreTheorem
 public import Lib.Shimura.CongruenceRelation.KernelReduction
 public import Lib.Shimura.IntegralModel.UniversalFamily
+import Lib.General.Algebra.MultivariatePolynomials
+import Lib.General.LinearAlgebra.HermiteForm
+import Lib.Shimura.AbelianScheme.IsogenyFlatness
 
 /-!
 # Hecke elements on adelic torsion and reductions of Frobenius twists of Hecke neighbours

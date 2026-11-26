@@ -1,8 +1,15 @@
 module
 
-public import Lib.Adelic.AutomorphicForms.HeckeEigenforms
-public import Lib.Adelic.TraceFormula.LevelCut
-public import Lib.Adelic.TraceFormula.TraceComparison
+public import Lib.Adelic.AutomorphicForms.Basic
+public import Lib.Adelic.TraceFormula.LevelAlgebra
+public import Lib.Adelic.TraceFormula.TestFunction
+public import Lib.Shimura.HeckeTower.HeckeData
+public import Lib.Weil.Unramified.SplitHecke
+import Lib.Adelic.AutomorphicForms.HeckeEigenforms
+import Lib.Adelic.TraceFormula.LevelCut
+import Lib.Adelic.TraceFormula.TraceComparison
+import Lib.ClassField.HeckeL.EulerProduct
+import Lib.General.NumberTheory.FrobeniusOrbits
 
 /-!
 # Comparison of traces for a cuspidal test function

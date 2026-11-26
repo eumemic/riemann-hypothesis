@@ -1,7 +1,11 @@
 module
 
-public import Lib.DiscreteSeries.Holomorphic.HighestVectorExtension
-public import Lib.General.LinearAlgebra.Eigenvalues
+public import Lib.DiscreteSeries.Rigidity.RepresentationsAndCasimirs
+import Lib.DiscreteSeries.FlenstedJensen.RightDerivatives
+import Lib.DiscreteSeries.Holomorphic.HighestVectorExtension
+import Lib.General.Analysis.GaussianIntegral
+import Lib.General.Analysis.HolomorphicIntegrals
+import Lib.General.LinearAlgebra.Eigenvalues
 
 /-!
 # K-highest vectors, norm bounds, Casimir growth on the filtration, and analytic vectors

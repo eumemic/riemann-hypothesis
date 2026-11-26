@@ -1,7 +1,9 @@
 module
 
-public import Lib.PadicComparison.Crystalline.DividedPowerEnvelope
+public import Lib.PadicComparison.Crystalline.DividedPowerEnvelope -- shake: keep
 public import Lib.PadicComparison.Primitive.PeriodCoefficients
+import Lib.PadicHodge.PeriodRings.DeRhamPeriods
+import TauCeti.RingTheory.Perfectoid.Integral.Tilt
 
 /-!
 # Crystalline comparison: bijectivity on étale charts and spanning of period cohomology

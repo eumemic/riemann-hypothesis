@@ -1,12 +1,21 @@
 module
 
-public import Lib.Weil.Periods.Unfolding
-public import New.UpperBound.Objects.CharactersAtLevel
+public import Lib.Weil.Periods.ConstantTerm
 public import New.UpperBound.Objects.RowChain
-public import New.UpperBound.Seesaw.Frequency
-public import New.UpperBound.Seesaw.GluedLevel
-public import New.UpperBound.Seesaw.LevelIdeles
+public import New.UpperBound.Seesaw.EdgePairEvaluation
 public import New.UpperBound.Seesaw.Sandwich
+public import New.UpperBound.Size.ShortColumns
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.General.Algebra.MultivariatePolynomials
+import Lib.General.Measure.IntegralOperators
+import Lib.Weil.CompactLift.DefiniteThetaLift
+import Lib.Weil.Periods.Unfolding
+import New.OneLift.ComparisonOperator.ExchangeData
+import New.UpperBound.Objects.CharactersAtLevel
+import New.UpperBound.Seesaw.Frequency
+import New.UpperBound.Seesaw.GluedLevel
+import New.UpperBound.Seesaw.LevelIdeles
+import New.UpperBound.Seesaw.StandardLines
 
 /-!
 # Unfolding the chain of lifts: double lifts and the functions of the unfolding

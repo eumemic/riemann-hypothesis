@@ -1,7 +1,7 @@
 module
 
-public import Lib.Base
-public import TauCeti.RingTheory.Valuation.ValuationSubring
+public import Lib.Speed
+import TauCeti.RingTheory.Valuation.ValuationSubring
 
 /-!
 # Vocabulary of Galois theory: places, decomposition, Frobenius elements and inertia

@@ -1,6 +1,14 @@
 module
 
-public import New.OneLift.FalseLifts.HyperbolicPlaneStep
+public import New.OneLift.ComparisonOperator.GluedLattices
+public import New.OneLift.FalseLifts.BottomOfTower
+import Lib.Adelic.AutomorphicForms.AutomorphicAsAlgebraic
+import Lib.ClassField.Avatar.HeckeBaseChange
+import Lib.DiscreteSeries.Bruhat.ComplexPlace
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.GLn.SchurModule.SchurNorm
+import Lib.PadicComparison.Descent.TestCategory
+import New.OneLift.FalseLifts.HyperbolicPlaneStep
 
 /-!
 # The tower of descents and the periods of false lifts

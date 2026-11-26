@@ -1,8 +1,8 @@
 module
 
-public import Lib.General.Analysis.FourierTransforms
-public import Lib.General.Analysis.MeanValueAndTaylor
 public import Lib.Weil.Fock.WeightedNorms
+import Lib.General.Analysis.FourierTransforms
+import Lib.General.Analysis.MeanValueAndTaylor
 
 /-!
 # Mixed Schrödinger–Fock models and rapid sections with prescribed values

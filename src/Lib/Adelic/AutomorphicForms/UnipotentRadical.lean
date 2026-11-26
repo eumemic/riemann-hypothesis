@@ -1,7 +1,10 @@
 module
 
 public import Lib.Adelic.AutomorphicForms.RealConvolution
-public import Lib.DiscreteSeries.CuspKernel
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.DiscreteSeries.CuspKernel
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Haar.TotalMass
 
 /-!
 # The mean along a unipotent radical vanishes; reduction in the radical

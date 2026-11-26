@@ -1,8 +1,13 @@
 module
 
+public import Lib.ClassField.HeckeCharacter.TameModulus
+public import Lib.SiegelWeil.Tower.FiniteTateIntegral
 public import Lib.Weil.Seesaw
 public import New.Determinant.Chain.SquareLaw
-public import New.Determinant.Exchange.TheoremForPartners
+import Lib.Adelic.AutomorphicForms.Cuspidality
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.General.Algebra.MultivariatePolynomials
+import New.Determinant.Exchange.TheoremForPartners
 
 /-!
 # One square: up then down against down then up

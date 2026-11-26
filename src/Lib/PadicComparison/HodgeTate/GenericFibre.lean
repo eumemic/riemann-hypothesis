@@ -1,8 +1,9 @@
 module
 
-public import Lib.PadicComparison.Completion
-public import Lib.PadicComparison.Descent.TestCovers
-public import Lib.PadicHodge.PeriodRings.CrystallineRings
+public import Lib.PadicComparison.Descent.TestCovers -- shake: keep
+import Lib.Cohomology.Etale.DenseSubfunctors
+import Lib.PadicComparison.Completion
+import Lib.PadicHodge.PeriodRings.CrystallineRings
 
 /-!
 # The ring R[1/p] of a p-adic test and the square-zero extension W(R♭)[1/p]/(ker θ)²

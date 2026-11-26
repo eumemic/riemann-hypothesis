@@ -2,6 +2,9 @@ module
 
 public import Lib.SiegelWeil.SingularForms.CentreCoefficients
 public import Lib.Weil.MixedModel.AdaptedSplitting
+import Lib.Cohomology.Etale.Basic
+import Lib.Shimura.ComplexTheta.AppellHumbertData
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # Singular forms governed by unimodular coefficients

@@ -1,8 +1,12 @@
 module
 
-public import Lib.Adelic.Unitary.GramMatrix
+public import Lib.Adelic.Adeles.AdditiveCharacter
+public import Lib.Adelic.Unitary.Defs
 public import Lib.ClassField.HeckeCharacter.Basic
 public import Lib.Weil.Construction.HeisenbergModel
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Adelic.Unitary.GramMatrix
+import Lib.Base
 
 /-!
 # Splitting characters, Weil data, and the adelic Heisenberg cocycle and vacuum

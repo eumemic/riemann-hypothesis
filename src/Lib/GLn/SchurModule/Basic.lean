@@ -1,6 +1,6 @@
 module
 
-public import Lib.Base
+public import Lib.Speed
 
 /-!
 # Schur modules: semi-invariants, minors, Fock pairing, Schur and Gram matrices

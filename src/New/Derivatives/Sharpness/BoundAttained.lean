@@ -1,6 +1,9 @@
 module
 
 public import New.Derivatives.Sharpness.Cases
+import Lib.General.Algebra.LevelModulus
+import Lib.Weil.Construction.FourierInversion
+import New.Derivatives.Vacuum.ShortVectors
 
 /-!
 # Sharpness of the valuation bound

@@ -2,7 +2,10 @@ module
 
 public import Lib.Adelic.Witt.IwasawaDecomposition
 public import Lib.ClassField.HeckeCharacter.SplitTameCharacters
-public import Lib.Weil.MixedModel.ZeroTerm
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.Shimura.ComplexTheta.AppellHumbertData
+import Lib.Weil.MixedModel.ZeroTerm
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # Fourier coefficients along the centre of a unipotent radical and their partial means

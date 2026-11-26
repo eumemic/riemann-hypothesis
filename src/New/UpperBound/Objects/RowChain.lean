@@ -1,5 +1,6 @@
 module
 
+public import Lib.Adelic.AutomorphicForms.AutomorphicAsAlgebraic
 public import New.UpperBound.Objects.Rows
 
 /-!

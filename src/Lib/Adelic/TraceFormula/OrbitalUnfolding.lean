@@ -1,8 +1,13 @@
 module
 
+public import Lib.Adelic.Adeles.StrongApproximation
 public import Lib.Adelic.TraceFormula.ChangingSigns
 public import Lib.Adelic.TraceFormula.ReduciblePolynomials
-public import Lib.Weil.Periods.Grading
+import Lib.Adelic.QuotientMeasure.IwasawaUnfolding
+import Lib.Adelic.Reduction.DefiniteClassSums
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Haar.GramPolar
+import Lib.Weil.Periods.Grading
 
 /-!
 # Kernels of levels as forms, and unfolding of orbital integrals

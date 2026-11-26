@@ -1,7 +1,7 @@
 module
 
-public import Lib.ClassField.Places.DecompositionCyclotomic
 public import Lib.PadicHodge.PeriodRings.CrystallineRings
+import Lib.ClassField.Places.DecompositionCyclotomic
 
 /-!
 # The cyclotomic action on μ, the period t, and the de Rham field B_dR

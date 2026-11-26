@@ -1,8 +1,10 @@
 module
 
+public import Lib.Adelic.QuotientMeasure.Basic
 public import Lib.DiscreteSeries.Bruhat.FloorGroups
-public import Lib.General.Measure.IntegralOperators
 public import Lib.General.Measure.QuadricDisintegration
+import Lib.General.Measure.IntegralOperators
+import TauCeti.Analysis.Matrix.IndefiniteUnitaryGroup
 
 /-!
 # Heisenberg elements, measures of the floors, hyperbolic bases and Plancherel at a place

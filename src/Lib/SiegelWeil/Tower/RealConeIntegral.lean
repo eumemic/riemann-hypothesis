@@ -1,8 +1,8 @@
 module
 
 public import Lib.SiegelWeil.SingularForms.UnimodularCoefficients
-public import Lib.SiegelWeil.Tower.PrincipalIdeles
 public import Lib.Weil.MixedModel.Slices
+import Lib.SiegelWeil.Tower.PrincipalIdeles
 
 /-!
 # The real cone integral

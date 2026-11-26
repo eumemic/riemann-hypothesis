@@ -1,7 +1,8 @@
 module
 
-public import Lib.Cohomology.Etale.RelativeChains
+public import Lib.Cohomology.Hodge.CupProduct
 public import Lib.General.Algebra.PerfectAlgebras
+import Lib.Cohomology.Etale.RelativeChains
 
 /-!
 # Almost coefficients, v-descent for perfect algebras and acyclicity of tilt points

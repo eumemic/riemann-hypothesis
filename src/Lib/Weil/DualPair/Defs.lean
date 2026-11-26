@@ -1,5 +1,10 @@
 module
 
+public import Lib.Adelic.Adeles.LocalFactors -- shake: keep
+public import Lib.Adelic.Hecke.ClassSums
+public import Lib.Adelic.Unitary.GramMatrix
+public import Lib.DiscreteSeries.Theta.FockDualPair
+public import Lib.Weil.DualPair.Kronecker
 public import Lib.Weil.MixedModel.NamedData
 
 /-!

@@ -1,8 +1,17 @@
 module
 
-public import Lib.Adelic.Adeles.SemilocalProducts
 public import Lib.Adelic.AutomorphicForms.UnipotentRadical
-public import Lib.Weil.Unramified.HeckeGL
+public import Lib.Adelic.Unitary.CongruenceLevels
+public import Lib.Adelic.Unitary.GramMatrix
+public import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.Adelic.Adeles.SemilocalProducts
+import Lib.Adelic.Reduction.DefiniteClassSums
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.Adelic.Unitary.WeakApproximation
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.General.Analysis.GaussianIntegral
+import Lib.General.Analysis.MeanValueAndTaylor
+import Lib.Weil.Unramified.HeckeGL
 
 /-!
 # Cuspidality bounds, unipotent reduction, rapid decay and finite dimension of forms

@@ -1,7 +1,11 @@
 module
 
+public import Lib.Shimura.HeckeTower.HeckeData
 public import Lib.Shimura.ThetaModuli.PELThetaTori
-public import Lib.Shimura.Transfer.MarkedPairs
+import Lib.Adelic.TraceFormula.ChangingSigns
+import Lib.General.Analysis.HolomorphicIntegrals
+import Lib.General.LinearAlgebra.Eigenvalues
+import Lib.Shimura.Transfer.MarkedPairs
 
 /-!
 # Period signatures, analytic families of theta tori and the ball chart of moduli points

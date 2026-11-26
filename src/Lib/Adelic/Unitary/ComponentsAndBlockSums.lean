@@ -1,6 +1,6 @@
 module
 
-public import Lib.Adelic.Witt.WittTheorem
+public import Lib.Adelic.Witt.WittTheorem -- shake: keep
 
 /-!
 # Components of unitary adelic points at places; sums and moves of hermitian spaces

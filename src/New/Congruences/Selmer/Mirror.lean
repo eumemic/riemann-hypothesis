@@ -1,7 +1,8 @@
 module
 
 public import New.Congruences.Selmer.Count
-public import TauCeti.Algebra.Module.CharacterModule
+import Lib.ClassField.GreenbergWiles.SplitPrimeReciprocity
+import TauCeti.Algebra.Module.CharacterModule
 
 /-!
 # Reciprocity at conjugate primes

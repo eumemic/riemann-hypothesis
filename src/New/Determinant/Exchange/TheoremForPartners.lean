@@ -1,8 +1,18 @@
 module
 
+public import Lib.ClassField.HeckeCharacter.TameModulus
 public import Lib.Weil.DualPair.Flip
-public import New.Determinant.Exchange.RealVectors
+public import New.Determinant.Exchange.LargeTriple
 public import New.Determinant.Exchange.VanishingDescends
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.ClassField.HeckeCharacter.SplittingCharacters
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import Lib.SiegelWeil.Tower.FunctionalEquation
+import Lib.Weil.DualPair.ThetaLiftConvergence
+import New.Determinant.Exchange.ConeImage
+import New.Determinant.Exchange.RealVectors
+import New.Determinant.Exchange.RemovingPlanes
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # Exchange of theta integrals for matched functions and for data modulo an ideal

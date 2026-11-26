@@ -1,6 +1,9 @@
 module
 
+public import Lib.Adelic.Unitary.ComponentsAndBlockSums
 public import Lib.Adelic.Unitary.GramMatrix
+import Lib.Adelic.Adeles.StrongApproximation
+import TauCeti.Analysis.Matrix.IndefiniteUnitaryGroup
 
 /-!
 # Closed matrix embedding of adelic unitary groups, discrete rational points, weak approximation

@@ -1,7 +1,9 @@
 module
 
-public import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
+public import Lib.DiscreteSeries.FlenstedJensen.Defs
+public import Lib.General.Analysis.GaussianIntegral
 public import Lib.Weil.Construction.WeilData
+import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
 import TauCeti.Analysis.Matrix.LDL
 
 /-!

@@ -3,6 +3,7 @@ module
 public import Lib.Cohomology.ProperBaseChange.PlaceSpace
 public import Lib.General.Geometry.EtaleCharts
 public import Lib.Shimura.AbelianScheme.Basic
+import Lib.Cohomology.Etale.DenseSubfunctors
 import TauCeti.AlgebraicGeometry.Morphisms.Separated
 import TauCeti.AlgebraicGeometry.Morphisms.Smooth.StandardSmooth
 

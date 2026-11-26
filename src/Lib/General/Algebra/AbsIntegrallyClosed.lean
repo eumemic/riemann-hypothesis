@@ -1,6 +1,6 @@
 module
 
-public import Lib.Base
+public import Lib.Speed
 
 /-!
 # Absolutely integrally closed rings and their stability properties; Frobenius powers

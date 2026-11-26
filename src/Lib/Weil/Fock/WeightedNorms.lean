@@ -1,6 +1,7 @@
 module
 
 public import Lib.Weil.Fock.Basic
+import Lib.General.Analysis.HolomorphicIntegrals
 
 /-!
 # Moments on Fock space, approximation by polynomial vectors, bounds for functionals

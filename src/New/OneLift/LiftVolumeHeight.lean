@@ -1,7 +1,11 @@
 module
 
+public import New.Determinant.Chain.NormOfChain
 public import New.OneLift.ComparisonOperator.GluingMaps
-public import New.OneLift.HeckeValues.TwistedValueHeights
+import Lib.GLn.SchurModule.SchurNorm
+import Lib.General.LinearAlgebra.MatrixNormBounds
+import New.Congruences.GaloisRepresentations.SelmerHypotheses
+import New.OneLift.HeckeValues.TwistedValueHeights
 
 /-!
 # The cost of one lift: a height bound for Z_j(1)/Z_j(ξ^j)

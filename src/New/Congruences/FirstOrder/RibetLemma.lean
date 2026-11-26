@@ -1,7 +1,7 @@
 module
 
 public import New.Congruences.FirstOrder.RibetMatrices
-public import New.Congruences.FirstOrder.RibetMethod
+import New.Congruences.FirstOrder.RibetMethod
 
 /-!
 # Ribet's method to first order over a discrete valuation ring

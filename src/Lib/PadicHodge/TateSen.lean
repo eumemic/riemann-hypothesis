@@ -1,6 +1,10 @@
 module
 
-public import Lib.ClassField.Places.TameInertia
+public import Lib.PadicHodge.Crystalline.Basic
+public import Lib.PadicHodge.PeriodRings.DeRhamPeriods
+import Lib.ClassField.GaloisCohomology.KummerCyclicClasses
+import Lib.ClassField.Places.TameInertia
+import TauCeti.NumberTheory.Padics.Complex.Basic
 import TauCeti.NumberTheory.Padics.Complex.TateTwist
 
 /-!

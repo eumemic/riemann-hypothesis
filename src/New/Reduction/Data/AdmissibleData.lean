@@ -1,5 +1,6 @@
 module
 
+public import Lib.Shimura.Uniformisation.HolomorphicFamilies
 public import New.Derivatives.Vacuum.IntegralVacuum
 public import New.Reduction.Zeros.PrimeError
 

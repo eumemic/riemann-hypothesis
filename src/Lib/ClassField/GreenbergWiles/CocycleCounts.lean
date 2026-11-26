@@ -1,6 +1,7 @@
 module
 
 public import Lib.ClassField.GreenbergWiles.SplitPrimeReciprocity
+import Lib.ClassField.GaloisCohomology.TateIndexFormula
 
 /-!
 # Counts of trivialised Galois cocycles for projective modules and central scalars

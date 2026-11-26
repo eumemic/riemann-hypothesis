@@ -1,7 +1,10 @@
 module
 
 public import Lib.Adelic.Reduction.FirstMinimumShortBases
+public import Lib.General.Analysis.HolomorphicIntegrals
 public import Lib.General.LinearAlgebra.HermitianMatrices
+public import Lib.General.Measure.IdempotentKernel
+public import Lib.Shimura.ComplexTheta.AppellHumbertData
 
 /-!
 # Kernels kill bounded radical-invariant functions; dilations along isotropic subspaces

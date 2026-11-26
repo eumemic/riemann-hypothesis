@@ -2,7 +2,8 @@ module
 
 public import New.Reduction.Lattices.Colength
 public import New.UpperBound.Divisibility.SetupAtLevel
-public import New.UpperBound.Objects.Rows
+import New.UpperBound.Objects.Rows
+import TauCeti.NumberTheory.Padics.Complex.Basic
 
 /-!
 # The colength of source forms at p = N

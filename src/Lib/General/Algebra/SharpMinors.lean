@@ -1,6 +1,7 @@
 module
 
 public import Lib.General.Algebra.FittingIdealsAndLengths
+import Lib.General.LinearAlgebra.HermiteForm
 
 /-!
 # Maximal minors and lengths

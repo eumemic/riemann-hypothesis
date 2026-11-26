@@ -1,7 +1,8 @@
 module
 
-public import Lib.DiscreteSeries.FlenstedJensen.RightDerivatives
+public import Lib.Adelic.QuotientMeasure.Basic -- shake: keep
 public import Lib.General.LinearAlgebra.MinorProducts
+import Lib.DiscreteSeries.FlenstedJensen.RightDerivatives
 
 /-!
 # Maximal compact subgroup, block diagonal matrices and equivariance of minors

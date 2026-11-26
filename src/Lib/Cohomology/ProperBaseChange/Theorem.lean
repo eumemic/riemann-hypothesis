@@ -3,6 +3,7 @@ module
 public import Lib.Cohomology.Etale.ProperFunctors
 public import Lib.Cohomology.ProjectiveLine.ChernClass
 public import Lib.Cohomology.ProperBaseChange.SubringSplitting
+import Lib.General.Algebra.MultivariatePolynomials
 
 /-!
 # Proper base change over AIC valuation rings and its consequences for ℤ/ℓ-cohomology

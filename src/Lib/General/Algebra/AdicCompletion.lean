@@ -1,6 +1,7 @@
 module
 
 public import Lib.Base
+public import Lib.Speed
 public import TauCeti.NumberTheory.Padics.Complex.Basic
 import TauCeti.RingTheory.AdicCompletion.Pi
 

@@ -1,11 +1,17 @@
 module
 
-public import Lib.ClassField.Global.CMSplittingCharacters
-public import Lib.ClassField.Global.Chebotarev
-public import Lib.ClassField.Global.ExistenceTheorem
+public import Lib.ClassField.Global.CMSplittingCharacters -- shake: keep
 public import Lib.GaloisRep.BaseChange.CommutingHeckeFamilies
-public import Lib.General.NumberTheory.CMFields
-public import Lib.General.NumberTheory.FrobeniusOrbits
+import Lib.Adelic.Adeles.LocalFactors
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.ClassField.Global.ArtinMap
+import Lib.ClassField.Global.ArtinReciprocity
+import Lib.ClassField.Global.Chebotarev
+import Lib.ClassField.Global.ExistenceTheorem
+import Lib.ClassField.Global.NormTheorems
+import Lib.General.NumberTheory.CMFields
+import Lib.General.NumberTheory.FrobeniusOrbits
+import Lib.General.NumberTheory.SUnitsAndClassNumber
 
 /-!
 # Grunwald's theorem in prime degree and CM steps with prescribed local behaviour

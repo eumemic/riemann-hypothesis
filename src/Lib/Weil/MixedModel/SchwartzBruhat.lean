@@ -1,6 +1,7 @@
 module
 
 public import Lib.Weil.Construction.FiniteMultiplier
+import Lib.General.Measure.HaarNormalisation
 
 /-!
 # Schwartz–Bruhat functions on a set of places and the Schrödinger model there

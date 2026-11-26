@@ -1,6 +1,11 @@
 module
 
 public import Lib.ClassField.GreenbergWiles.Relations
+public import Lib.ClassField.GreenbergWiles.SplitPrimeReciprocity
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.ClassField.Global.Chebotarev
+import Lib.ClassField.GreenbergWiles.CocycleCounts
+import Lib.ClassField.GreenbergWiles.SelmerRelations
 
 /-!
 # Relations modulo ℓ

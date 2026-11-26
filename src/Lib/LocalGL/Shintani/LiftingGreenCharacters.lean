@@ -1,6 +1,10 @@
 module
 
-public import Lib.LocalGL.Green.LabelCharacters
+public import Lib.LocalGL.Green.TauFunctions
+public import Lib.LocalGL.Shintani.CosetDescent
+import Lib.General.NumberTheory.FrobeniusOrbits
+import Lib.LocalGL.Green.CuspidalFunctions
+import Lib.LocalGL.Green.LabelCharacters
 
 /-!
 # Shintani lifting of Green's characters along extensions of prime degree

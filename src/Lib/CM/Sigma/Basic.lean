@@ -2,7 +2,8 @@ module
 
 public import Lib.General.Analysis.MeanValueAndTaylor
 public import Lib.General.NumberTheory.ImaginaryQuadraticField
-public import Lib.Shimura.ComplexTheta.DimensionFormula
+public import Lib.Shimura.ComplexTheta.AppellHumbertData
+import Lib.Shimura.ComplexTheta.DimensionFormula
 import TauCeti.Analysis.SpecialFunctions.Elliptic.LatticeClassification
 
 /-!

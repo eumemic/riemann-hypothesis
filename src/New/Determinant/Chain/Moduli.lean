@@ -1,7 +1,7 @@
 module
 
-public import New.OneLift.ComparisonOperator.ExchangeData
 public import New.OneLift.HeckeValues.TwistedRatio
+import New.OneLift.ComparisonOperator.ExchangeData
 
 /-!
 # Ratios of Hecke values and heights of functions of the twist

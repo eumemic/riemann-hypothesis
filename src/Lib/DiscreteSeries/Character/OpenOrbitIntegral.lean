@@ -1,6 +1,16 @@
 module
 
 public import Lib.DiscreteSeries.Character.WeylCharacterFormula
+public import Lib.DiscreteSeries.FlenstedJensen.FlagDensities
+public import Lib.General.Analysis.GaussianIntegral
+import Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Haar.GramPolar
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.General.LinearAlgebra.PolarDecomposition
+import Lib.General.Measure.IdempotentKernel
+import Lib.General.NumberTheory.FrobeniusOrbits
+import Lib.Shimura.ComplexTheta.AppellHumbertData
 
 /-!
 # Orbital integrals of discrete series coefficients and Weyl characters of U(n)

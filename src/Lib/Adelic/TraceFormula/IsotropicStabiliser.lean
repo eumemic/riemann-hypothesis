@@ -1,6 +1,7 @@
 module
 
 public import Lib.Adelic.Reduction.FirstMinimumShortBases
+import Lib.General.LinearAlgebra.MatrixPolynomials
 
 /-!
 # The stabiliser of an isotropic subspace

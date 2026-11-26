@@ -1,8 +1,13 @@
 module
 
 public import Lib.Adelic.Adeles.IdeleModulus
-public import Lib.ClassField.LocalDuality.DualityInequality
-public import Lib.ClassField.Places.TameInertia
+public import Lib.ClassField.GaloisCohomology.KummerCyclicClasses
+public import Lib.ClassField.Places.DecompositionCompletion
+import Lib.ClassField.Local.InvariantMap
+import Lib.ClassField.LocalDuality.DualityInequality
+import Lib.ClassField.Places.LocalFields
+import Lib.ClassField.Places.TameInertia
+import TauCeti.RingTheory.Valuation.ValuationSubring
 
 /-!
 # Local and global Artin maps, algebraic Hecke characters and tame inertia

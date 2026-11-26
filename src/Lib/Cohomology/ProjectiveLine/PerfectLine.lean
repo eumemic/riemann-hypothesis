@@ -1,6 +1,11 @@
 module
 
-public import Lib.PadicComparison.Primitive.PeriodCoefficients
+public import Lib.Cohomology.TorsionTheories
+public import Lib.PadicComparison.Descent.AlmostDescent
+public import Lib.PadicComparison.HodgeTate.GenericFibre
+import Lib.Cohomology.LerayHirsch
+import Lib.PadicComparison.Completion
+import Lib.PadicComparison.Primitive.PeriodCoefficients
 
 /-!
 # The perfect projective line glued from two perfect discs has the cohomology of a point

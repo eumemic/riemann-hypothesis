@@ -1,9 +1,14 @@
 module
 
-public import Lib.ClassField.HeckeCharacter.SplittingCharacters
+public import Lib.Adelic.Unitary.CongruenceLevels
 public import Lib.SiegelWeil.SingularForms.CentreCoefficients
 public import Lib.Weil.DualPair.KernelDecay
 public import Lib.Weil.DualPair.KernelLaws
+import Lib.ClassField.HeckeCharacter.SplittingCharacters
+import Lib.ClassField.Local.ArtinMap
+import Lib.Cohomology.Etale.Basic
+import Lib.General.LinearAlgebra.PartnerAlgebra
+import Lib.Weil.DualPair.WeilAction
 
 /-!
 # Characters on determinants, local values and characters tame for a modulus

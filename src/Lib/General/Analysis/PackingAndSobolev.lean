@@ -1,6 +1,7 @@
 module
 
-public import Lib.General.Measure.IntegralOperators
+public import Lib.Speed
+import Lib.General.Measure.IntegralOperators
 
 /-!
 # Packing bounds for separated points and Sobolev trace inequalities

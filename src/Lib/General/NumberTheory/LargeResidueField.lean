@@ -1,6 +1,9 @@
 module
 
-public import Lib.General.NumberTheory.PadicLimitsValuation
+public import Lib.Cohomology.Etale.Basic
+public import Lib.General.NumberTheory.CoefficientRings
+import Lib.ClassField.Places.TameInertia
+import Lib.General.NumberTheory.PadicLimitsValuation
 
 /-!
 # Coefficient rings with a large residue field

@@ -1,7 +1,8 @@
 module
 
-public import Lib.CM.Integrality.TorsionValues
-public import TauCeti.RingTheory.PowerSeries.Substitution
+public import Lib.General.Algebra.IntegralPowerSeries
+import Lib.CM.Integrality.TorsionValues
+import TauCeti.RingTheory.PowerSeries.Substitution
 
 /-!
 # Integral series rings 𝔬[[T]], congruence parts of power series, a functional equation

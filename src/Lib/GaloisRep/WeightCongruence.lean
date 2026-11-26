@@ -1,7 +1,11 @@
 module
 
-public import Lib.Adelic.AutomorphicForms.PAdicGauge
+public import Lib.Adelic.AutomorphicForms.SmoothAlgebraicForms
 public import Lib.GaloisRep.Pseudocharacter.Pseudorepresentations
+import Lib.Adelic.AutomorphicForms.PAdicGauge
+import Lib.Cohomology.Etale.Basic
+import Lib.GLn.SchurModule.SchurNorm
+import Lib.Weil.Unramified.HeckeGL
 
 /-!
 # ℓ-adic models of algebraic forms and congruences that change the weight

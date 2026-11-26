@@ -1,7 +1,10 @@
 module
 
-public import Lib.ClassField.Global.Chebotarev
+public import Lib.Adelic.Unitary.CongruenceLevels
+public import Lib.ClassField.Places.DecompositionCompletion
 public import Lib.Weil.Unramified.SplitHecke
+import Lib.ClassField.Global.Chebotarev
+import Lib.Weil.Unramified.HeckeGL
 
 /-!
 # Weights, Hecke polynomials, eigenforms and the filter of most Frobenii

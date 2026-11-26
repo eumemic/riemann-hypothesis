@@ -1,8 +1,11 @@
 module
 
-public import Lib.CM.FiniteLattices
-public import Lib.Weil.Construction.CanonicalTheta
 public import New.Derivatives.Vacuum.TightFrames
+import Lib.CM.FiniteLattices
+import Lib.Cohomology.Etale.Basic
+import Lib.General.Algebra.IntegralPowerSeries
+import Lib.Weil.Construction.CanonicalTheta
+import Lib.Weil.Construction.FourierInversion
 
 /-!
 # The integral vacuum θ°: integrality and bounds of its values, standard data at p

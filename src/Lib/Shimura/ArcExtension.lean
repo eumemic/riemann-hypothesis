@@ -1,9 +1,13 @@
 module
 
-public import Lib.General.Geometry.GeometricPoints
+public import Lib.General.Geometry.DenseComplexPoints
 public import Lib.Shimura.ThetaGroup
-public import Lib.Shimura.ThetaNormality.NormalGeneration
 public import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import Lib.General.Analysis.HolomorphicIntegrals
+import Lib.General.Geometry.GeometricPoints
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.Shimura.AbelianScheme.Pairings
+import Lib.Shimura.ThetaNormality.NormalGeneration
 
 /-!
 # Uniformisations over an arc: theta coordinates, Weil pairing and extension of maps

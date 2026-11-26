@@ -2,6 +2,7 @@ module
 
 public import Lib.General.LinearAlgebra.HermitianMatrices
 public import Lib.General.Measure.HaarNormalisation
+import TauCeti.Analysis.Matrix.IndefiniteUnitaryGroup
 
 /-!
 # Cayley chart and an explicit Haar measure on the unitary group U(J)

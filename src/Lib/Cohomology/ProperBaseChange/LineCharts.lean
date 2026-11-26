@@ -1,7 +1,9 @@
 module
 
-public import Lib.General.Algebra.MultivariatePolynomials
-public import Lib.PadicComparison.Descent.TestCategory
+public import Lib.Cohomology.Etale.Basic
+public import Lib.General.Algebra.AdicCompletion
+import Lib.General.Algebra.MultivariatePolynomials
+import Lib.PadicComparison.Descent.TestCategory
 
 /-!
 # Mayer–Vietoris for two charts of a line modulo an ideal

@@ -3,6 +3,7 @@ module
 public import New.Spanning.RemainingTerms.Box
 public import New.Spanning.RemainingTerms.SiegelLemma
 public import New.Spanning.Unfolding.BesselLevelStructure
+import Lib.SiegelWeil.Mass
 
 /-!
 # Near terms in the filling theorem: frames, cell ranks, nearness and integrality

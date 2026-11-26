@@ -1,6 +1,8 @@
 module
 
-public import New.UpperBound.Kernels.JetConjugatesAndBounds
+public import Lib.GLn.SchurModule.SchurOrthogonality
+public import Lib.Weil.Construction.ThetaJets
+import New.UpperBound.Kernels.JetConjugatesAndBounds
 
 /-!
 # Weights of regular parameters and bounds on boxes

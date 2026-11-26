@@ -1,6 +1,7 @@
 module
 
-public import Lib.General.Groups.ProfiniteCharacters
+public import Lib.ClassField.GaloisCohomology.ContinuousCocycles
+import Lib.General.Groups.ProfiniteCharacters
 
 /-!
 # Shapiro's lemma, corestriction and reduction of H² statements to steps of prime index

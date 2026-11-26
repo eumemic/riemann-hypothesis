@@ -1,12 +1,11 @@
 module
 
-public import Lib.Analytic.ZeroSymmetry
-public import Lib.Base
-public import TauCeti.LinearAlgebra.Matrix.GroupMatrix
-public import TauCeti.NumberTheory.Bernoulli.Basic
-public import TauCeti.NumberTheory.DirichletCharacter.LFunction.TrivialZeros
-public import TauCeti.NumberTheory.MulChar.Basic
-public import TauCeti.NumberTheory.MulChar.Orthogonality
+public import Lib.Speed
+public import TauCeti.NumberTheory.DirichletCharacter.GeneralizedBernoulli
+import TauCeti.LinearAlgebra.Matrix.GroupMatrix
+import TauCeti.NumberTheory.Bernoulli.Basic
+import TauCeti.NumberTheory.DirichletCharacter.LFunction.TrivialZeros
+import TauCeti.NumberTheory.MulChar.Orthogonality
 
 /-!
 # A small nonzero integer in all Stickelberger ideals via Voronoi's congruence

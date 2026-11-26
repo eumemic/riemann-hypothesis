@@ -1,6 +1,10 @@
 module
 
+public import Lib.Analytic.ZeroSymmetry
+public import Lib.Shimura.Uniformisation.HolomorphicFamilies
 public import New.Reduction.OneSidedBound
+public import Statements
+public import TauCeti.NumberTheory.DirichletCharacter.LFunction.ZeroReflection
 
 /-!
 # From non-vanishing in Re s > 1/2 to zeros on the critical line

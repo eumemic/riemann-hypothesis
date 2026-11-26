@@ -1,7 +1,11 @@
 module
 
-public import Lib.DiscreteSeries.Bessel.UnipotentHaarMeasure
+public import Lib.DiscreteSeries.Bessel.Basic
 public import Lib.Weil.Periods.Grading
+import Lib.DiscreteSeries.Bessel.UnipotentHaarMeasure
+import Lib.DiscreteSeries.Bruhat.FloorMeasures
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Haar.GramPolar
 
 /-!
 # The group of the Bessel period at a real place

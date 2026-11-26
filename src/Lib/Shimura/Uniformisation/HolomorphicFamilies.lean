@@ -1,9 +1,10 @@
 module
 
 public import Lib.General.Geometry.ProjectiveSpace
-public import Lib.PadicComparison.Descent.TestCategory
 public import Lib.Shimura.AbelianScheme.TangentCoordinates
 public import Lib.Shimura.ComplexTheta.AppellHumbertData
+import Lib.General.Groups.CongruenceSubgroups
+import Lib.PadicComparison.Descent.TestCategory
 
 /-!
 # Holomorphic families of complex points, jets, uniformisations and theta coordinates

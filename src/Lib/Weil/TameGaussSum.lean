@@ -1,6 +1,8 @@
 module
 
 public import Lib.Adelic.Adeles.LocalFactors
+import Lib.Adelic.Hecke.ClassSums
+import Lib.General.Measure.HaarNormalisation
 
 /-!
 # Tame local characters, integral frames and the local Gauss sum

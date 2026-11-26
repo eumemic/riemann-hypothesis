@@ -1,8 +1,10 @@
 module
 
 public import Lib.Adelic.Hecke.ClassSums
-public import Lib.Adelic.Unitary.Defs
-public import Lib.General.LinearAlgebra.HermiteForm
+public import Lib.General.Groups.BesselGroups
+public import Lib.General.Topology
+import Lib.Adelic.Unitary.Defs
+import Lib.General.LinearAlgebra.HermiteForm
 
 /-!
 # Parahoric and pro-p Iwahori subgroups of GL_n over a local field and U_t operators

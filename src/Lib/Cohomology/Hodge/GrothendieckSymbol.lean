@@ -1,7 +1,8 @@
 module
 
+public import Lib.Cohomology.Etale.RelativeChains
 public import Lib.Cohomology.Hodge.DepthVanishing
-public import Lib.PadicComparison.HodgeTate.ExtCocycles
+import Lib.PadicComparison.HodgeTate.ExtCocycles
 
 /-!
 # Grothendieck's symbol [dT/T], cut-out loci and Hodge classes of points

@@ -1,7 +1,11 @@
 module
 
 public import Lib.GaloisRep.BaseChange.PrimeDegreeTransfer
-public import Lib.LocalGL.Shintani.LiftingGreenCharacters
+public import Lib.LocalGL.Shintani.CosetDescent
+import Lib.LocalGL.Shintani.LiftingGreenCharacters
+import Lib.PadicComparison.Descent.TestCategory
+import TauCeti.RepresentationTheory.Subrepresentation
+import TauCeti.RingTheory.DedekindDomain.AdicValuation.ResidueField
 
 /-!
 # Base change at an inert place carries a label to its Shintani lift

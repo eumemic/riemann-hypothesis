@@ -1,6 +1,7 @@
 module
 
-public import New.UpperBound.Size.ClassCount
+public import New.UpperBound.Size.ShortColumns
+import New.UpperBound.Size.ClassCount
 
 /-!
 # Numerical inequalities between the parameters of the data

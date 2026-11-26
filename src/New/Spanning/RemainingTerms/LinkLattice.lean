@@ -1,8 +1,8 @@
 module
 
-public import New.Spanning.RemainingTerms.Discriminants
 public import New.Spanning.RemainingTerms.OrthogonalLifts
-public import New.Spanning.Unfolding.ReducedPoints
+import New.Spanning.RemainingTerms.Discriminants
+import New.Spanning.Unfolding.ReducedPoints
 
 /-!
 # The lattice of a link

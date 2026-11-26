@@ -1,7 +1,9 @@
 module
 
+public import Lib.General.LinearAlgebra.MinorProducts
 public import New.OneLift.ComparisonOperator.DeterminantProducts
 public import New.OneLift.ComparisonOperator.GluedLattices
+import Lib.PadicComparison.Descent.TestCategory
 
 /-!
 # The polynomial map ζ, the datum Ψ^add and the series Υ; norm, degree and denominator of ζ

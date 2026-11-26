@@ -3,7 +3,7 @@ module
 public import Lib.CM.Sigma.Basic
 public import Lib.GLn.SchurModule.Basic
 public import Lib.General.Algebra.AdicCompletion
-public import TauCeti.RingTheory.MvPowerSeries.Derivative
+import TauCeti.RingTheory.MvPowerSeries.Derivative
 
 /-!
 # Integral power series over ℂ_p: jets, the chain rule and the exponential

@@ -1,6 +1,8 @@
 module
 
-public import Lib.CM.Integrality.IntegralSections
+public import Lib.CM.FormalGroup.IntegralParameter
+public import Lib.CM.Integrality.TorsionValues
+import Lib.CM.Integrality.IntegralSections
 
 /-!
 # Isogenies and translates act integrally on expansions

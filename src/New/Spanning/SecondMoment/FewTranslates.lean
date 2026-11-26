@@ -1,7 +1,9 @@
 module
 
-public import Lib.Shimura.Uniformisation.HolomorphicFamilies
-public import New.Spanning.SecondMoment.PositiveType
+public import Lib.Speed
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import New.Spanning.SecondMoment.PositiveType
 
 /-!
 # Few translates fill

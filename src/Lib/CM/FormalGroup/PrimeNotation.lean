@@ -1,6 +1,9 @@
 module
 
-public import Lib.General.NumberTheory.PadicLimitsValuation
+public import Lib.CM.Sigma.Basic
+public import Lib.General.Algebra.AdicCompletion
+import Lib.General.NumberTheory.PadicLimitsValuation
+import Lib.General.NumberTheory.SUnitsAndClassNumber
 
 /-!
 # Notation at a prime, and elements of prime-power norm at split primes

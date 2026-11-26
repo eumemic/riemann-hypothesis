@@ -1,7 +1,10 @@
 module
 
-public import New.Spanning.RemainingTerms.Sum
-public import TauCeti.Analysis.Real.Sqrt
+public import New.Spanning.RemainingTerms.Size
+public import New.Spanning.Unfolding.Climbing
+import Lib.Adelic.Unitary.CongruenceLevels
+import New.Spanning.RemainingTerms.Sum
+import TauCeti.Analysis.Real.Sqrt
 
 /-!
 # The expansion of the squares and the second moment near the Bessel subgroup

@@ -1,8 +1,12 @@
 module
 
 public import Lib.PadicHodge.PeriodRings.AxTheorem
-public import TauCeti.RingTheory.Perfectoid.Cyclotomic
-public import TauCeti.RingTheory.Perfectoid.Padic
+public import TauCeti.Analysis.Normed.Ring.Ultra
+public import TauCeti.RingTheory.Huber.Pair
+public import TauCeti.RingTheory.Perfectoid.Integral.Basic
+public import TauCeti.RingTheory.WittVector.Cyclotomic
+import TauCeti.RingTheory.Perfectoid.Cyclotomic
+import TauCeti.RingTheory.Perfectoid.Padic
 
 /-!
 # The ring A_inf, the elements ε, μ, τ, ξ, the kernel of θ and adic completeness

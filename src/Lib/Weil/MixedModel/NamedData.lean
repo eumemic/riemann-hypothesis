@@ -1,6 +1,8 @@
 module
 
 public import Lib.Weil.Construction.ProductsAndTransport
+public import Lib.Weil.Construction.VacuumProjections
+import Lib.General.Measure.HaarNormalisation
 
 /-!
 # Data named by Schwartz–Bruhat functions: Heisenberg laws, transport, Weil action

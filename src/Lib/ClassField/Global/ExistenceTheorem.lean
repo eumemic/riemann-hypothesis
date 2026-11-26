@@ -1,6 +1,18 @@
 module
 
-public import Lib.ClassField.Global.NormTheorems
+public import Lib.ClassField.GaloisCohomology.TateIndexFormula
+public import Lib.ClassField.Local.ArtinMap
+import Lib.Adelic.Hecke.ClassSums
+import Lib.ClassField.Global.AlbertBrauerHasseNoether
+import Lib.ClassField.Global.ArtinMap
+import Lib.ClassField.Global.ArtinReciprocity
+import Lib.ClassField.Global.NormTheorems
+import Lib.ClassField.LocalDuality.KummerFiniteness
+import Lib.ClassField.Places.LocalFields
+import Lib.ClassField.Places.TameInertia
+import Lib.General.NumberTheory.SUnitsAndClassNumber
+import TauCeti.NumberTheory.NumberField.Countable
+import TauCeti.RingTheory.DedekindDomain.AdicValuation.ResidueField
 
 /-!
 # Kummer characters, power indices and the existence theorem for totally complex fields

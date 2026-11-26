@@ -1,10 +1,17 @@
 module
 
-public import Lib.ClassField.HeckeCharacter.SplitTameCharacters
 public import Lib.Weil.CompactLift.ThetaKernelDefs
 public import Lib.Weil.DualPair.GaloisLaw
-public import New.Derivatives.Vacuum.ShortVectors
+public import New.Reduction.Data.AdmissibleData
 public import New.UpperBound.Seesaw.AdmissibleCombinations
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.ClassField.HeckeCharacter.AlgebraicValues
+import Lib.ClassField.HeckeCharacter.SplitTameCharacters
+import Lib.GLn.SchurModule.SchurNorm
+import Lib.General.Algebra.IntegralPowerSeries
+import Lib.General.Analysis.PackingAndSobolev
+import Lib.General.LinearAlgebra.MatrixNormBounds
+import New.Derivatives.Vacuum.ShortVectors
 
 /-!
 # Galois conjugates of jets of theta functions and archimedean bounds for jets

@@ -1,7 +1,12 @@
 module
 
+public import Lib.Adelic.Hecke.ClassSums
+public import Lib.Adelic.Unitary.ComponentsAndBlockSums
 public import Lib.Adelic.Unitary.CongruenceLevels
-public import Lib.LocalGL.Iwahori.ParahoricStructure
+import Lib.Adelic.Adeles.IdeleModulus
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.General.LinearAlgebra.HermiteForm
+import Lib.LocalGL.Iwahori.ParahoricStructure
 
 /-!
 # Hecke operators of GL_n at a finite place and local criteria for principal level

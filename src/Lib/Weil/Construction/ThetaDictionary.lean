@@ -1,7 +1,7 @@
 module
 
-public import Lib.Shimura.Uniformisation.AdelicFrames
 public import Lib.Weil.Construction.ThetaJets
+import Lib.Shimura.Uniformisation.AdelicFrames
 
 /-!
 # The dictionary between vectors and theta functions

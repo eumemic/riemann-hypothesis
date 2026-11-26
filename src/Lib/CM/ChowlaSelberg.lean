@@ -1,11 +1,13 @@
 module
 
-public import Lib.Analytic.EntireLFunction
 public import Lib.CM.ConjugateCurve
-public import Lib.CM.Integrality.IsogenyIntegrality
-public import Lib.CM.KroneckerLimit
 public import Lib.ClassField.HeckeL.EulerProduct
-public import Lib.ClassField.Places.ValuationSubrings
+public import Lib.General.Algebra.AdicCompletion
+import Lib.Analytic.EntireLFunction
+import Lib.CM.Integrality.IsogenyIntegrality
+import Lib.CM.KroneckerLimit
+import Lib.ClassField.Places.ValuationSubrings
+import Lib.General.NumberTheory.EmbeddingsAndDifferent
 
 /-!
 # Odd class number, ζ_K = ζ·L(s, χ), theta functions with CM and Chowla–Selberg

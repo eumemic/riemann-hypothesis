@@ -1,6 +1,12 @@
 module
 
-public import Lib.Adelic.Reduction.DefiniteClassSums
+public import Lib.Adelic.Reduction.FiniteVolume
+public import Lib.Adelic.Reduction.FirstMinimumShortBases
+public import Lib.DiscreteSeries.FlenstedJensen.Defs
+public import Lib.General.Measure.IdempotentKernel
+public import Lib.Shimura.ComplexTheta.AppellHumbertData
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Adelic.Reduction.DefiniteClassSums
 
 /-!
 # Automorphic forms on adelic unitary groups, the Petersson product and rapid decay

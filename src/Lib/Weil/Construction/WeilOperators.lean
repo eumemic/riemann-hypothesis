@@ -1,6 +1,8 @@
 module
 
 public import Lib.Weil.Construction.HeisenbergModel
+import Lib.General.Analysis.HolomorphicIntegrals
+import Lib.General.Measure.HaarNormalisation
 
 /-!
 # Weil operators, orthogonal sums and transport of the reproducing model

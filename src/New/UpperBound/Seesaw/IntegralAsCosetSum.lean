@@ -1,6 +1,8 @@
 module
 
 public import Lib.Weil.Periods.BesselIntegral
+import Lib.Adelic.QuotientMeasure.UnfoldingInStages
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
 
 /-!
 # Integrals over a quotient as finite sums over cosets with controlled multiplicity

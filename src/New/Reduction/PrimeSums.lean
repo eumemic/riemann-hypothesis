@@ -1,6 +1,8 @@
 module
 
-public import New.Reduction.Data.Sizes
+public import New.Reduction.Data.AdmissibleData
+import New.Reduction.Data.LevelAndTwists
+import New.Reduction.Data.Sizes
 
 /-!
 # Prime sums: main amount, expected value and total remainder

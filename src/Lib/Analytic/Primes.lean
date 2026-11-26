@@ -1,6 +1,8 @@
 module
 
-public import Lib.Analytic.PrimeNumberTheorem.ZeroFreeRegion
+public import Lib.Analytic.PrimeNumberTheorem.LFunctionGrowth
+import Lib.Analytic.EntireLFunction
+import Lib.Analytic.PrimeNumberTheorem.ZeroFreeRegion
 
 /-!
 # Primes congruent to `1` modulo `M ^ k` with logarithm in a prescribed window

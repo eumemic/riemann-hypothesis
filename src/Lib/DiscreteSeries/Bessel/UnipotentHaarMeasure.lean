@@ -1,7 +1,13 @@
 module
 
 public import Lib.DiscreteSeries.Bessel.Basic
-public import Lib.DiscreteSeries.FlenstedJensen.RightDerivatives
+import Lib.Adelic.Adeles.AdditiveCharacter
+import Lib.DiscreteSeries.Bruhat.FloorMeasures
+import Lib.DiscreteSeries.FlenstedJensen.RightDerivatives
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.General.Analysis.GaussianIntegral
+import Lib.General.Measure.HaarModulus
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # Haar measures on the Bessel unipotent groups 𝖴⁰ ⊆ 𝖴 and σ-finiteness on G₁

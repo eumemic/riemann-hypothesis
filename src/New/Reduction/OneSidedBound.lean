@@ -1,10 +1,12 @@
 module
 
-public import New.Reduction.Data.Existence
-public import New.Reduction.MainInequality
-public import New.Reduction.Zeros.Criterion
-public import New.Reduction.Zeros.PrimeNumberTheorem
+public import New.Reduction.Data.AdmissibleData
 public import Statements
+import New.Reduction.Data.Existence
+import New.Reduction.Data.Magnitudes
+import New.Reduction.MainInequality
+import New.Reduction.Zeros.Criterion
+import New.Reduction.Zeros.PrimeNumberTheorem
 
 /-!
 # The one-sided bound, and the theorem in half-plane form

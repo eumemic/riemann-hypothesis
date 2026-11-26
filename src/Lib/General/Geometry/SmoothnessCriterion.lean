@@ -1,8 +1,10 @@
 module
 
-public import Lib.General.Analysis.HolomorphicIntegrals
+public import Lib.Cohomology.Etale.Basic
 public import Lib.Shimura.Uniformisation.HolomorphicFamilies
-public import TauCeti.RingTheory.MvPolynomial.IntegrallyClosed
+import Lib.General.Analysis.HolomorphicIntegrals
+import Lib.PadicComparison.Descent.TestCategory
+import TauCeti.RingTheory.MvPolynomial.IntegrallyClosed
 
 /-!
 # Smoothness near an arc from an immersive generic family and a bound on the tangent space

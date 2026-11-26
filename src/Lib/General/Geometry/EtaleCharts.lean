@@ -1,6 +1,7 @@
 module
 
-public import Lib.Cohomology.Etale.DenseSubfunctors
+public import Lib.Cohomology.Etale.BijectiveComparisons
+import Lib.Cohomology.Etale.DenseSubfunctors
 
 /-!
 # Functors of points on algebras: open subfunctors, étale charts, atlases, charted schemes

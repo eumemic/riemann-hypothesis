@@ -1,6 +1,10 @@
 module
 
-public import Lib.PadicHodge.Kisin.FrameTheorem
+public import Lib.PadicHodge.Kisin.Modules
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.PadicHodge.Kisin.FrameTheorem
+import Lib.PadicHodge.Kisin.PeriodMatrixBasis
+import Lib.PadicHodge.RadiusLemma
 
 /-!
 # Lattices with prescribed orders, depth steps and the depth lemma

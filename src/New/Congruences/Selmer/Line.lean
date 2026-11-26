@@ -1,9 +1,14 @@
 module
 
+public import Lib.General.Algebra.BlockFittingBound
 public import Lib.General.NumberTheory.CoefficientInclusion
-public import New.Congruences.Selmer.Descent
-public import New.Congruences.Selmer.StickelbergerLine
+public import Lib.General.NumberTheory.GaussValuation
+public import New.Congruences.Selmer.SelmerData
+public import New.Congruences.Selmer.StickelbergerSystems
 public import New.Congruences.Selmer.Untied
+import Lib.GaloisRep.Main.DivisibleSelmerModules
+import New.Congruences.Selmer.Descent
+import New.Congruences.Selmer.StickelbergerLine
 
 /-!
 # Restriction to a line

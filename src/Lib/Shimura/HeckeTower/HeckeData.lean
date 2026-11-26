@@ -1,8 +1,11 @@
 module
 
+public import Lib.Adelic.Adeles.IdeleModulus
+public import Lib.Cohomology.Etale.Basic
 public import Lib.General.NumberTheory.ImaginaryQuadraticField
 public import Lib.Shimura.Uniformisation.AdelicFrames
 public import Lib.Weil.Unramified.HeckeGL
+import Lib.Adelic.Adeles.StrongApproximation
 
 /-!
 # Hecke elements in group rings, marked triples, local terms and neat levels

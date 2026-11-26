@@ -1,8 +1,9 @@
 module
 
-public import Lib.Cohomology.Hodge.DiagonalClass
-public import Lib.Cohomology.Hodge.Kunneth
-public import Lib.General.Algebra.MultivariatePolynomials
+public import Lib.Cohomology.Hodge.GrothendieckSymbol
+import Lib.Cohomology.Hodge.DiagonalClass
+import Lib.Cohomology.Hodge.Kunneth
+import Lib.General.Algebra.MultivariatePolynomials
 
 /-!
 # Reduced coincidences and the fixed point formula in Hodge cohomology

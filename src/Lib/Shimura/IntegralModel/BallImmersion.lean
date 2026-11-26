@@ -1,8 +1,11 @@
 module
 
 public import Lib.Shimura.IntegralModel.UniversalFamily
-public import Lib.Shimura.TraceFormula.DefiniteTrace
-public import Lib.Shimura.Uniformisation.ModelExists
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.General.Geometry.SerreTheorem
+import Lib.Shimura.TraceFormula.DefiniteTrace
+import Lib.Shimura.Uniformisation.ModelExists
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # Balls immerse; holomorphy, arcs and complex points of the covers

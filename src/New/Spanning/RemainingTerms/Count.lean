@@ -1,7 +1,9 @@
 module
 
-public import New.Spanning.RemainingTerms.Gain
-public import New.Spanning.RemainingTerms.LatticesOfCorank
+public import New.Spanning.RemainingTerms.Data
+import New.Spanning.RemainingTerms.FramesOverLattice
+import New.Spanning.RemainingTerms.Gain
+import New.Spanning.RemainingTerms.LatticesOfCorank
 
 /-!
 # The sum over pairs of near terms

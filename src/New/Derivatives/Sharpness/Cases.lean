@@ -2,7 +2,6 @@ module
 
 public import New.Derivatives.Sharpness.Couplings
 public import New.Derivatives.Sharpness.NearPairs
-public import New.Derivatives.Vacuum.Scale
 
 /-!
 # The valuation bound `v(l!) + val₁₂(l) ≤ S_p + 2 ∑ v(B_τ)` for every prime

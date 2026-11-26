@@ -1,6 +1,8 @@
 module
 
-public import Lib.PadicHodge.Kisin.PeriodMatrixBasis
+public import Lib.General.NumberTheory.CoefficientRings
+public import Lib.PadicHodge.Kisin.Bicommutant
+import Lib.PadicHodge.Kisin.PeriodMatrixBasis
 
 /-!
 # The radius lemma: after Frobenius a frame is a constant basis times a unit over A

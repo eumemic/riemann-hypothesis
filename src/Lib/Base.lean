@@ -5,8 +5,8 @@ public import Lib.Speed
 /-!
 # The adjoint of a matrix for the Hermitian dot product
 
-The other files of `Lib` and `New`, except `Lib.Speed`, import this file, directly or not, and
-with it the speed settings of `Lib.Speed`.
+This file imports the speed settings of `Lib.Speed`. The other files of `Lib` and `New` import
+`Lib.Speed` too, through this file or without it.
 -/
 
 @[expose] public section

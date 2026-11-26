@@ -1,11 +1,17 @@
 module
 
-public import Lib.Shimura.ComplexTheta.AppellHumbertData
-public import Lib.DiscreteSeries.Bessel.FrameFibre
-public import Lib.DiscreteSeries.Bruhat.FloorFibre
-public import Lib.DiscreteSeries.Bruhat.SphereFibres
-public import New.Spanning.Bessel.Basic
+public import Lib.DiscreteSeries.Bruhat.SphereFibres -- shake: keep
+public import Lib.DiscreteSeries.Haar.GramFibre
+public import Lib.DiscreteSeries.Haar.TotalMass -- shake: keep
+public import Lib.General.Analysis.GaussianIntegral -- shake: keep
 public import New.Spanning.Frames.Correlations
+import Lib.Adelic.Adeles.AdditiveCharacter
+import Lib.DiscreteSeries.Bessel.FrameFibre
+import Lib.DiscreteSeries.Bessel.UnipotentHaarMeasure
+import Lib.DiscreteSeries.Bruhat.FloorFibre
+import Lib.DiscreteSeries.FlenstedJensen.RightDerivatives
+import Lib.Shimura.ComplexTheta.AppellHumbertData
+import New.Spanning.Bessel.Basic
 
 /-!
 # Floor measures at the complex place: Haar measure, place datum and gauge

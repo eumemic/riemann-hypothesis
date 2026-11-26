@@ -1,6 +1,7 @@
 module
 
-public import Lib.General.Algebra.FittingIdealsAndLengths
+public import Lib.Speed
+import Lib.General.LinearAlgebra.HermiteForm
 
 /-!
 # Colength of modules, and endomorphisms surjective up to a bounded colength

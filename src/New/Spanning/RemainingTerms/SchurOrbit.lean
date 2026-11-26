@@ -1,9 +1,14 @@
 module
 
 public import New.Spanning.RemainingTerms.ColumnLattice
-public import New.Spanning.RemainingTerms.FrameParts
-public import New.Spanning.RemainingTerms.LinkLattice
+public import New.Spanning.RemainingTerms.OrbitSize
 public import New.Spanning.RemainingTerms.SchurTest
+import Lib.General.Analysis.HolomorphicIntegrals
+import New.Spanning.RemainingTerms.FrameParts
+import New.Spanning.RemainingTerms.LinkLattice
+import New.Spanning.Unfolding.AmplitudeSums
+import New.Spanning.Unfolding.Packing
+import New.Spanning.Unfolding.ReducedPoints
 
 /-!
 # Schur's test for one orbit

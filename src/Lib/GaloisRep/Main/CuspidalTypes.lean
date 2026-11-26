@@ -1,9 +1,15 @@
 module
 
-public import Lib.GaloisRep.Pseudocharacter.Pseudorepresentations
-public import Lib.PadicHodge.Characters
-public import Lib.PadicHodge.Limit.TraceLimit
+public import Lib.GaloisRep.Main.LocalConditions
+public import Lib.GaloisRep.Pseudocharacter.SemisimpleRepresentations
+public import Lib.PadicHodge.Limit.CrystallineLimit
 public import Lib.Shimura.HeckeTower.HeckeData
+import Lib.GaloisRep.Pseudocharacter.Pseudorepresentations
+import Lib.General.LinearAlgebra.HermiteForm
+import Lib.General.NumberTheory.SUnitsAndClassNumber
+import Lib.PadicHodge.Characters
+import Lib.PadicHodge.Crystalline.HodgeTateJumps
+import Lib.PadicHodge.Limit.TraceLimit
 
 /-!
 # Cuspidal types, multiplicity-free sums and the Hodge–Tate cocharacter

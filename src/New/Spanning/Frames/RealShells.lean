@@ -1,8 +1,12 @@
 module
 
-public import New.Spanning.Bessel.Orthonormality
 public import New.Spanning.Frames.RealPlaceGauge
 public import New.Spanning.Frames.Shells
+import Lib.Shimura.ComplexTheta.AppellHumbertData
+import New.Spanning.Bessel.Orthonormality
+import New.Spanning.Frames.Gains
+import New.Spanning.Frames.QuadricPlancherel
+import New.Spanning.Frames.TwoGauges
 
 /-!
 # Cut Bessel functions at ℂ: integration of the local estimates over shells

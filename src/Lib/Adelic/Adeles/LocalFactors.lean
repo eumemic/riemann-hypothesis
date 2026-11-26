@@ -1,8 +1,11 @@
 module
 
-public import Lib.Adelic.Unitary.CongruenceLevels
 public import Lib.General.Analysis.FiniteFourier
 public import Lib.Weil.Construction.WeilData
+import Lib.Adelic.Adeles.IdeleModulus
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Adelic.Unitary.ComponentsAndBlockSums
+import Lib.Adelic.Unitary.CongruenceLevels
 
 /-!
 # Idelic generators of ideals, semilocal fields and tame local characters

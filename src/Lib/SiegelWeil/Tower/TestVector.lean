@@ -1,6 +1,8 @@
 module
 
 public import Lib.SiegelWeil.Tower.RealConeIntegral
+import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
+import Lib.SiegelWeil.Tower.PrincipalIdeles
 
 /-!
 # The test vector of the zeta integral

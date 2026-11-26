@@ -2,6 +2,7 @@ module
 
 public import New.Spanning.RemainingTerms.Data
 public import New.Spanning.RemainingTerms.FrameCount
+import New.Spanning.Unfolding.ReducedPoints
 
 /-!
 # The part in `X₀` of a frame, moves, and lifts of a lattice

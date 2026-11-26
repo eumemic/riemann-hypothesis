@@ -1,6 +1,8 @@
 module
 
-public import Lib.Shimura.ComplexTheta.DimensionFormula
+public import Lib.Shimura.ComplexTheta.AppellHumbertData
+import Lib.General.Topology
+import Lib.Shimura.ComplexTheta.DimensionFormula
 
 /-!
 # Sizes of theta functions at torsion points: products, bounds and shift bounds

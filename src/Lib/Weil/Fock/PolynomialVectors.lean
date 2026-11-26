@@ -1,8 +1,12 @@
 module
 
-public import Lib.DiscreteSeries.Theta.FockDualPair
-public import Lib.General.LinearAlgebra.MatricesNearIdentity
-public import Lib.Weil.Fock.WeightedNorms
+public import Lib.GLn.SchurModule.Basic
+public import Lib.Weil.Fock.Basic
+import Lib.Cohomology.Etale.Basic
+import Lib.DiscreteSeries.Theta.FockDualPair
+import Lib.General.Analysis.HolomorphicIntegrals
+import Lib.General.LinearAlgebra.MatricesNearIdentity
+import Lib.Weil.Fock.WeightedNorms
 
 /-!
 # Polynomial vectors in Fock space: inner product, density and Weil derivative

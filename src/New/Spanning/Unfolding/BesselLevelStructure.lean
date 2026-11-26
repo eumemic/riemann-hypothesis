@@ -1,8 +1,11 @@
 module
 
 public import Lib.Adelic.Adeles.LocalFactors
-public import Lib.Shimura.HeckeTower.HeckeData
+public import Lib.DiscreteSeries.Bruhat.FloorMeasures
 public import New.Spanning.Unfolding.Setup
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Shimura.HeckeTower.HeckeData
+import TauCeti.Analysis.Matrix.IndefiniteUnitaryGroup
 
 /-!
 # Bessel data: level subgroup, Eichler maps and strong approximation for the unipotent group

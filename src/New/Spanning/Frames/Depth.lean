@@ -1,6 +1,10 @@
 module
 
-public import New.Spanning.Frames.QuadricPlancherel
+public import New.Spanning.Frames.Correlations
+import Lib.Base
+import New.Spanning.Frames.QuadricPlancherel
+import New.Spanning.Frames.QuadricVolumes
+import New.Spanning.Frames.TwoGauges
 
 /-!
 # Depth

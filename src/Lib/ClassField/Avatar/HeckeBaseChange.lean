@@ -1,9 +1,17 @@
 module
 
 public import Lib.ClassField.HeckeCharacter.AlgebraicValues
-public import Lib.ClassField.HeckeCharacter.SplitTameCharacters
-public import Lib.PadicHodge.Characters
+public import Lib.GaloisRep.Main.Defs
+public import Lib.GaloisRep.Main.LocalConditions
 public import Lib.PadicHodge.Limit.CrystallineLimit
+import Lib.ClassField.HeckeCharacter.SplitTameCharacters
+import Lib.ClassField.HeckeL.ContinuationAtOne
+import Lib.ClassField.Places.TameInertia
+import Lib.GaloisRep.Pseudocharacter.SemisimpleRepresentations
+import Lib.PadicHodge.Characters
+import Lib.PadicHodge.Crystalline.HodgeTateJumps
+import Lib.PadicHodge.Crystalline.Regularity
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
 
 /-!
 # Base change of U(1) and Hecke characters, their L-functions and parallel twists

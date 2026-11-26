@@ -1,7 +1,10 @@
 module
 
-public import Lib.ClassField.Global.Chebotarev
 public import Lib.ClassField.GreenbergWiles.SplitPrimeReciprocity
+import Lib.ClassField.Global.AlbertBrauerHasseNoether
+import Lib.ClassField.Global.Chebotarev
+import Lib.ClassField.LocalDuality.KummerFiniteness
+import Lib.ClassField.Places.LocalFields
 
 /-!
 # Relations at split primes and their number (Greenberg–Wiles)

@@ -1,8 +1,12 @@
 module
 
 public import Lib.Adelic.AutomorphicForms.Basic
-public import Lib.Adelic.QuotientMeasure.IwasawaUnfolding
-public import Lib.DiscreteSeries.Rigidity.KernelFixes
+public import Lib.DiscreteSeries.FlenstedJensen.RightDerivatives
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Adelic.QuotientMeasure.IwasawaUnfolding
+import Lib.Adelic.Reduction.DefiniteClassSums
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Rigidity.KernelFixes
 
 /-!
 # Convolution over real points, cusp kernels, the Petersson product and Poincaré series

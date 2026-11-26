@@ -1,6 +1,7 @@
 module
 
-public import Lib.General.Measure.IdempotentKernel
+public import Lib.Speed
+import Lib.General.Measure.IdempotentKernel
 
 /-!
 # Quotient measures via cutoffs: unfolding, covolume, unimodularity, periodic means

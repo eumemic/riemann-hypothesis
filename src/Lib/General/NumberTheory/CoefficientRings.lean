@@ -2,7 +2,7 @@ module
 
 public import Lib.General.Algebra.AdicCompletion
 public import Lib.General.Algebra.FittingIdealsAndLengths
-public import TauCeti.RingTheory.Length
+import TauCeti.RingTheory.Length
 
 /-!
 # Coefficient rings of ℓ-adic lattices, and length versus cardinality of modules

@@ -1,6 +1,7 @@
 module
 
-public import Lib.General.Measure.IdempotentKernel
+public import Lib.Speed
+import Lib.General.Measure.IdempotentKernel
 
 /-!
 # Circle means, Taylor series at zero, a power bound, and smooth matrix operations

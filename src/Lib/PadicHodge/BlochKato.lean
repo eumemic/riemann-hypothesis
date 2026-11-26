@@ -1,7 +1,14 @@
 module
 
-public import Lib.PadicHodge.Crystalline.FixedRatios
+public import Lib.ClassField.GaloisCohomology.ShapiroCorestriction
+public import Lib.ClassField.Places.DecompositionCyclotomic
+public import Lib.General.Algebra.FittingIdealsAndLengths
 public import Lib.PadicHodge.Crystalline.HodgeTateJumps
+import Lib.ClassField.GaloisCohomology.KummerCyclicClasses
+import Lib.General.Measure.HaarModulus
+import Lib.PadicHodge.Crystalline.FixedRatios
+import Lib.PadicHodge.Crystalline.HodgeTateForms
+import TauCeti.FieldTheory.Galois.IsometricAction
 
 /-!
 # Bloch–Kato crystalline cocycles: reduction modulo p^m, rank and vanishing

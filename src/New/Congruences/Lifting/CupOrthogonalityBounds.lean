@@ -1,9 +1,13 @@
 module
 
-public import Lib.General.Algebra.IntegralPowerSeries
-public import New.Congruences.Lifting.CutExponentBounds
-public import New.Congruences.Lifting.FewLowJumps
+public import New.Congruences.Lifting.SidePoints
 public import New.Congruences.Lifting.TameCharts
+import Lib.ClassField.Places.TameInertia
+import Lib.General.Algebra.IntegralPowerSeries
+import Lib.PadicHodge.Crystalline.Regularity
+import New.Congruences.Lifting.CutExponentBounds
+import New.Congruences.Lifting.DeepPoints
+import New.Congruences.Lifting.FewLowJumps
 
 /-!
 # From sides to lattices: few low jumps, b-letters and tame types

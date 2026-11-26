@@ -1,7 +1,13 @@
 module
 
-public import Lib.Adelic.Unitary.RationalPoints
-public import Lib.General.NumberTheory.SUnitsAndClassNumber
+public import Lib.Adelic.Unitary.ComponentsAndBlockSums
+public import Lib.General.NumberTheory.EmbeddingsAndDifferent
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.Adelic.Unitary.GramMatrix
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.Base
+import Lib.General.Measure.HaarModulus
+import Lib.General.NumberTheory.SUnitsAndClassNumber
 
 /-!
 # Transference, first minima and short bases of lattices of hermitian spaces

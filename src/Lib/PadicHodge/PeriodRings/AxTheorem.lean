@@ -1,9 +1,13 @@
 module
 
-public import Lib.ClassField.Places.ProfiniteGalois
+public import Lib.ClassField.Places.GaloisDefs
 public import Lib.General.Algebra.AbsIntegrallyClosed
 public import Lib.General.Algebra.AdicCompletion
-public import TauCeti.NumberTheory.Padics.Complex.FixedPoints
+public import TauCeti.NumberTheory.Padics.AlgebraicClosure.Basic
+public import TauCeti.Topology.Algebra.UniformMulAction
+public import TauCeti.Topology.MetricSpace.IsometricSMul
+import TauCeti.NumberTheory.Padics.Complex.Basic
+import TauCeti.NumberTheory.Padics.Complex.FixedPoints
 
 import TauCeti.RingTheory.RootsOfUnity.Ultrametric
 

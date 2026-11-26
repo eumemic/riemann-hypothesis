@@ -1,11 +1,17 @@
 module
 
-public import Lib.DiscreteSeries.Character.WeylCharacterFormula
-public import Lib.GLn.SchurModule.SchurNorm
+public import Lib.Adelic.AutomorphicForms.SmoothAlgebraicForms
+public import Lib.General.Combinatorics
 public import Lib.Shimura.TraceFormula.DefiniteTrace
-public import Lib.Shimura.TraceFormula.MarkedDefiniteSums
 public import Lib.Shimura.TraceFormula.TestFunction
 public import Lib.Shimura.Transfer.Lefschetz
+public import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import Lib.DiscreteSeries.Character.WeylCharacterFormula
+import Lib.GLn.SchurModule.SchurNorm
+import Lib.General.LinearAlgebra.Eigenvalues
+import Lib.General.NumberTheory.FrobeniusOrbits
+import Lib.Shimura.TraceFormula.MarkedDefiniteSums
+import Lib.Shimura.Transfer.MarkedPairs
 import TauCeti.LinearAlgebra.Trace.Nilpotent
 
 /-!

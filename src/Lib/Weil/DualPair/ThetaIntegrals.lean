@@ -1,9 +1,13 @@
 module
 
 public import Lib.SiegelWeil.SingularForms.CentreCoefficients
-public import Lib.Weil.DualPair.FiniteAction
-public import Lib.Weil.DualPair.KernelDecay
 public import Lib.Weil.DualPair.MixedModel
+public import Lib.Weil.DualPair.ShortIsotropicVectors
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.Weil.DualPair.FiniteAction
+import Lib.Weil.DualPair.KernelDecay
+import Lib.Weil.DualPair.ThetaLiftConvergence
+import Lib.Weil.DualPair.WeilAction
 
 /-!
 # Terms of theta kernels at rational matrices and basic laws of theta integrals

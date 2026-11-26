@@ -1,11 +1,15 @@
 module
 
-public import Lib.Cyclotomic.OddSha
-public import New.Congruences.FirstOrder.TateTwistCocycles
-public import New.Congruences.GaloisRepresentations.RowsAndColumnsFromLabels
-public import New.Congruences.LocalLoss.CrystallineDefect
+public import Lib.Cyclotomic.OddSha -- shake: keep
+public import New.Congruences.FirstOrder.EvenClasses
+public import New.Congruences.FirstOrder.FittingBlock
 public import New.Congruences.LocalLoss.LocalLattices
-public import New.Congruences.LocalLoss.TateDualBound
+import Lib.ClassField.GaloisCohomology.TameSelmerCocycles
+import New.Congruences.FirstOrder.TateTwistCocycles
+import New.Congruences.GaloisRepresentations.AttachedRepresentations
+import New.Congruences.GaloisRepresentations.RowsAndColumnsFromLabels
+import New.Congruences.LocalLoss.CrystallineDefect
+import New.Congruences.LocalLoss.TateDualBound
 
 /-!
 # Constants, trace relations, lattices and local defects for Ribet's method

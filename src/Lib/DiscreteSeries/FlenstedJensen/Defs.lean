@@ -1,6 +1,7 @@
 module
 
 public import Lib.DiscreteSeries.Haar.CayleyChart
+import TauCeti.Analysis.Matrix.IndefiniteUnitaryGroup
 
 /-!
 # Harish-Chandra parameters, c_λ, deg_λ, e_λ and holomorphic discrete series

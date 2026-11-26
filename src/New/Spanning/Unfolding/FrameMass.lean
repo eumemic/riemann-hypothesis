@@ -1,7 +1,7 @@
 module
 
-public import Lib.SiegelWeil.OneVector.SiegelClassSum
 public import New.Spanning.Bessel.FillingData
+import Lib.SiegelWeil.OneVector.SiegelClassSum
 
 /-!
 # Masses of spheres and of frames

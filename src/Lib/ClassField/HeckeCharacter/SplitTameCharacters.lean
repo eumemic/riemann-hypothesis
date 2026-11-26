@@ -1,6 +1,7 @@
 module
 
 public import Lib.Adelic.Adeles.SemilocalProducts
+public import Lib.Adelic.Reduction.FiniteVolume
 public import Lib.Weil.DualPair.Defs
 
 /-!

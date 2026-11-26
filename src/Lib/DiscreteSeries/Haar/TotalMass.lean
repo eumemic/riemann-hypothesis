@@ -1,8 +1,13 @@
 module
 
-public import Lib.Adelic.Witt.WittTheorem
-public import Lib.DiscreteSeries.Haar.GramPolar
-public import Lib.General.Analysis.PackingAndSobolev
+public import Lib.DiscreteSeries.Haar.CayleyChart
+public import Lib.DiscreteSeries.Haar.GramCoordinates
+import Lib.Adelic.Witt.WittTheorem
+import Lib.DiscreteSeries.Haar.GramPolar
+import Lib.General.Analysis.GaussianIntegral
+import Lib.General.Analysis.PackingAndSobolev
+import Lib.General.Measure.IntegralOperators
+import TauCeti.Topology.Instances.Matrix
 
 /-!
 # Haar measure on U(J): U(n) has mass one, covering bounds for norm balls

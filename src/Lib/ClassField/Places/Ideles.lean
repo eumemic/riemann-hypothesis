@@ -1,8 +1,10 @@
 module
 
-public import Lib.Adelic.Adeles.StrongApproximation
-public import Lib.General.Groups.ProfiniteCharacters
+public import Lib.Adelic.Adeles.Basic
 public import Lib.General.Measure.HaarModulus
+public import Lib.General.Topology
+import Lib.Adelic.Adeles.StrongApproximation
+import Lib.General.Groups.ProfiniteCharacters
 
 /-!
 # Finite ideles, principal ideles and the class group; finite index of open subgroups

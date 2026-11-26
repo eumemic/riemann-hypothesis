@@ -1,6 +1,7 @@
 module
 
-public import Lib.ClassField.Places.DecompositionCyclotomic
+public import Lib.Speed
+import Lib.ClassField.Places.DecompositionCyclotomic
 
 /-!
 # Coker/ker indices and Tate's index formula for cyclic actions of prime order

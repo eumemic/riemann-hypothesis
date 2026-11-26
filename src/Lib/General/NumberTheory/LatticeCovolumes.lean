@@ -1,7 +1,11 @@
 module
 
-public import Lib.Adelic.Reduction.MinkowskiTheorems
+public import Lib.Adelic.Adeles.AdditiveCharacter
+public import Lib.General.Measure.HaarModulus
 public import Lib.Shimura.Uniformisation.AdelicFrames
+import Lib.Adelic.Reduction.MinkowskiTheorems
+import Lib.Adelic.Witt.WittTheorem
+import Lib.General.LinearAlgebra.HermiteForm
 
 /-!
 # Lattice indices, primitive matrices, Jacobi's identity and covolumes of fundamental domains

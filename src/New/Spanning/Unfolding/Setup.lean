@@ -1,7 +1,9 @@
 module
 
-public import Lib.Adelic.Reduction.DefiniteClassSums
+public import Lib.Adelic.Reduction.DefiniteClassSums -- shake: keep
 public import New.Spanning.Bessel.Basic
+import Lib.Shimura.ComplexTheta.AppellHumbertData
+import TauCeti.NumberTheory.NumberField.Countable
 
 /-!
 # The data, standing hypotheses and amplitudes of the filling theorem

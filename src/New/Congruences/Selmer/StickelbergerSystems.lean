@@ -1,8 +1,9 @@
 module
 
-public import Lib.GaloisRep.Main.AttachedRepresentations
-public import Lib.General.NumberTheory.GaussValuation
 public import New.Congruences.Selmer.AuxiliaryPrimes
+import Lib.GaloisRep.Hilbert90.UnitaryGroups
+import Lib.General.NumberTheory.GaussValuation
+import TauCeti.Analysis.Normed.Ring.CompactMonoid
 
 /-!
 # Stickelberger systems

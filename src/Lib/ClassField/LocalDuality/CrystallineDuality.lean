@@ -1,9 +1,13 @@
 module
 
-public import Lib.GaloisRep.Main.Defs
-public import Lib.PadicComparison.Descent.TestCategory
+public import Lib.ClassField.GaloisCohomology.KummerCyclicClasses
 public import Lib.PadicHodge.BlochKato
-public import Lib.PadicHodge.Crystalline.Regularity
+import Lib.ClassField.LocalDuality.DualityInequality
+import Lib.ClassField.Places.LocalFields
+import Lib.ClassField.Places.TameInertia
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.PadicHodge.Crystalline.Regularity
+import Lib.Weil.DualPair.Kronecker
 
 /-!
 # Classes of Galois lattices, pairings and local duality for crystalline cocycles

@@ -1,7 +1,9 @@
 module
 
+public import Lib.SiegelWeil.RallisInner.Doubling
 public import New.Determinant.AuxiliaryForms.PathData
-public import New.Determinant.Exchange.RemovingPlanes
+import Lib.SiegelWeil.RallisInner.SharpData
+import New.Determinant.Exchange.RemovingPlanes
 
 /-!
 # Theta lifts as a triangle of arrows: spaces, lifts, descents and the first lift

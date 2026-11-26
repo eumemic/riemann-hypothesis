@@ -1,8 +1,8 @@
 module
 
-public import Lib.General.Analysis.HolomorphicIntegrals
-public import Lib.General.Geometry.GeometricPoints
 public import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import Lib.General.Analysis.HolomorphicIntegrals
+import Lib.General.Geometry.GeometricPoints
 
 /-!
 # Exponential of compact commutative Lie groups and uniformisation of abelian varieties

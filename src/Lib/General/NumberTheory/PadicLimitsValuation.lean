@@ -1,8 +1,14 @@
 module
 
+public import Lib.CM.Sigma.Basic
+public import Lib.Cohomology.Etale.Basic
 public import Lib.GaloisRep.Main.SelmerModules
-public import Lib.General.Geometry.GaloisCovers
 public import Lib.General.NumberTheory.CoefficientRings
+import Lib.General.Geometry.GaloisCovers
+import Lib.PadicComparison.Descent.TestCategory
+import TauCeti.NumberTheory.NumberField.Countable
+import TauCeti.NumberTheory.Padics.Complex.Basic
+import TauCeti.RingTheory.Huber.Normed
 
 /-!
 # Algebraicity from ℓ-adic bounds, roots of unity as limits, and the ℓ-adic valuation

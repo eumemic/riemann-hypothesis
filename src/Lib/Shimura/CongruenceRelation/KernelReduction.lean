@@ -1,6 +1,11 @@
 module
 
-public import Lib.Shimura.HeckeTower.Model
+public import Lib.General.Geometry.PointsOfProperSchemes
+public import Lib.Shimura.ThetaModuli.ThetaFamilyRigidity
+public import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import Lib.General.Algebra.MultivariatePolynomials
+import Lib.PadicComparison.Descent.TestCategory
+import Lib.Shimura.HeckeTower.Model
 
 /-!
 # Reduction of isogeny kernels: Cartier density, the tangent line and torsion sections

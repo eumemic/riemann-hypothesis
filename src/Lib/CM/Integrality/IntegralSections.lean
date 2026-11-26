@@ -1,6 +1,7 @@
 module
 
 public import Lib.CM.FormalGroup.IntegralParameter
+public import Lib.CM.Integrality.TorsionValues
 
 /-!
 # The integrality principle in one variable

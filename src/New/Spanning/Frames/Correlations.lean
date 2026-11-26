@@ -1,7 +1,6 @@
 module
 
 public import New.Spanning.Frames.Levels
-public import New.Spanning.Frames.TwoGauges
 
 /-!
 # The scale, near points and partial correlations

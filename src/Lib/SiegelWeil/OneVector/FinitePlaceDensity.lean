@@ -1,7 +1,11 @@
 module
 
+public import Lib.Adelic.Adeles.LocalFactors
 public import Lib.DiscreteSeries.Bruhat.FloorMeasures
 public import Lib.SiegelWeil.Mass
+import Lib.General.LinearAlgebra.HermiteForm
+import Lib.General.Measure.HaarNormalisation
+import TauCeti.Analysis.Matrix.IndefiniteUnitaryGroup
 
 /-!
 # Local measure bounds and local densities at a finite place

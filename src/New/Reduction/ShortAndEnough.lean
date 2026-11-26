@@ -1,10 +1,14 @@
 module
 
 public import New.Reduction.IntegralTargetForms
+public import New.Reduction.PrimeSums
 public import New.Spanning.SecondMoment.SpanningTheorem
-public import New.UpperBound.Divisibility.LocalDivisibility
-public import New.UpperBound.Seesaw.SeesawIdentity
-public import New.UpperBound.Size.ArchimedeanSize
+public import New.UpperBound.Divisibility.MarkedPrimes
+public import New.UpperBound.Seesaw.SeesawIdentity -- shake: keep
+public import New.UpperBound.Size.Estimates
+import New.UpperBound.Divisibility.LocalDivisibility
+import New.UpperBound.Size.ArchimedeanSize
+import TauCeti.NumberTheory.Padics.Complex.Basic
 
 /-!
 # Theorem A (short forms) and Theorem B (enough forms)

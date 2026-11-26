@@ -1,6 +1,6 @@
 module
 
-public import Lib.Base
+public import Lib.Speed
 
 /-!
 # Open subgroups, a tube lemma, and procyclic images of ℓ-adic characters

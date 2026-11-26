@@ -1,7 +1,8 @@
 module
 
-public import Lib.Adelic.AutomorphicForms.AutomorphicAsAlgebraic
+public import Lib.Adelic.AutomorphicForms.SmoothAlgebraicForms
 public import Lib.Weil.Periods.Grading
+import Lib.Adelic.AutomorphicForms.AutomorphicAsAlgebraic
 
 /-!
 # The character `ψ_U` and the function `𝒲_φ`

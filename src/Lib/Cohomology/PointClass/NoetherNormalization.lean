@@ -1,9 +1,10 @@
 module
 
-public import Lib.General.Algebra.MultivariatePolynomials
-public import Lib.General.Geometry.PointsOfProperSchemes
+public import Lib.General.Geometry.EtaleCharts
 public import Lib.General.Geometry.ProjectiveSpace
-public import Lib.PadicComparison.Descent.TestCategory
+import Lib.General.Algebra.MultivariatePolynomials
+import Lib.General.Geometry.PointsOfProperSchemes
+import Lib.PadicComparison.Descent.TestCategory
 
 /-!
 # Projective Noether normalisation and homogeneous coordinates of embedded points

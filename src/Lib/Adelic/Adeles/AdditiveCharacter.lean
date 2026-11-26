@@ -3,6 +3,7 @@ module
 public import Lib.Adelic.Adeles.Basic
 public import Lib.Adelic.QuotientMeasure.Basic
 public import Lib.General.Groups.CongruenceSubgroups
+public import TauCeti.RingTheory.DedekindDomain.FiniteAdeleRing.BorelSpace
 
 /-!
 # The additive character, Haar measures and the rational lattice in the adeles

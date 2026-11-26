@@ -1,7 +1,9 @@
 module
 
-public import Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction
+public import Lib.DiscreteSeries.Holomorphic.HighestVectorExtension
 public import New.Appendix.DiscreteSeries.MinorSecondOrder
+import Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction
+import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
 
 /-!
 # One minor near the identity

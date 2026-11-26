@@ -1,7 +1,12 @@
 module
 
-public import New.Congruences.GaloisRepresentations.AttachedRepresentations
+public import New.Congruences.GaloisRepresentations.SelmerHypotheses
 public import New.Congruences.Selmer.AuxiliaryPrimes
+import Lib.GaloisRep.Pseudocharacter.Pseudorepresentations
+import Lib.General.LinearAlgebra.Eigenvalues
+import Lib.General.NumberTheory.FrobeniusOrbits
+import Lib.PadicComparison.ToricTower
+import New.Congruences.GaloisRepresentations.AttachedRepresentations
 
 /-!
 # Main summands and conjugate self-dual representations from type polynomials

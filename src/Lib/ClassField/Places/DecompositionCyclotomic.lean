@@ -1,6 +1,6 @@
 module
 
-public import Lib.ClassField.Places.ProfiniteGalois
+public import Lib.ClassField.Places.ProfiniteGalois -- shake: keep
 public import Lib.General.Topology
 
 /-!

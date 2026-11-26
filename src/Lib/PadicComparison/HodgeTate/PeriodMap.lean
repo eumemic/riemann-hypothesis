@@ -1,9 +1,13 @@
 module
 
+public import Lib.Cohomology.Etale.EllAdicCohomology
 public import Lib.GaloisRep.Main.LocalConditions
-public import Lib.PadicComparison.HodgeTate.GaloisWeight
-public import Lib.PadicComparison.Primitive.ComparisonTheorem
-public import Lib.PadicComparison.Primitive.Periods
+public import Lib.PadicComparison.HodgeTate.Map
+public import Lib.PadicComparison.Primitive.PeriodCoefficients
+import Lib.General.Geometry.PointsOfProperSchemes
+import Lib.PadicComparison.HodgeTate.GaloisWeight
+import Lib.PadicComparison.Primitive.ComparisonTheorem
+import Lib.PadicComparison.Primitive.Periods
 
 /-!
 # The period map for ℓ-adic cohomology on p-adic tests, and Hodge–Tate weights

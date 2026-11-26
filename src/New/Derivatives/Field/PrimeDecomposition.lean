@@ -1,7 +1,8 @@
 module
 
-public import Lib.ClassField.Places.ValuationSubrings
 public import New.Reduction.Data.FieldsAndPlaces
+import Lib.ClassField.Places.ValuationSubrings
+import TauCeti.RingTheory.DedekindDomain.AdicValuation.ResidueField
 
 /-!
 # Different and prime decomposition of the CM field E = K(ζ)

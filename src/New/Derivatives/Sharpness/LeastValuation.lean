@@ -1,6 +1,9 @@
 module
 
-public import New.Derivatives.Sharpness.OneCurve
+public import Lib.CM.FormalGroup.PrimeNotation
+public import New.Derivatives.FormalGroup.Resolution
+import New.Derivatives.FormalGroup.ThetaProducts
+import New.Derivatives.Sharpness.OneCurve
 
 /-!
 # Least valuations of coefficients of theta products

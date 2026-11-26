@@ -1,11 +1,12 @@
 module
 
-public import Lib.General.Groups.IndexOfProduct
 public import New.Spanning.Unfolding.FrameMass
 public import New.Spanning.Unfolding.PoincareSeries
-public import New.Spanning.Unfolding.ReducedGroups
 public import New.UpperBound.Seesaw.EdgePairEvaluation
 public import New.UpperBound.Size.ShortColumns
+import Lib.General.Groups.IndexOfProduct
+import New.Spanning.Unfolding.Climbing
+import New.Spanning.Unfolding.ReducedGroups
 
 /-!
 # Filling data for admissible data: fit to Y₀, Bessel bounds, standing hypotheses

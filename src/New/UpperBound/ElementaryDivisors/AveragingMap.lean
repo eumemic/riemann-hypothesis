@@ -2,6 +2,7 @@ module
 
 public import New.UpperBound.ElementaryDivisors.Edges
 public import New.UpperBound.ElementaryDivisors.FrobeniusFactors
+public import New.UpperBound.ElementaryDivisors.InvariantAverage
 
 /-!
 # Averaging: removing the terms of large defect in all Levi translates at once

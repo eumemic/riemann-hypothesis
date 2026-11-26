@@ -1,11 +1,12 @@
 module
 
-public import Lib.ClassField.Places.DecompositionCompletion
-public import Lib.General.LinearAlgebra.Eigenvalues
-public import Lib.General.LinearAlgebra.MatrixNormBounds
+public import Lib.General.LinearAlgebra.MatrixPolynomials
 public import Lib.General.NumberTheory.CoefficientRings
-public import Lib.PadicComparison.Descent.TestCategory
-public import TauCeti.LinearAlgebra.Trace.Idempotent
+import Lib.ClassField.Places.DecompositionCompletion
+import Lib.Cohomology.Etale.Basic
+import Lib.General.LinearAlgebra.Eigenvalues
+import Lib.General.LinearAlgebra.MatrixNormBounds
+import TauCeti.LinearAlgebra.Trace.Idempotent
 
 /-!
 # Semisimple representations: conjugacy, continuity, cancellation and stable lattices

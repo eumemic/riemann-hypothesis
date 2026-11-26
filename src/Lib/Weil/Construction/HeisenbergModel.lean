@@ -1,6 +1,7 @@
 module
 
-public import Lib.General.Analysis.HolomorphicIntegrals
+public import Lib.Speed
+import Lib.General.Analysis.HolomorphicIntegrals
 
 /-!
 # Heisenberg cocycles, vacua, the reproducing model and Schur's lemma

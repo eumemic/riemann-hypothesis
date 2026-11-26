@@ -1,8 +1,13 @@
 module
 
+public import Lib.General.LinearAlgebra.BlockEmbeddings
 public import New.Appendix.DiscreteSeries.SteepParameters
-public import New.UpperBound.Objects.Columns
 public import New.UpperBound.Objects.Parameters
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.General.Analysis.PackingAndSobolev
+import New.UpperBound.Objects.Columns
 
 /-!
 # Steep parameters of Y₀ and Ỹ^0_0; periods of Poincaré series of deep level

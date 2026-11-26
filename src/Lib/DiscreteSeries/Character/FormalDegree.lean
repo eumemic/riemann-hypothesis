@@ -1,7 +1,7 @@
 module
 
 public import Lib.DiscreteSeries.Character.MultiplicityOrbitalIntegral
-public import Lib.DiscreteSeries.Character.OpenOrbitIntegral
+import Lib.DiscreteSeries.Character.OpenOrbitIntegral
 
 /-!
 # Harish-Chandra's formula for formal degrees and stable orbital integrals

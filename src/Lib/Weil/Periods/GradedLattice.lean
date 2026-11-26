@@ -1,6 +1,9 @@
 module
 
 public import Lib.Weil.Periods.PointLattice
+import Lib.Adelic.Adeles.IdeleModulus
+import Lib.Adelic.Unitary.GramMatrix
+import Lib.General.LinearAlgebra.HermiteForm
 
 /-!
 # Iwasawa decomposition for the flag of the grades

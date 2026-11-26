@@ -1,5 +1,6 @@
 module
 
+public import Lib.Weil.Periods.ConstantTerm
 public import Lib.Weil.Periods.PointLattice
 public import New.UpperBound.Seesaw.EdgePairEvaluation
 

@@ -3,6 +3,8 @@ module
 public import Lib.Cohomology.Etale.FilteredLimits
 public import Lib.General.Algebra.CohomologyBaseChange
 public import Lib.General.Geometry.EtaleCharts
+import Lib.Cohomology.Etale.DenseSubfunctors
+import TauCeti.RingTheory.Perfectoid.Integral.Tilt
 
 /-!
 # p-adic tests: tilts, Fontaine's map, covers by tests and flat base change

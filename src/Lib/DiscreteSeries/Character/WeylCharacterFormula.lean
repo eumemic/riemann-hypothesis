@@ -1,7 +1,16 @@
 module
 
-public import Lib.GLn.SchurModule.SchurOrthogonality
-public import Lib.General.LinearAlgebra.Eigenvalues
+public import Lib.DiscreteSeries.Holomorphic.MaximalCompactMinors
+public import Lib.GLn.SchurModule.SchurMatrix
+public import Lib.General.Groups.BesselGroups
+import Lib.DiscreteSeries.FlenstedJensen.CasimirEigenfunction
+import Lib.DiscreteSeries.FlenstedJensen.PsiKTypes
+import Lib.DiscreteSeries.Haar.TotalMass
+import Lib.DiscreteSeries.Holomorphic.HighestVectorExtension
+import Lib.GLn.SchurModule.SchurOrthogonality
+import Lib.GLn.SchurModule.WeylKernel
+import Lib.General.LinearAlgebra.Eigenvalues
+import Lib.Shimura.ComplexTheta.AppellHumbertData
 
 /-!
 # Laurent polynomials on the torus and Weyl's character and dimension formulas

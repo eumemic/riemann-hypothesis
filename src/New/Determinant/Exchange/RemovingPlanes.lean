@@ -1,6 +1,12 @@
 module
 
+public import Lib.SiegelWeil.Tower.LargeSideConstantTerm
 public import New.Determinant.Exchange.LargeTriple
+import Lib.Adelic.Landherr
+import Lib.Adelic.Unitary.RationalPoints
+import Lib.Shimura.Uniformisation.HolomorphicFamilies
+import Lib.Weil.Construction.CanonicalTheta
+import Lib.Weil.DualPair.ThetaLiftConvergence
 
 /-!
 # Change of point and sign, and descent of the exchange identity by removing hyperbolic planes
